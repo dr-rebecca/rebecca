@@ -55,7 +55,7 @@
                 </p>
                 <div class="introduction__button">
                     <button class="button-t btn-blue button-dr-rebecca">
-                        <p class="button-request fw-bold">Meet Dr. Rebecca Bae</p>
+                       <a href="/dr-bae"> <p class="button-request fw-bold">Meet Dr. Rebecca Bae</p> </a>
                     </button>
                     <button class="button-l btn-blue button-about-us fw-bold">ABOUT US</button>
                 </div>
