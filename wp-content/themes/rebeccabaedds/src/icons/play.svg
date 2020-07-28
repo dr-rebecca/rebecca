@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60">
+  <defs>
+    <style>
+      .cls-1 {
+        opacity: 0.9;
+      }
+
+      .cls-2 {
+        fill: #41cbd7;
+      }
+
+      .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-4, .cls-6 {
+        fill: none;
+      }
+
+      .cls-4 {
+        stroke: #fff;
+        stroke-width: 1.5px;
+        opacity: 0.8;
+      }
+
+      .cls-5 {
+        stroke: none;
+      }
+    </style>
+  </defs>
+  <g id="Group_924" data-name="Group 924" transform="translate(-563 -1155)">
+    <g id="Group_380" data-name="Group 380" class="cls-1" transform="translate(567.286 1159.286)">
+      <circle id="Ellipse_27" data-name="Ellipse 27" class="cls-2" cx="25.714" cy="25.714" r="25.714"/>
+      <g id="play-button">
+        <g id="Group_379" data-name="Group 379">
+          <path id="Path_206" data-name="Path 206" class="cls-3" d="M25.714,0A25.714,25.714,0,1,0,51.429,25.714,25.743,25.743,0,0,0,25.714,0ZM35.937,26.615l-15,9.643a1.071,1.071,0,0,1-1.651-.9V16.071a1.071,1.071,0,0,1,1.651-.9l15,9.643a1.071,1.071,0,0,1,0,1.8Z"/>
+        </g>
+      </g>
+    </g>
+    <g id="Ellipse_28" data-name="Ellipse 28" class="cls-4" transform="translate(563 1155)">
+      <circle class="cls-5" cx="30" cy="30" r="30"/>
+      <circle class="cls-6" cx="30" cy="30" r="29.25"/>
+    </g>
+  </g>
+</svg>

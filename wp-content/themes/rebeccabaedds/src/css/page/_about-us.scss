@@ -1,0 +1,522 @@
+.about-cover {
+  background-image: url(../images/about-us.png);
+  .hero__content {
+    position: unset;
+    h2 {
+      bottom: 23%;
+      left: 11%;
+      transform: translate(-11%, -23%);
+    }
+    .hero__icon {
+      display: none;
+    }
+  }
+}
+.about-dr {
+  margin-top: 90px;
+  margin-bottom: 71px;
+  .left {
+    h1,
+    p {
+      width: 95%;
+    }
+    h1 {
+      transform: translateY(-44px);
+      color: $color-blue-d7;
+    }
+    p{
+      font-size:17px;
+    }
+  }
+}
+// INTERROGATION
+.interrogation {
+  position: relative;
+  height: 460px;
+  background-color: $color-ink;
+  .interrogation-content {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -35%);
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    h2 {
+      color: $color-white;
+      margin-bottom: 41px;
+      span {
+        display: inline-block;
+      }
+    }
+    h1 {
+      color: $color-blue-d7;
+      font-size: 48px;
+      line-height: 58px;
+    }
+    p {
+      font-size: 17px;
+      text-align: center;
+      color: $color-white;
+    }
+  }
+}
+//ABOUT SPECIFIC
+.about-specific {
+  height: 645px;
+  background-color: #f7f7f7;
+  .content {
+    transform: translateY(-85px);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-top: 60px;
+    padding-bottom: 52px;
+    position: relative;
+    background-color: $color-white;
+    .comforts {
+      display: unset;
+    }
+    &__list {
+      display: flex;
+      flex-flow: column;
+      justify-content: space-around;
+      width: 80%;
+      margin: 0 auto;
+      .margins {
+        margin-top: 60px;
+      }
+    }
+    &__detail {
+      display: flex;
+      flex-flow: column nowrap;
+      align-items: center;
+      img {
+        width: 25%;
+      }
+    }
+    &--title {
+      font-size: 26px;
+      line-height: 50px;
+      font-weight: 600;
+      color: $color-blue-c3;
+      margin-top: 14px;
+      margin-bottom: 19px;
+    }
+    &--describe {
+      font-size: 16px;
+      line-height: 24px;
+      color: #666666;
+      text-align: center;
+    }
+    &::before {
+      content: "";
+      position: absolute;
+      display: block;
+      top: -2%;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 30px;
+      height: 20px;
+      background-color: $color-white;
+      clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    }
+    &__moble {
+      display: none;
+    }
+  }
+}
+// WE GIVE BACK
+.about-give {
+  background-color: #47d3d9;
+  .container {
+    max-width: 1510px;
+    padding-right: unset;
+    padding-left: unset;
+  }
+  h2,
+  p {
+    color: $color-white;
+  }
+  h2 {
+    margin-bottom: 30px;
+  }
+  &--text {
+    font-size: 17px;
+    margin-bottom: 40px;
+    width: 90%;
+  }
+  .button-dr-rebecca {
+    border: 1px solid $color-white;
+    width: 50%;
+    // &:hover {
+    //   background-color: $color-white;
+    //   p {
+    //     color: $color-blue-d7;
+    //   }
+    // }
+  }
+  .block__image {
+    padding-left: 0;
+    padding-right: 0;
+    img {
+      transform: unset;
+      width: 100%;
+    }
+  }
+}
+
+// AMAZING TEAM
+.amazing-team {
+  margin-bottom: 108px;
+  img {
+    transform: translateX(80px);
+  }
+  .content {
+    width: 455px;
+  }
+  h2 {
+    line-height: 48px;
+    margin-bottom: 29px;
+    span {
+      display: inline-block;
+      h1 {
+        color: $color-blue-d7;
+        font-size: 48px;
+      }
+    }
+  }
+  p {
+    margin-bottom: 13px;
+    font-size: 17px;
+  }
+  button {
+    width: 63%;
+  }
+  .team-moble-2 {
+    display: none;
+  }
+}
+.about-amazing {
+  background-color: unset !important;
+  margin-bottom: unset;
+}
+// RESPONSIVE
+@include breakpoint3 {
+  .about-cover {
+    margin-bottom: 60px;
+    background-image: url(../images/about-moble.png);
+    height: 860px;
+    .hero {
+      &__content {
+        width: 100%;
+        h2 {
+          bottom: 20%;
+          left: 50%;
+          transform: translate(-50%, -20%);
+          width: 80%;
+          text-align: center;
+          font-size: 80px;
+          line-height: 98px;
+        }
+      }
+      &__icon {
+        display: none;
+      }
+    }
+  }
+  .about-dr {
+    margin-bottom: 105px;
+    margin-top: unset;
+    .left {
+      margin-bottom: 30px;
+      h1 {
+        font-size: 60px;
+        line-height: 70px;
+        margin: 0 auto;
+        transform: unset;
+        -webkit-transform: unset;
+        -moz-transform: unset;
+        -ms-transform: unset;
+        -o-transform: unset;
+        width: 100%;
+      }
+    }
+    p {
+      font-size: 28px;
+      line-height: 42px;
+      margin: 0 auto;
+      margin-bottom: 20px;
+    }
+    .right {
+      img {
+        width: 100%;
+      }
+    }
+  }
+  .interrogation {
+    height: 800px;
+    .interrogation-content {
+      top: 35%;
+    }
+    .content {
+      h2,
+      h1 {
+        font-size: 60px;
+      }
+      h1 {
+        margin-bottom: 85px;
+      }
+      h2 {
+        margin-bottom: unset;
+        text-align: center;
+      }
+    }
+    p {
+      font-size: 28px;
+      line-height: 42px;
+      width: 100%;
+    }
+  }
+  .about-specific {
+    transform: unset;
+    height: unset;
+    .content {
+      grid-template-columns: repeat(2, 1fr);
+      transform: unset;
+      -webkit-transform: unset;
+      -moz-transform: unset;
+      -ms-transform: unset;
+      -o-transform: unset;
+      &::before {
+        top: -1%;
+      }
+      &__list {
+        width: 100%;
+      }
+      &__detail {
+        width: 100%;
+        img {
+          width: 40%;
+        }
+      }
+      &__list-moble {
+        display: flex;
+        flex-flow: row nowrap;
+        width: 175%;
+      }
+      &--title {
+        font-size: 40px;
+        line-height: 58px;
+        margin-top: 18.8px;
+      }
+      &--describe {
+        font-size: 28px;
+        line-height: 42px;
+      }
+      &--comfort {
+        width: 80%;
+      }
+      &__destop {
+        display: none;
+      }
+      &__moble {
+        display: flex;
+        margin-top: 80px;
+      }
+    }
+  }
+  // WE GIVE BACK
+  .about-give {
+    .team-moble-1 {
+      display: none;
+    }
+    .team-moble-2 {
+      display: block;
+    }
+    .block {
+      &--content {
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 80px;
+        h2 {
+          margin-bottom: 82px;
+          font-size: 70px;
+          line-height: 48px;
+        }
+        button {
+          width: 75%;
+          p {
+            width: 100% !important;
+            font-size: 32px;
+            line-height: 53px;
+            height: 47px;
+          }
+        }
+      }
+    }
+    &--text {
+      width: 100%;
+      margin-bottom: 82px;
+      font-size: 28px;
+      line-height: 42px;
+    }
+  }
+  // AMAZING-TEAM
+  .amazing-team {
+    .team-moble-1 {
+      display: none;
+    }
+    .team-moble-2 {
+      display: block;
+    }
+    .content {
+      width: 100% !important;
+      margin-bottom: 54px;
+      transform: unset !important;
+      h2,
+      h1 {
+        font-size: 70px !important;
+        line-height: 75px;
+      }
+      h2 {
+        margin-bottom: 77px;
+      }
+      p {
+        font-size: 28px;
+        line-height: 42px;
+      }
+      button {
+        display: none;
+      }
+      margin-bottom: 54px;
+    }
+    img {
+      transform: unset !important;
+      width: 100%;
+      -webkit-transform: unset !important;
+      -moz-transform: unset !important;
+      -ms-transform: unset !important;
+      -o-transform: unset !important;
+    }
+  }
+}
+
+@include breakpoint6 {
+  .about-cover {
+    height: 430px;
+    margin-bottom: 35px;
+    .hero {
+      &__content {
+        h2 {
+          font-size: 45px;
+          bottom: 10%;
+        }
+      }
+    }
+  }
+  .about-dr {
+    margin-bottom: 53px;
+    .left {
+      h1 {
+        font-size: 30px;
+        line-height: 45px;
+        margin-bottom: 30px;
+      }
+      p {
+        font-size: 14px;
+        line-height: 21px;
+        width: 100%;
+        margin-bottom: 30px;
+      }
+    }
+  }
+  .interrogation {
+    height: 483px;
+    .interrogation-content {
+      top: 40%;
+    }
+    .content {
+      &::before {
+        top: -1.5%;
+      }
+      h2,
+      h1 {
+        font-size: 30px;
+        line-height: 29px;
+      }
+      h1 {
+        margin-bottom: 31px;
+      }
+    }
+    p {
+      font-size: 14px;
+      line-height: 21px;
+    }
+  }
+  .about-specific {
+    .content {
+      &--title {
+        font-size: 20px;
+        line-height: 29px;
+        margin-top: 18px;
+      }
+      &--describe {
+        width: 100%;
+        font-size: 14px;
+        line-height: 21px;
+      }
+      &__detail {
+        img {
+          width: 40%;
+        }
+      }
+      .conservative-mobile {
+        margin-top: 110px;
+      }
+    }
+  }
+  .about-give {
+    .block {
+      &--content {
+        padding-bottom: 60px;
+        h2 {
+          margin-bottom: 41px;
+          font-size: 35px;
+          line-height: 24px;
+        }
+        .about-give--text {
+          font-size: 14px;
+          line-height: 21px;
+          margin-bottom: 41px;
+        }
+        button {
+          width: 80% !important;
+          padding: 2%;
+          p {
+            font-size: 16px;
+            line-height: 19px;
+          }
+        }
+      }
+    }
+  }
+  .amazing-team {
+    padding-top: 59px !important;
+    padding-bottom: 59px !important;
+    .content {
+      margin-bottom: 33px;
+      h1,
+      h2 {
+        font-size: 35px !important;
+        line-height: 33px;
+      }
+      h2 {
+        margin-bottom: 32px;
+      }
+      p {
+        font-size: 14px;
+        line-height: 21px;
+      }
+    }
+  }
+}

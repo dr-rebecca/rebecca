@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="69.664" height="13.329" viewBox="0 0 69.664 13.329">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: #d8d8d8;
+        stroke-linejoin: round;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        stroke: #47d3d9;
+        stroke-linecap: round;
+        stroke-width: 2px;
+      }
+
+      .cls-1 {
+        fill-rule: evenodd;
+      }
+
+      .cls-3 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <g id="Group-6" transform="translate(0.5 0.914)">
+    <path id="Line-7" class="cls-1" d="M62.75.5l5,5"/>
+    <line id="Line-4-Copy" class="cls-2" y1="5" x2="5" transform="translate(62.75 6)"/>
+    <line id="Line-3-Copy" class="cls-3" x1="67.5" transform="translate(0.5 5.5)"/>
+  </g>
+</svg>

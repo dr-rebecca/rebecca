@@ -1,0 +1,41 @@
+.card_services {
+    background-color: #F7F7F7;
+    border-radius: 10px;
+    box-shadow: 6px 6px 0 $primary-color;
+    padding: 30px 20px;
+    margin-bottom: 49px;
+    max-width: 340px;
+    padding-right: 9px;
+    padding-left: 13px;
+    &__title {
+      margin-bottom: 20px;
+          font-size: 22px;
+          font-weight: 600;
+    }
+    &__text {
+      margin-bottom: 25px;
+      font-size: 16px;
+      color:$text-color-gray;
+
+    }
+    &__bottom {
+        a{
+     font-size: 14px;
+     padding: 6px 24px;
+     width: 150px;
+     height: 36px;
+   }
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      img{
+          width: 50px !important;
+          height: 50px !important;
+      }
+    }
+  }
+  @include breakpoint3{
+    .card_services{
+      max-width: unset;
+    }
+  }

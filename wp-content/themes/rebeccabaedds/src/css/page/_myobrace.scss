@@ -1,0 +1,22 @@
+.myobrace-ph{
+    @include cover_other("myobrace", "obarce2.png");
+    //nav detail custom
+    @include nav_dentail;
+    // navMobile
+    @include nav_dentail_mobile;
+    @include prosthodontics;
+    @include reason_detail;
+    @include detail_description;
+    @include detail_gird;
+    .detail_gird {
+        margin-bottom: 130px;
+    }
+    //Responsive
+    @include breakpoint3 {
+        @include cover_other_mobile;
+        @include services_dentail_resposive;
+        .detail_gird {
+            margin-bottom: 80px;
+        }
+    }
+}

@@ -1,0 +1,525 @@
+@mixin nav_dentail {
+  .nav {
+    .dropdown-menu {
+      background-color: $primary2-color;
+      padding: 20px;
+      a {
+        color: white;
+        margin-bottom: 10px;
+        padding-top: 10px;
+        font-size: 17px;
+        &::before {
+          content: "\2022"; /* Add content: \2022 is the CSS Code/unicode for a bullet */
+          color: white; /* Change the color */
+          font-weight: bold; /* If you want it to be bold */
+          display: inline-block; /* Needed to add space between the bullet and the text */
+          width: 1em; /* Also needed for space (tweak if needed) */
+          margin-left: -1em;
+        }
+      }
+      .dropdown-item:hover {
+        transition: all 0.2s;
+        color: green;
+        background-color: unset;
+      }
+    }
+  }
+  .dropdown-toggle::after {
+    content: "";
+    background-image: url(./../../icons/dropdown_menu.svg);
+    background-repeat: no-repeat;
+    width: 16px;
+    height: 12px;
+    background-size: cover;
+    border: none;
+    float: right;
+    margin-top: 8px;
+  }
+  .cover_mix {
+    .active{
+      border-bottom: 4px solid #41cbd7;
+    }
+    .nav__item {
+      display: inline;
+      padding: 12px 23px;
+      padding-left: 0;
+    }
+    .nav a {
+      padding-bottom: 11px;
+      margin-bottom: -13px;
+      margin-left: 15px;
+      margin-right: -8px;
+      padding-right: 15px;
+      padding-left: 0;
+      //border-bottom: 4px solid #41cbd7;
+    }
+    @media screen and (max-width: 1280px) {
+      .nav a {
+        font-size: 16px;
+      }
+    }
+  }
+}
+
+@mixin nav_dentail_mobile {
+  .nav_mobile_dentail {
+    .nav {
+      padding-right: 0;
+      a{
+        padding-bottom: 13px !important;
+      }
+      &__item {
+        a {
+          color: #fff;
+          font-size: 15px;
+          font-weight: normal;
+          padding-bottom: 14px;
+          padding-top: 6px;
+          padding-right: 0;
+        }
+      }
+    }
+  }
+  .menu_popup {
+    h2 {
+      font-size: 17px;
+      font-weight: 600;
+      color: black;
+      margin-left: 20px;
+      line-height: 50px;
+    }
+    img {
+      width: 60%;
+      margin-left: 20px;
+      margin-bottom: 20px;
+    }
+    .menu_with_list {
+      a {
+        margin-left: 16px;
+        color: #555555 !important;
+        line-height: 40px;
+        &::before {
+          content: "\2022"; /* Add content: \2022 is the CSS Code/unicode for a bullet */
+          color: $color-blue-d7; /* Change the color */
+          font-weight: bold; /* If you want it to be bold */
+          display: inline-block; /* Needed to add space between the bullet and the text */
+          width: 1em; /* Also needed for space (tweak if needed) */
+          margin-left: -1em; /* Also needed for space (tweak if needed) */
+        }
+      }
+    }
+  }
+}
+
+@mixin detail_description {
+  .detail_descripton {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+
+    &__title {
+      h2 {
+        padding-top: 10px;
+        padding-bottom: 30px;
+        font-size: 34px;
+        line-height: 40px;
+        font-weight: 700;
+      }
+    }
+
+    &__body {
+      .text-list-style {
+        font-size: 17px;
+        text-align: left;
+        font-weight: 400;
+        padding-bottom: 10px;
+        padding-left: 40px;
+
+        &::before {
+          content: "\2022";
+          font-weight: bold;
+          display: inline-block;
+          width: 1em;
+          margin-left: -1em;
+        }
+      }
+
+      p {
+        padding-bottom: 30px;
+        font-size: 17px;
+        font-weight: 400;
+      }
+    }
+  }
+}
+
+@mixin prosthodontics {
+  .Prosthodontics {
+    margin-top: 70px;
+
+    &__content {
+      &__title {
+        font-size: 52px;
+        font-weight: 700;
+        margin-bottom: 30px;
+      }
+
+      &__body {
+        font-size: 17px;
+        color: $text-color-gray;
+        line-height: 28px;
+      }
+
+      img {
+        width: 100%;
+      }
+    }
+  }
+}
+
+@mixin reason_detail {
+  .reason_detail {
+    margin-top: 70px;
+    padding: 0;
+    color: white;
+    background: #182955;
+    &__left {
+      padding: 0;
+      img {
+        height: 320px;
+        width: 320px;
+      }
+    }
+    &__right {
+      padding: 0 11px;
+      .content {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        -webkit-transform: translateY(-50%);
+        -moz-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        -o-transform: translateY(-50%);
+        &__title {
+          color: white;
+          font-size: 28px;
+          font-weight: 300;
+          line-height: 36px;
+          text-transform: uppercase;
+          margin-bottom: 30px;
+        }
+        &__text {
+          display: flex;
+          .icon {
+            &::after {
+              display: inline-block;
+              content: "";
+              background-image: url(./../../icons/tooth.svg);
+              width: 12px;
+              height: 13px;
+              background-position: center;
+              background-repeat: no-repeat;
+              background-size: cover;
+              margin-top: 8px;
+              margin-right: 10px;
+            }
+          }
+          p {
+            line-height: 30px;
+            font-size: 17px;
+            font-weight: normal;
+          }
+        }
+      }
+    }
+  }
+}
+@mixin detail_des {
+  .detail_des {
+    margin-top: 30px;
+    margin-bottom: 96px;
+    margin-top: 64px;
+    text-align: center;
+
+    &__title {
+      font-size: 34px;
+      font-weight: 700;
+      line-height: 36px;
+    }
+    &__body {
+      padding: 0 100px;
+      line-height: 26px;
+      margin-top: 20px;
+      font-size: 17px;
+      color: #555555;
+    }
+  }
+}
+@mixin detail_gird {
+  .detail_gird {
+    .detail_gird_content {
+      margin-bottom: 12px;
+      min-height: 90px;
+    }
+    &__left {
+      padding: 10px;
+      background-color: #41cbd7;
+      &__content {
+        h2 {
+          color: #fff;
+          font-size: 22px;
+          font-weight: 600;
+          text-align: center;
+        }
+        display: flex;
+        width: 100%;
+        height: 100%;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+        -ms-flex-align: center;
+        align-items: center;
+        border: 1px solid #fff;
+        justify-content: center;
+      }
+    }
+    &__right {
+      position: relative;
+      background-color: $gray-color-1;
+      p {
+        line-height: 22px;
+        color: #555555;
+        font-size: 16px;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        -webkit-transform: translateY(-50%);
+        -moz-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        -o-transform: translateY(-50%);
+        padding-right: 15px;
+      }
+    }
+  }
+}
+@mixin related {
+  .related {
+    position: relative;
+    margin-bottom: 80px;
+    padding: 0;
+
+    &__left {
+      display: grid;
+      min-height: 270px;
+      z-index: 1;
+      padding-left: 40px;
+      padding-bottom: 53px;
+      background-color: $secondary-color;
+      h2 {
+        color: $white-color;
+        font-size: 32px;
+        font-weight: 600;
+        margin-top: 42px;
+        margin-bottom: 29px;
+      }
+      a {
+        color: $primary2-color;
+        // border-bottom: 1px solid $primary2-color;
+        text-decoration: underline;
+        text-underline-position: under;
+        line-height: 46px;
+        width: 100%;
+      }
+    }
+    &__right {
+      img {
+        z-index: 3;
+        position: absolute;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        right: 4px;
+      }
+    }
+  }
+}
+@mixin detail_img {
+  .detail_img {
+    margin-top: 64px;
+    background-image: url("../../images/detail_img_4@2x.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    .img_blur {
+      width: 100%;
+      height: 373px;
+    }
+    position: relative;
+    &__content {
+      z-index: 999;
+      // display: inline-block;
+      background-color: rgba(37, 40, 45, 0.3);
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+    }
+  }
+}
+@mixin services_dentail_resposive {
+  .Prosthodontics {
+    margin-top: 43px;
+    &__content {
+      &__title {
+        font-size: 29px;
+        margin-bottom: 20px;
+      }
+
+      &__body {
+        font-size: 14px;
+        color: $text-color-gray;
+        line-height: 26px;
+      }
+      img {
+        margin-top: 14px;
+      }
+    }
+  }
+  .reason_detail {
+    margin-top: 70px;
+    padding: 0 15px;
+    color: white;
+    background: unset;
+    &__left {
+      padding: 0;
+      img {
+        height: 100%;
+        width: 100%;
+      }
+    }
+    &__right {
+      background: #182955;
+      margin-top: 0;
+      padding-bottom: 50px;
+      padding-top: 60px;
+      .content {
+        position: unset;
+        transform: unset;
+        -webkit-transform: unset;
+        -moz-transform: unset;
+        -ms-transform: unset;
+        -o-transform: unset;
+        &__title {
+          padding: 20px;
+          font-size: 28px;
+        }
+        &__text {
+          margin-bottom: 5px;
+          padding-left: 20px;
+          padding-bottom: 3px;
+          .icon {
+            &::after {
+              margin-top: 0;
+            }
+          }
+          p {
+            line-height: 21px;
+            font-size: 14px;
+          }
+        }
+      }
+    }
+  }
+  .detail_des {
+    margin-top: 45px;
+    margin-bottom: 30px;
+    text-align: left;
+    &__title {
+      font-size: 29px;
+      font-weight: 700;
+      line-height: 44px;
+    }
+    &__body {
+      padding: 0;
+      font-size: 14px;
+    }
+  }
+  .detail_gird {
+    .detail_gird_content {
+      margin-bottom: 12px;
+    }
+    &__left {
+      padding: 4px !important;
+      &__content {
+        h2 {
+          font-size: 20px;
+        }
+        padding: 9px;
+      }
+    }
+    &__right {
+      p {
+        transform: unset;
+        position: unset;
+        padding-top: 20px;
+        padding-bottom: 12px;
+        padding-left: 29px;
+        font-size: 14px;
+        padding-right: 29px;
+        text-align: center;
+        padding-bottom: 19px;
+        -webkit-transform: unset;
+        -moz-transform: unset;
+        -ms-transform: unset;
+        -o-transform: unset;
+      }
+    }
+  }
+  .detail_descripton {
+    text-align: left;
+    &__title {
+      h2 {
+        font-size: 29px;
+      }
+    }
+    &__body {
+      .text-list-style {
+        font-size: 14px;
+      }
+      p {
+        font-size: 14px;
+        line-height: 26px;
+      }
+    }
+  }
+  .detail_img {
+    margin-top: 35px;
+    background-image: url("../../images/detail_img_4_mobile@2x.png");
+  }
+  .related {
+    margin-bottom: 200px;
+    &__left {
+      padding-bottom: 150px;
+
+      h2 {
+        margin-left: 30px;
+      }
+      a {
+        margin-left: 30px;
+        max-width: 300px;
+      }
+    }
+    &__right {
+      img {
+        top: 78%;
+        width: 90%;
+        right: 50%;
+        transform: translateX(50%);
+      }
+    }
+  }
+}

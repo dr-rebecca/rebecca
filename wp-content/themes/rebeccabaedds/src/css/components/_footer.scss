@@ -1,0 +1,510 @@
+/* FOOTER */
+
+.appointment {
+  margin-bottom: 60px;
+  border-bottom: 4px solid $color-blue-c3;
+  .background {
+    p {
+      font-size: 20px;
+      line-height: 46px;
+      color: $color-white;
+    }
+    background-image: url("../images/dentist-1.png") !important;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 440px;
+    position: relative;
+    &::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.55);
+    }
+    .information {
+      height: 65%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 40%;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background-color: rgba(0, 0, 0, 0.45);
+      p.click {
+        margin-bottom: 10px;
+      }
+      span {
+        display: flex;
+        align-items: center !important;
+        margin-top: 42px;
+        hr,
+        p {
+          float: left;
+          color: $color-white;
+          text-align: center;
+        }
+        p {
+          margin: 0 23px;
+        }
+      }
+      .button__appointment {
+        width: 74.319%;
+        height: 16.448%;
+      }
+      hr {
+        width: 80px;
+        height: 0px;
+        background-color: white;
+        text-shadow: unset;
+        margin: auto 0;
+      }
+      .number {
+        color: $color-blue-d9;
+        font-size: 42px;
+        letter-spacing: 5px;
+      }
+    }
+  }
+}
+// CONTACT INFORMATION
+section.contact {
+  margin-bottom: 67px;
+}
+.contact {
+  &__banner {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 41.3px;
+    .contact__logo {
+      width: 50%;
+    }
+  }
+}
+.contact__social {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  margin-right: 20px;
+  .contact-facebook,
+  .contact-instagram {
+    margin: 10px;
+  }
+
+  .contact-facebook::before,
+  .contact-instagram::before {
+    width: 18.21px;
+    height: 18.21px;
+    display: block;
+  }
+  .contact-facebook {
+    margin-left: 22px;
+    margin-right: 25.4px;
+  }
+  // .contact-instagram {
+  //   width: 16px;
+  //   height: 16px;
+  //   overflow: hidden;
+  //   border-radius: 4px;
+  //   transform: translateY(-2px);
+  //   i {
+  //     color: white;
+  //     background: black;
+  //     transform: translate(-2px, -4px);
+  //     font-size: 23px;
+  //   }
+  // }
+}
+
+.contact__detail {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  height: 60%;
+  a {
+    iframe {
+      width: 90%;
+      margin: 0 auto;
+    }
+  }
+  a.display-mobile {
+    display: none;
+  }
+  hr {
+    width: 66px;
+    border: 1px solid $color-blue-c3;
+    margin: 19px 0;
+  }
+  .contact-address {
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: flex-start;
+    a {
+      margin-bottom: 15px;
+      letter-spacing: 1px;
+      position: relative;
+      i {
+        position: absolute;
+        top: 5px;
+        left: 0;
+      }
+      p {
+        margin-left: 25px;
+      }
+    }
+  }
+}
+.contact-hours {
+  width: 85%;
+  margin: 0 auto;
+  .date {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    p {
+      font-weight: 300;
+      line-height: 30px;
+    }
+  }
+  .hours {
+    text-align: right;
+  }
+}
+.footer {
+  height: 59px;
+  background-color: #f7f7f7;
+  margin-bottom: 9px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  p {
+    text-align: center;
+    font-size: 16px;
+    font-weight: lighter;
+  }
+}
+@include breakpoint3 {
+  .appointment {
+    .background {
+      background-image: url("../images/footer-moble.png") !important;
+      &::before {
+        height: 100%;
+      }
+      .information {
+        width: 90%;
+        height: 85%;
+        display: flex;
+        flex-flow: column;
+        justify-content: space-around;
+        span {
+          margin-top: unset;
+          hr {
+            width: 40px;
+          }
+          p {
+            line-height: unset;
+            font-size: 40px;
+            line-height: 46px;
+          }
+        }
+        p.number {
+          font-size: 80px;
+        }
+        p.click {
+          font-size: 40px;
+          line-height: 46px;
+        }
+        .button__appointment {
+          width: 85%;
+          height: 20%;
+        }
+      }
+    }
+  }
+  .contact {
+    margin-bottom: unset !important;
+    .container {
+      max-width: 1440px;
+      padding-left: unset;
+      padding-right: unset;
+    }
+    &__banner {
+      flex-flow: column;
+      justify-content: center;
+      margin-bottom: 0;
+      align-items: center;
+      .contact__logo {
+        width: 66.5%;
+        margin: 0 auto;
+        img {
+          width: 100%;
+          margin-bottom: 43.3px;
+        }
+      }
+      .contact__social {
+        margin-right: unset;
+        margin-left: 11px;
+        span {
+          font-size: 36px;
+          line-height: 27px;
+        }
+      }
+    }
+    &__social {
+      .contact-facebook {
+        margin-left: 44px;
+        margin-right: 44px;
+        transform: translateY(-3px);
+      }
+      .contact-instagram {
+        //width: 30px;
+        //height: 30px;
+        //border-radius: 4.5px;
+        transform: translateY(-3px);
+        -webkit-transform: translateY(-3px);
+        -moz-transform: translateY(-3px);
+        -ms-transform: translateY(-3px);
+        -o-transform: translateY(-3px);
+      }
+      i {
+        font-size: 36px;
+      }
+    }
+    &__detail {
+      grid-template-columns: repeat(1, 1fr);
+      a {
+        margin-top: 70px;
+        iframe {
+          width: 100%;
+        }
+      }
+      a.display-destop {
+        display: none;
+      }
+      a.display-mobile {
+        display: block;
+        height: 375px;
+        iframe {
+          height: 100%;
+        }
+      }
+      h4.text-t {
+        font-size: 36px;
+        line-height: 27px;
+        width: 100%;
+    text-align: center;
+      }
+      hr {
+        height: 1px;
+        background: $color-blue-c3;
+        width: 120px;
+        margin-top: 30px !important;
+        margin-bottom: 30px !important;
+      }
+      .contact-address,
+      .contact-hours {
+        width: 100%;
+        flex-flow: column nowrap;
+        align-items: center;
+        margin-top: 60px;
+        a {
+          font-size: 30px;
+          margin: 0 auto;
+          margin-bottom: 60px;
+          p {
+            font-weight: 400;
+            text-align: center;
+          }
+        }
+        .location::before,
+        .phone::before,
+        .email::before {
+          width: 36px;
+          height: 36px;
+          transform: translate(15px, 20px);
+        }
+      }
+      .contact-address {
+        a {
+          width: 100%;
+          padding-left: 95px;
+        }
+        i {
+          top: -7px !important;
+          left: 90px !important;
+        }
+        p {
+          text-align: left !important;
+          margin-left: 43px !important;
+          font-size: 30px;
+          line-height: 24px;
+          font-weight: 400 !important;
+        }
+      }
+      .contact-hours {
+        width: 100%;
+        flex-flow: column nowrap;
+        align-items: center;
+        h4 {
+          text-align: center;
+        }
+        hr {
+          margin: 60px auto;
+        }
+        .date {
+          justify-content: space-around;
+          padding: 0 70px;
+          p {
+            font-size: 30px;
+            line-height: 66px;
+            font-weight: 400;
+          }
+        }
+      }
+    }
+  }
+  footer.footer {
+    height: 209px;
+    p {
+      width: 95%;
+      font-size: 30px;
+      line-height: 50px;
+    }
+  }
+}
+@include breakpoint6 {
+  .appointment {
+    span > p.fw-semi,
+    p.click {
+      margin-bottom: 13px;
+    }
+    .information {
+      padding: 80px 0;
+      padding-bottom: 50px;
+      p.number {
+        font-size: 40px !important;
+        letter-spacing: 3px;
+      }
+      p {
+        font-size: 20px !important;
+        line-height: 23px !important;
+      }
+    }
+  }
+  button.button-t {
+    width: 95% !important;
+    height: 50px !important;
+    font-size: 17px;
+    line-height: 20px;
+  }
+  .contact {
+    &__logo {
+      img {
+        margin-bottom: 27px;
+      }
+    }
+    &__social {
+      margin-bottom: 39px;
+      margin-left: unset;
+      .contact-facebook,
+      .contact-instagram {
+        margin: unset;
+      }
+      span {
+        font-size: 18px !important;
+        line-height: 14px;
+      }
+      a {
+        i {
+          font-size: 18px;
+        }
+      }
+      .contact-facebook {
+        margin-left: 34px;
+        margin-right: 34px;
+        transform: translateY(0);
+        -webkit-transform: translateY(0);
+        -moz-transform: translateY(0);
+        -ms-transform: translateY(0);
+        -o-transform: translateY(0);
+      }
+      .contact-instagram {
+        transform: translateY(0);
+        -webkit-transform: translateY(0);
+        -moz-transform: translateY(0);
+        -ms-transform: translateY(0);
+        -o-transform: translateY(0);
+      }
+    }
+    &__detail {
+      .contact-address {
+        margin-top: unset;
+        margin-bottom: 44px;
+        h4.text-t {
+          font-size: 18px;
+          line-height: 14px;
+        }
+        a {
+          margin-bottom: 28px;
+          padding-left: 26px;
+          p {
+            font-size: 15px;
+            font-weight: 400;
+          }
+          i {
+            font-size: 15px;
+            top: 0px !important;
+            left: 35px !important;
+          }
+        }
+        a.location i {
+          left: 35px !important;
+          top: 2px !important;
+        }
+        a.email {
+          margin-bottom: unset;
+        }
+        p {
+          font-size: 20px;
+          text-align: center;
+          margin-left: 30px !important;
+        }
+      }
+      .display-mobile {
+        height: 234px !important;
+      }
+      .contact-hours {
+        margin-top: unset;
+        h4.text-t {
+          font-size: 18px;
+          line-height: 14px;
+        }
+        .date {
+          padding: 0 50px;
+          p {
+            font-size: 15px;
+            line-height: 33px;
+          }
+        }
+      }
+      hr {
+        width: 60px;
+        margin-top: 30px !important;
+        margin-bottom: 30px !important;
+      }
+    }
+  }
+  footer.footer {
+    height: 104px;
+    p {
+      font-size: 15px;
+      line-height: 25px;
+    }
+  }
+}

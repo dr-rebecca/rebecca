@@ -1,0 +1,275 @@
+.contact-rebecca {
+  .contact-cover {
+    background-image: url(../images/cover-contact.png);
+    .hero__content {
+      h2 {
+        bottom: 23%;
+        left: 11%;
+        transform: translate(-11%, -23%);
+      }
+      .hero__icon {
+        display: none;
+      }
+    }
+  }
+  .info-form {
+    margin-bottom: 62px;
+    h2 {
+      margin-bottom: 43px;
+      text-align: center;
+    }
+    .infomation {
+      &__content {
+        .item {
+          width: 40%;
+          height: 115px;
+          margin-right: 55px;
+          h4 {
+            font-weight: bold;
+            margin-bottom: 10px;
+          }
+
+          p.text {
+            a.contact-facebook {
+              margin-right: 30px;
+            }
+            i {
+              color: #326fad;
+            }
+          }
+        }
+      }
+      &__map {
+        iframe {
+          width: 100%;
+          height: 252px;
+        }
+      }
+      &__map {
+        background-color: #f7f7f7;
+      }
+    }
+    .form {
+      background-color: #f7f7f7;
+      input::placeholder,
+      textarea::placeholder {
+        font-size: 16;
+        line-height: 30;
+        font-style: normal;
+        color: #848484;
+      }
+      &__content {
+        width: 80%;
+        margin: 30px auto;
+        h4 {
+          font-weight: bold;
+          margin-bottom: 20px;
+        }
+        textarea {
+          width: 100%;
+          height: 157px;
+        }
+        input,
+        textarea {
+          border: 1px solid #d8d8d8;
+          border-radius: 5px;
+        }
+        .form-button {
+          margin-bottom: 20px;
+          text-align: center;
+          .clear {
+            border: unset;
+            background: unset;
+            color: blue;
+          }
+          .button-t {
+            margin-left: 77px;
+            padding: 0 45px;
+          }
+        }
+      }
+    }
+  }
+  .appointment,
+  .contact {
+    display: none;
+  }
+}
+
+@include breakpoint3 {
+  .contact-rebecca {
+    .contact-cover {
+      margin-bottom: 60px;
+      background-image: url(../images/about-moble.png);
+      height: 860px;
+      .hero {
+        &__content {
+          width: 100%;
+          h2 {
+            bottom: 20%;
+            left: 50%;
+            transform: translate(-50%, -20%);
+            width: 80%;
+            text-align: center;
+            font-size: 80px;
+            line-height: 98px;
+          }
+        }
+        &__icon {
+          display: none;
+        }
+      }
+    }
+    .info-form {
+      margin-bottom: 62px;
+      .container {
+        max-width: 1440px;
+        padding-left: unset;
+        padding-right: unset;
+      }
+      h2 {
+        font-size: 55px;
+        line-height: 78px;
+        width: 58%;
+        text-align: center;
+        margin: 0 auto;
+        margin-bottom: 199px;
+      }
+      .infomation {
+        margin-bottom: 104px;
+        &__content {
+          padding: 0 15px;
+          .item {
+            margin-bottom: 86px;
+            a {
+              i {
+                font-size: 44px;
+              }
+            }
+          }
+          h4,
+          p.text {
+            font-size: 30px;
+            line-height: 45px;
+          }
+          h4 {
+            margin-bottom: 22px !important;
+          }
+        }
+        &__map {
+          iframe {
+            height: 480px;
+          }
+        }
+      }
+      .form {
+        border-bottom: 4px solid $color-blue-c3;
+        &__content {
+          width: unset;
+          padding: 21px 75px;
+          h4 {
+            font-size: 32px;
+            line-height: 30px;
+          }
+          textarea {
+            margin-bottom: 45px;
+          }
+        }
+      }
+    }
+    .contact {
+      display: block;
+      margin-bottom: unset;
+      &__detail {
+        height: 50%;
+        .contact-hours {
+          h4 {
+            text-align: left;
+          }
+          hr {
+            margin-left: 0;
+          }
+        }
+        .contact-address,
+        a {
+          display: none;
+        }
+      }
+    }
+  }
+}
+@include breakpoint6 {
+  .contact-rebecca {
+    .contact-cover {
+      height: 430px;
+      margin-bottom: 53px;
+      .hero {
+        &__content {
+          h2 {
+            font-size: 45px;
+            bottom: 10%;
+          }
+        }
+      }
+    }
+    .info-form {
+      margin-bottom: 32px;
+      h2 {
+        font-size: 28px;
+        line-height: 39px;
+        margin-bottom: 104px;
+      }
+      .infomation {
+        margin-bottom: 52px;
+        &__content {
+          padding: 0 15px;
+          .item {
+            width: 50%;
+            margin-bottom: 48px;
+            margin-right: unset;
+            height: unset;
+            a {
+              i {
+                font-size: 22px;
+              }
+            }
+          }
+          h4,
+          a.text {
+            font-size: 15px;
+            line-height: 23px;
+          }
+          h4 {
+            margin-bottom: 11px !important;
+          }
+        }
+        &__map {
+          iframe {
+            height: 204px;
+          }
+        }
+      }
+      .form {
+        &__content {
+          padding: 10px 36px !important;
+          h4 {
+            font-size: 16px !important;
+            line-height: 15px;
+            margin-bottom: 41px;
+          }
+          .form-group {
+            margin-bottom: 41px;
+          }
+          .form-button {
+            .button-t {
+              margin-left: 32px;
+              width: 52% !important;
+              font-size: 16px;
+              line-height: 19px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
