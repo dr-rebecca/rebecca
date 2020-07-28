@@ -14,6 +14,14 @@
 <?php wp_body_open() ?>
 <header>
     <div class="container">
+        <div class="row">
+            <div class="col-sm-3 col-md-3 col-lg-3">
+                <a href="/"><img src="<?php echo THEME_URL?>/src/images/Logo.jpg"></a>
+            </div>
+            <div class="col-sm-3 col-md-9 col-lg-9">
+                <button>Book Now</button>
+            </div>
+        </div>
 
     </div>
 </header>
