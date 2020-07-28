@@ -1,0 +1,21 @@
+
+@font-face {
+  font-family: "Gotham";
+  font-style: normal;
+  src: url(../font/BOLD/WEB/HomepageBaukasten-Bold.eot);
+  src: url("../font/BOLD/HomepageBaukasten-Bold.otf") format('opentype');
+  src: url(../font/BOLD/WEB/HomepageBaukasten-Bold.ttf) format("truetype"),
+        url(../font/BOLD/WEB/HomepageBaukasten-Bold.woff) format("woff"),
+        url(../font/BOLD/WEB/HomepageBaukasten-Bold.woff2) format("woff2");
+}
+@font-face {
+  font-family: "Gotham";
+  font-style: normal;
+  src: url("../font/BOOK/HomepageBaukasten-Book.otf") format("opentype");
+  src: url(../font/BOOK/WEB/HomepageBaukasten-Book.eot);
+  src: url(../font/BOOK/WEB/HomepageBaukasten-Book.ttf) format("truetype"),
+  url(../font/BOOK/WEB/HomepageBaukasten-Book.woff) format("woff"),
+  url(../font/BOOK/WEB/HomepageBaukasten-Book.woff2) format("woff2");
+}
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;0,400;0,600;0,700;1,400;1,600;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");

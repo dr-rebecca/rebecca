@@ -1,4 +1,8 @@
+<<<<<<< HEAD
  <?php get_header(); ?>
+=======
+<?php get_header(); ?>
+>>>>>>> 29854f00e72c65835d1a9ea0d7c3bf36ae469b07
 <!-- ABOUT COVER -->
 <section class="cover about-cover">
     <div class="hero__content f-column-center container">

@@ -20,7 +20,11 @@
 
 // ** Thiết lập MySQL - Bạn có thể lấy các thông tin này từ host/server ** //
 /** Tên database MySQL */
+<<<<<<< HEAD
 define( 'DB_NAME', 'dr-repeca' );
+=======
+define( 'DB_NAME', 'rebecca' );
+>>>>>>> 29854f00e72c65835d1a9ea0d7c3bf36ae469b07
 
 /** Username của database */
 define( 'DB_USER', 'root' );
@@ -48,6 +52,7 @@ define('DB_COLLATE', '');
  *
  * @since 2.6.0
  */
+<<<<<<< HEAD
 define( 'AUTH_KEY',         '*-/G<]/!2LtIt+q~j@{y}2-2`|Phm|{4_kG,>tBqgB@noEsF;3L<r:6>OHgLn29I' );
 define( 'SECURE_AUTH_KEY',  '_Krs4la:UI)39h#j_.gU>1M]V4|Ws!^f9`TG@UvviFtTRUPM6N!(iBNP~MZniKBY' );
 define( 'LOGGED_IN_KEY',    '3%<R6NC]Mh<{o:Kti#K(oV?SO%G|u/pjcd5,G`]^m)wl5^`wFQf*Xafh#_?]%a|a' );
@@ -56,6 +61,16 @@ define( 'AUTH_SALT',        'z#IK4Tu3hRi$Z(I3Te8VqRVrb?}5O_M_CM:hD9Dn)J<?d+`)|M$
 define( 'SECURE_AUTH_SALT', 'cx)+|1dS=plydk>>GlixA/T$EzfDO`:{M`|N&Zpl#k|IxfYMF&M9KJ]!kE9$MQ8r' );
 define( 'LOGGED_IN_SALT',   '?*.W:W|<%T&RI.<Odaj|x_/0*!Q$UV+%w[mcg#^_$mYdc*>.U8U?SjW`:0fP/bow' );
 define( 'NONCE_SALT',       'J:TH?T*<boy7&i9e.?#S$):Q9#5>i2p7M<GDIOy2+G=BgZCER974;+m@$MK8]ezL' );
+=======
+define( 'AUTH_KEY',         '):a.aZOb%H+/xz5SCh7^,rmYoiS CB*%,h%;*d-D0G}UhHk{}V19IncS&q6nRP!r' );
+define( 'SECURE_AUTH_KEY',  'aRi9}rX|TJE!C.@x81wmX1P}|;eF0?Tl-1f(~18y=/||V 4#JozQ;VA,~XBC6FI(' );
+define( 'LOGGED_IN_KEY',    'amHs2sa.ya:zq*|Y`xAt?bTSKqSR,`}5%Gj)UDHF-PY,k>]{R2CA5Go508e#VU=V' );
+define( 'NONCE_KEY',        'u-0)1^p=R>i9>62qJX})BD:0qC-Mk BDynLfw@o/F{}BqLJH^B]na32+fL?SP]ZM' );
+define( 'AUTH_SALT',        '$J9lfm^]-*)to%(gD]E:j6pfb&6o;B5G#KL.dH.AANWI[T+ 5_.KY<kT}7[yBZg^' );
+define( 'SECURE_AUTH_SALT', ')/nG-jnV%ULeJZmkc6=Ea4-*!9|g)L{)+#Wf|cNe^|=nFB}-5He#^yI}!-dDe)DI' );
+define( 'LOGGED_IN_SALT',   'F5R&26><aWym|!:7bv,/ZCwew(hhKmco7gH_-d.iC1UJxLSg4nv!irY$rI]C$o<O' );
+define( 'NONCE_SALT',       '=5}/__Qd#!>E2u7_wR<@vDS|Llj=UpSK=t {rsJa,mF~];!(}RG40E5bdO)PdaT>' );
+>>>>>>> 29854f00e72c65835d1a9ea0d7c3bf36ae469b07
 
 /**#@-*/
 
