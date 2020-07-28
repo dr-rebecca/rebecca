@@ -1,0 +1,138 @@
+.text-align-center {
+  text-align: center;
+}
+.cover {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: hard-light;
+  height: 700px;
+  margin-bottom: 75px;
+  position: relative;
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 25%;
+    background-image: linear-gradient(to bottom, #00000069, transparent);
+  }
+  &::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: #00000038;
+  }
+  .hero {
+    &__content {
+      position: relative;
+      z-index: 1;
+      height: 100%;
+      h2 {
+        color: $color-white;
+        font-size: 68px;
+        line-height: 58px;
+        font-weight: 300;
+        position: absolute;
+        z-index: 1;
+        bottom: 23%;
+        left: 0;
+      }
+    }
+    &__icon {
+      position: absolute;
+      z-index: 1;
+      left: 50%;
+      bottom: 5%;
+    }
+  }
+}
+/***********/
+
+/* CSS COMPONENT */
+
+.f-row-center {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+}
+.f-column-center {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+h1.block-title {
+  font-size: 56px;
+  line-height: 58px;
+  font-family: "Satisfy", cursive;
+}
+h1.title-main {
+  font-size: 48px;
+  line-height: 58px;
+  font-family: "Satisfy", cursive;
+}
+h2.title-main {
+  font-size: 42px;
+  line-height: 58px;
+}
+.title-color {
+  color: $color-blue-d7;
+}
+h2.block-title {
+  font-size: 40px;
+  line-height: 48px;
+}
+p.block-text {
+  font-size: 16px;
+  line-height: 30px;
+  width: 80%;
+}
+.block-text-right {
+  margin-top: 81px;
+  margin-left: 123px;
+}
+.text-line {
+  font-size: 36px;
+  line-height: 58px;
+}
+.icon-text {
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: bold;
+  margin-top: 18px;
+}
+.block-item {
+  width: 30%;
+}
+.block-icon {
+  width: 80px;
+  height: 80px;
+  background-color: $color-white;
+  border-radius: 50%;
+  position: relative;
+  img {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 15%;
+    left: 12%;
+  }
+}
+.boder_bot {
+  border-bottom: 3px solid $primary-color;
+}
+.scroll-better {
+  overflow-y: scroll !important;
+}
+.t-bold {
+  font-weight: 700;
+}
+.t-italic {
+  font-style: oblique;
+}

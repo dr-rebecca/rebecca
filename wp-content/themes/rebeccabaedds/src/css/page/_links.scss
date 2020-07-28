@@ -1,0 +1,114 @@
+.links-ph{
+    @include cover_other("links", "links_cover@2x.png");
+    .links_des {
+    &__title {
+        font-size: 42px;
+        font-weight: 600;
+        text-align: center;
+        margin-top: 79px;
+        margin-bottom: 30px;
+    }
+    &__content {
+        // border: double;
+        border-bottom: 4px double $color-blue-d8;
+        &__left {
+            padding: 0;
+            p {
+                font-size: 17px;
+                padding: 20px 46px 40px 0px;
+            }
+        }
+        &__right {
+            padding: 0;
+            p {
+                font-size: 17px;
+                padding: 20px 46px 20px 0px;
+            }
+        }
+    }
+}
+.question {
+    margin-top: 55px;
+    margin-bottom: 70px;
+    &__content {
+        padding-right: 350px;
+        &__item {
+            margin-bottom: 40px;
+            &__title {
+                font-size: 24px;
+                font-weight: 600;
+                &::after {
+                    content: "";
+                    background-image: url("../../icons/ques.svg");
+                    display: inline-block;
+                    width: 25px;
+                    height: 25px;
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    margin-bottom: -5px;
+                    margin-left: 11px;
+                }
+            }
+            &__body {
+                line-height: 26px;
+                color: #555555;
+                margin-top: 10px;
+                font-size: 17px;
+            }
+        }
+       
+    }
+}
+// RESPONSIVE
+@include breakpoint3 {
+    @include cover_other_mobile;
+    .links_des {
+        padding-bottom: 15px;
+        border-bottom: 4px double $color-blue-d8;
+        &__title {
+            margin-top: 50px;
+            text-align: left;
+            margin-bottom: 19px;
+            font-size: 29px;
+            font-weight: 700;
+        }
+        &__content {
+            // border: double;
+            border-bottom: unset;
+            &__left {
+                padding: 0;
+                p {
+                    padding: 0;
+                }
+            }
+            &__right {
+                margin-top: 30px;
+                margin-bottom: 20px;
+                padding: 0;
+                p {
+                    padding: 0;
+                }
+            }
+        }
+    }
+    .question {
+        margin-bottom: -15px;
+        margin-top: 25px;
+        &__content {
+            padding-right: unset;
+            &__item {
+                margin-bottom: 40px;
+                &__title {
+                    font-size: 20px;
+                }
+                &__body {
+                    font-size: 14px;
+                }
+            }
+           
+        }
+    }
+    
+}
+
+}

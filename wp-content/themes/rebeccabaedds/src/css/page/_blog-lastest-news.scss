@@ -1,0 +1,277 @@
+.blog-lastest {
+  .blog-cover {
+    background-image: url(../images/cover-blog.png);
+    .hero__content {
+      position: unset;
+      h2 {
+        bottom: 23%;
+        left: 11%;
+        transform: translate(-11%, -23%);
+      }
+      .hero__icon {
+        display: none;
+      }
+    }
+  }
+  .lastest-news {
+    margin-bottom: 50px;
+    h2 {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    p.titles {
+      font-size: 17px;
+      width: 70%;
+      height: 13%;
+      overflow: hidden;
+      margin: 0 auto;
+      text-align: center;
+      margin-bottom: 56px;
+    }
+    .news {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      &__item {
+        .news--content {
+          width: 87%;
+        }
+        position: relative;
+        margin-bottom: 20px;
+        img {
+          margin-bottom: 27px;
+          width: 100%;
+        }
+        a {
+          font-weight: bold;
+          margin-bottom: 16px;
+          color: #707070;
+          display: block;
+        }
+        .readmores {
+          transform: translateY(-5px);
+          -webkit-transform: translateY(-5px);
+          -moz-transform: translateY(-5px);
+          -ms-transform: translateY(-5px);
+          -o-transform: translateY(-5px);
+          width: 30%;
+          &::after {
+            content: "";
+            position: absolute;
+            width: 190%;
+            display: block;
+            border-bottom: 1px solid #e2e2e2;
+            bottom: 50%;
+            left: 100%;
+          }
+        }
+        .button-l {
+          border: unset;
+          font-weight: bold;
+          font-family: "Gotham", sans-serif;
+          height: unset;
+          padding-left: 20px;
+          &:hover {
+            background-color: transparent;
+            color: $color-blue-d9;
+          }
+          &::before {
+            position: absolute;
+            content: ">";
+            display: block;
+            height: 100%;
+            top: 0;
+            left: 0;
+          }
+        }
+        hr {
+          width: 60%;
+          position: absolute;
+          bottom: 0;
+          right: 10%;
+          background-color: rgba(0, 0, 0, 0.1);
+        }
+      }
+    }
+    .carousel-indicators {
+      bottom: -30px;
+      width: 5%;
+      margin-left: 6.5%;
+      li {
+        margin-right: 15px;
+        text-indent: unset;
+        height: 20px;
+        color: $color-blue-d9;
+      }
+    }
+    .news__item {
+      p.text {
+        font-size: 17px;
+        text-align: left;
+        margin-bottom: 15px;
+        margin-left: 0;
+      }
+    }
+  }
+}
+@include breakpoint3 {
+  .blog-lastest {
+    .blog-cover {
+      margin-bottom: 60px;
+      background-image: url(../images/blog-cover2.png);
+      height: 860px;
+      .hero {
+        &__content {
+          width: 100%;
+          h2 {
+            bottom: 20%;
+            left: 50%;
+            transform: translate(-50%, -20%);
+            width: 80%;
+            text-align: center;
+            font-size: 80px;
+            line-height: 98px;
+          }
+        }
+        &__icon {
+          display: none;
+        }
+      }
+    }
+  }
+  p {
+    font-size: 28px;
+    line-height: 42px;
+  }
+  .lastest-news {
+    h2.title-main {
+      font-size: 55px;
+      line-height: 78px;
+      margin-bottom: 72px;
+    }
+    p.titles {
+      width: unset !important;
+      margin-bottom: 75px !important;
+    }
+    .news {
+      grid-template-columns: repeat(1, 1fr) !important;
+      &__item {
+        margin-bottom: 30px !important;
+        .news--content {
+          width: unset !important;
+        }
+        width: 80%;
+        margin: 0 auto;
+        img {
+          width: 100%;
+          margin-bottom: 47px;
+        }
+        a.text-t {
+          font-size: 30px;
+          line-height: 40px;
+          height: unset;
+          width: unset;
+        }
+        a,
+        p.text {
+          width: unset !important;
+        }
+        p.text {
+          margin-bottom: 10px !important;
+        }
+        .readmores {
+          transform: unset !important;
+          -webkit-transform: unset !important;
+          -moz-transform: unset !important;
+          -ms-transform: unset !important;
+          -o-transform: unset !important;
+        }
+        button {
+          height: unset;
+          color: $color-blue-d9;
+          font-size: 28px;
+          line-height: 37px;
+          padding: 0;
+          height: unset !important;
+          &::after {
+            left: 100% !important;
+          }
+        }
+        .button-l {
+          &::before {
+            display: none !important;
+          }
+          padding-left: unset !important;
+        }
+        hr {
+          width: 60% !important;
+          bottom: -10.5% !important;
+          right: 1% !important;
+        }
+      }
+    }
+    .carousel-indicators {
+      margin-left: 15.5% !important;
+    }
+  }
+}
+@include breakpoint6 {
+  .blog-lastest {
+    .blog-cover {
+      height: 430px;
+      margin-bottom: 54px;
+      .hero {
+        &__content {
+          h2 {
+            font-size: 45px;
+            bottom: 10%;
+          }
+        }
+      }
+    }
+  }
+  p {
+    font-size: 14px;
+    line-height: 21px;
+  }
+  .lastest-news {
+    h2.title-main {
+      font-size: 28px;
+      line-height: 39px;
+      margin-bottom: 36px;
+    }
+    p.title {
+      margin-bottom: 38px;
+    }
+    .news {
+      &__item {
+        .news--content {
+          width: unset;
+        }
+        a.text-t {
+          font-size: 15px;
+          line-height: 20px;
+        }
+        .readmores {
+          width: 37% !important;
+          &::after {
+            width: 60% !important;
+            left: 40% !important;
+            bottom: 3% !important;
+          }
+        }
+        button {
+          font-size: 14px;
+          line-height: 19px;
+          width: unset;
+          &::after {
+            width: 176% !important;
+            left: 121% !important;
+          }
+        }
+      }
+    }
+    .carousel-indicators {
+      margin-left: 16.5% !important;
+    }
+  }
+}

@@ -1,0 +1,15 @@
+.implants-instead-of-prosthodontics-ph {
+  @include cover_other("implants","implants.png");
+  //nav detail custom
+  @include nav_dentail;
+  // navMobile
+  @include nav_dentail_mobile;
+  @include prosthodontics;
+  @include reason_detail;
+  @include detail_description;
+  // Responsive
+  @include breakpoint3 {
+    @include cover_other_mobile;
+    @include services_dentail_resposive;
+  }
+}

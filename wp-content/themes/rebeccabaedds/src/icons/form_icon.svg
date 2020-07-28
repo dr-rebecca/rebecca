@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="25.458" height="27.5" viewBox="0 0 25.458 27.5">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3 {
+        fill: none;
+        stroke: #fff;
+        stroke-width: 1.5px;
+      }
+
+      .cls-2 {
+        stroke-linecap: round;
+      }
+
+      .cls-3 {
+        stroke-linejoin: round;
+      }
+    </style>
+  </defs>
+  <g id="Page-1" transform="translate(-0.25 -0.25)">
+    <g id="Document-edit" transform="translate(1 1)">
+      <path id="Shape_1_" class="cls-1" d="M19.71,18.871v6.29a.841.841,0,0,1-.839.839H.839A.841.841,0,0,1,0,25.161V.839A.841.841,0,0,1,.839,0H11.7l8.01,7.59v6.248"/>
+      <path id="Shape" class="cls-1" d="M35.968,8.506H28.839A.841.841,0,0,1,28,7.668V1" transform="translate(-16.258 -0.581)"/>
+      <path id="Shape_2_" class="cls-2" d="M9,17h4.769" transform="translate(-5.226 -9.871)"/>
+      <path id="Shape_4_" class="cls-2" d="M9,34H19.263" transform="translate(-5.226 -19.742)"/>
+      <path id="Shape_6_" class="cls-2" d="M9,49h5.077" transform="translate(-5.226 -28.452)"/>
+      <g id="Group" transform="translate(11.323 12.161)">
+        <path id="Shape_8_" class="cls-3" d="M0,12.581,1.635,8.639,10.148.126a.509.509,0,0,1,.671,0l1.635,1.635a.509.509,0,0,1,0,.671L3.942,10.945Z" transform="translate(0 0)"/>
+        <path id="Shape_9_" class="cls-1" d="M21.9,2.7l2.265,2.265" transform="translate(-12.716 -1.568)"/>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,523 @@
+@import "./../components/child_ourservices_dentail";
+@mixin font-face($font-name, $font-path, $font-weight, $font-style) {
+  @font-face {
+    font-family: $font-name;
+    src: url(#{$font-path}) format(opentype);
+    font-weight: $font-weight;
+    font-style: $font-style;
+  }
+}
+/// Block Element beem
+@mixin e($element) {
+  &__#{$element} {
+    @content;
+  }
+}
+/// Block Modifier
+@mixin m($modifier) {
+  &--#{$modifier} {
+    @content;
+  }
+}
+// media screen
+@mixin breakpoint1 {
+  @media screen and (max-width : #{$breakpoint1}) {
+    @content;
+  }
+}
+@mixin ipadpro {
+  @media screen and (max-width: #{$ipadPro}) {
+    @content;
+  }
+}
+
+@mixin breakpoint2 {
+  @media screen and (max-width : #{$breakpoint2}) {
+    @content;
+  }
+}
+
+@mixin breakpoint3 {
+  @media screen and (max-width : #{$breakpoint3}) {
+    @content;
+  }
+}
+@mixin breakpoint4 {
+  @media screen and (min-width : #{$breakpoint3}) {
+    @content;
+  }
+}
+@mixin breakpoint5 {
+  @media screen and (max-width : #{$breakpoint4}) {
+    @content;
+  }
+}
+@mixin breakpoint6 {
+  @media screen and (max-width: #{$breakpoint4}) {
+    @content;
+  }
+}
+//Cover
+@mixin cove($name_of_class, $name_background) {
+  .cove {
+    position: relative;
+    &--#{$name_of_class} {
+      // @include m("#{$name_of_class}"){
+      background-image: url("./../../images/#{$name_background}");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+    }
+    @include e("content") {
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      background-color: rgba(37, 40, 45, 0.3);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      @include e("title") {
+        p {
+          font-family: Josefin Sans;
+          font-size: 68px;
+          font-weight: 300;
+          line-height: 65px;
+          padding-left: 15px;
+          margin-top: 295px;
+          color: $color-white;
+        }
+      }
+      @include e("icon") {
+        // &::after {
+        //   content: "";
+        //   background-image: url(../../icons/icon_cover.svg);
+        //   display: inline-block;
+        //   width: 40px;
+        //   height: 40px;
+        //   background-repeat: no-repeat;
+        //   position: absolute;
+        //   bottom: 50px;
+        //   left: 50%;
+        // }
+      }
+    }
+    @include e("img") {
+      width: 100%;
+      height: 700px;
+      object-fit: cover;
+    }
+  }
+}
+@mixin cove_mobile {
+  .cove {
+    @include e("content") {
+      @include e("title") {
+        p {
+          margin-top: 260px !important;
+          padding-left: 0 !important;
+          font-size: 40px !important;
+          line-height: 50px !important;
+          text-align: center !important;
+        }
+      }
+    }
+    @include e("img") {
+      height: 440px !important;
+    }
+  }
+}
+@mixin cover_other($name_of_class, $name_background) {
+  .cover_mix {
+    position: relative;
+    &__img {
+      width: 100%;
+      height: 480px;
+    }
+    &--#{$name_of_class} {
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      background-image: url(./../../images/#{$name_background});
+    }
+    &__content {
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      background-color: rgba(37, 40, 45, 0.5);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      font-size: 58px;
+      &__title {
+        font-size: 58px;
+        font-weight: 300;
+        color: $white-color;
+        margin-left: 15px;
+      }
+      &__name {
+        font-size: 58px;
+        font-weight: 600;
+        color: $white-color;
+        margin-left: 15px;
+      }
+    }
+    .nav {
+      height: 60px;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+    }
+    .nav .container {
+      height: 100%;
+    }
+    .nav__list {
+      height: 100%;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .nav__item {
+      display: inline;
+      // margin-bottom: -6px;
+      padding: 4px 0;
+      // border-bottom: 4px solid $primary-color;
+    }
+    .nav a {
+      color: #fff;
+      font-size: 20px;
+      font-weight: normal;
+      padding-bottom: 20px;
+    }
+    //.nav a:hover
+    .nav__item--active a{
+      border-bottom: 4px solid $primary-color;
+      padding-bottom: 16px;
+    }
+    .dropdown-menu {
+      background-color: $primary2-color;
+      padding: 20px;
+      a {
+        color: white;
+        margin-bottom: 10px;
+        padding-top: 10px;
+        font-size: 15px;
+        &::before {
+          content: "\2022"; /* Add content: \2022 is the CSS Code/unicode for a bullet */
+          color: white; /* Change the color */
+          font-weight: bold; /* If you want it to be bold */
+          display: inline-block; /* Needed to add space between the bullet and the text */
+          width: 1em; /* Also needed for space (tweak if needed) */
+          margin-left: -1em;
+        }
+      }
+    }
+  }
+}
+@mixin cover_other_mobile {
+  .cover_mix {
+    position: relative;
+    &__img {
+      height: 480px !important;
+    }
+    &__content {
+      text-align: center !important;
+      &__title {
+        margin-top: 200px !important;
+        margin-left: 0 !important;
+        font-size: 37px !important;
+      }
+      &__name {
+        margin-left: 0 !important;
+        font-size: 37px !important;
+      }
+    }
+    .nav {
+      height: 60px;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+    }
+    .nav .container {
+      height: 100%;
+      padding-right: 0;
+    }
+    .nav__list {
+     height: 100%;
+     list-style: none;
+     margin: 0;
+     padding: 0;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     //white-space: nowrap;
+     //overflow-x: auto;
+     white-space: nowrap;
+     overflow-x: auto;
+     overflow:scroll;
+     -webkit-overflow-scrolling: touch;
+}
+    .nav__list::-webkit-scrollbar {
+      display: none;
+    }
+    .nav__item {
+      display: inline;
+      padding: 0;
+      margin-right: 40px;
+    }
+    .nav a {
+      color: #fff;
+      font-size: 15px;
+      font-weight: normal;
+      padding-bottom: 16px;
+    }
+
+    //.nav a:hover
+    .nav__item--active a{
+      border-bottom: 4px solid $primary-color;
+      padding-bottom: 18px;
+    }
+    .dropdown-menu {
+      background-color: $primary2-color;
+      padding: 20px;
+      a {
+        color: white;
+        margin-bottom: 10px;
+        padding-top: 10px;
+        font-size: 15px;
+        &::before {
+          content: "\2022"; /* Add content: \2022 is the CSS Code/unicode for a bullet */
+          color: white; /* Change the color */
+          font-weight: bold; /* If you want it to be bold */
+          display: inline-block; /* Needed to add space between the bullet and the text */
+          width: 1em; /* Also needed for space (tweak if needed) */
+          margin-left: -1em;
+        }
+      }
+    }
+    .dropdown-toggle::after {
+      margin-left: 1.255em !important;
+      vertical-align: 0.1em !important;
+    }
+  }
+
+}
+//descrition
+@mixin description {
+  .description {
+    text-align: center;
+    margin-top: 79px;
+    .note {
+      color: #c4873e;
+      font-style: oblique;
+      margin-top: 10px;
+      font-size: 17px;
+    }
+    @include e("title") {
+      h2 {
+        padding: 0 230px;
+        line-height: 52px;
+        font-size: 42px;
+        font-weight: 600;
+      }
+      @include m("top") {
+        font-family: Satisfy;
+        font-size: 42px;
+        line-height: 52px;
+        color: $primary2-color;
+        text-align: center;
+        font-weight: normal !important;
+      }
+    }
+    @include e("body") {
+      color: $text-color-gray;
+      margin-top: 30px;
+      padding: 0 118px;
+      p {
+        font-weight: normal;
+        font-size: 17px;
+        line-height: 26px;
+        text-align: center;
+        color: #555;
+      }
+    }
+  }
+}
+@mixin description_mobile {
+  @include breakpoint3 {
+    .description {
+      text-align: left;
+      margin-top: 40px;
+      .note {
+        font-size: 14px;
+      }
+      @include e("title") {
+        h2 {
+          padding: 0;
+          line-height: 45px;
+          font-size: 29px;
+          font-weight: 700;
+        }
+        @include m("top") {
+          font-size: 29px;
+          //margin-bottom: 15px;
+        }
+      }
+      @include e("body") {
+        margin-top: 20px;
+        padding: 0;
+        p {
+          text-align: left;
+          font-size: 14px;
+        }
+      }
+    }
+  }
+}
+
+// collapse
+@mixin collapse_mix {
+  .collapse_mix {
+    &__content__button {
+      margin-top: 10px;
+      display: flex;
+      background-color: #f4f4f4;
+      color: #555555;
+      cursor: pointer;
+      padding: 0;
+      width: 100%;
+      border: none;
+      text-align: left;
+      outline: none;
+      font-size: 17px;
+      font-weight: 600;
+      position: relative;
+      margin-bottom: -2px;
+      p {
+        padding: 15px 3px 18px 31px;
+        margin-top: 5px;
+      }
+      &::after {
+        content: "";
+        background-image: url(./../../images/down_menu.svg);
+        width: 30px;
+        height: 30px;
+        position: absolute;
+        background-position: center;
+        background-repeat: no-repeat;
+        display: inline-block;
+        right: 23px;
+        top: 50%;
+        transform: translateY(-50%);
+      }
+    }
+    .active1,
+    .collapse_faqs__content__button:hover {
+      background-color: #47d3d9;
+      color: white;
+      &::before {
+        background-color: unset;
+      }
+    }
+    .active1 {
+      background-color: #47d3d9;
+      color: white;
+    }
+    .collapse_faqs__content__body {
+      padding: 0px 75px;
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.2s ease-out;
+      border: 1px solid #f4f4f4;
+      border-top: none !important;
+      .body_title {
+        padding-top: 50px;
+        padding-bottom: 20px;
+        border-bottom: 1px solid #f4f4f4;
+      }
+      .body_ques {
+        &__title {
+          padding-top: 20px;
+          padding-bottom: 10px;
+          font-size: 20px;
+          font-weight: bold;
+          color: #555555;
+        }
+        &__des {
+          padding-bottom: 10px;
+          line-height: 26px;
+          color: #555555;
+          font-weight: bold;
+          font-size: 17px;
+        }
+        &__content {
+          font-weight: normal;
+          line-height: 26px;
+          padding-bottom: 15px;
+        }
+      }
+    }
+  }
+}
+//Come Join Our Family
+@mixin joinOur {
+  .join-our-family {
+    margin-top: 73px;
+    background-color: $primary2-color;
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    color: $white-color;
+    &__title,
+    &__text {
+      font-size: 36px;
+      color: $white-color;
+      line-height: 52px;
+    }
+
+    &__title {
+      font-weight: 700;
+    }
+
+    &__text {
+      font-weight: 200;
+      margin-bottom: 0;
+    }
+  }
+}
+@include breakpoint3{
+  .join-our-family {
+    margin-top: 73px;
+    background-color: $primary2-color;
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    color: $white-color;
+    &__title,
+    &__text {
+      font-size: 36px;
+      color: $white-color;
+      line-height: 52px;
+      padding: 0 15px;
+    }
+
+    &__title {
+      font-weight: 700;
+    }
+
+    &__text {
+      font-weight: 200;
+      margin-bottom: 0;
+    }
+  }
+}

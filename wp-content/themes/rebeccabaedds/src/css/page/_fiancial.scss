@@ -1,0 +1,153 @@
+.financial-options-ph{
+    @include cover_other("financial", "financial@2x.png");
+    @include description;
+    @include description_mobile;
+    .button_req {
+        margin-top: 30px;
+        &__content {
+            margin-top: 10px;
+            &__title {
+                padding: 14px 00px;
+                background-color: #41cbd7;
+                background-image: url(../../icons/background_form.svg);
+                text-align: center;
+                border-radius: 50px;
+                color: white;
+                border: 6px double white;
+    
+                &::before {
+                    margin-right: 5px;
+                    content: "";
+                    background-image: url(../../icons/form_icon.svg);
+                    width: 30px;
+                    display: inline-block;
+                    height: 30px;
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    margin-bottom: -8px;
+                }
+            }
+        }
+    }
+    .pay_method {
+        margin-top: 80px;
+        background-color: #f7f7f7;
+        &__content {
+            padding-top: 70px;
+            padding-bottom: 180px;
+            &__title {
+                font-size: 34px;
+                line-height: 58px;
+                font-weight: 600;
+            }
+            &__body {
+                line-height: 26px;
+                color: $text-color-gray;
+                font-size: 16px;
+                max-width: 500px;
+            }
+            img {
+                width: 90%;
+                margin-top: 30px;
+            }
+        }
+    }
+    .Insuraces {
+        margin-bottom: 80px;
+        margin-top: -100px;
+        &__img {
+            img {
+                width: 100%;
+            }
+        }
+        &__content {
+            h2{
+                font-size: 34px;
+                line-height: 58px;
+                font-weight: 600;
+                margin-top: 39px;
+            }
+            p{
+                line-height: 26px;
+                color: $text-color-gray;
+                font-size: 16px;
+            }
+            &--fix {
+                p{
+                    margin-top: 99px;
+                }
+            }
+        }
+    }
+     // RESPONSIVE
+    @include breakpoint3{
+        @include cover_other_mobile;
+        .button_req {
+            margin-top: 30px;
+            &__content {
+                margin-top: 10px;
+                &__title {
+                 font-size: 17px;
+                    &::before {
+                        margin-right: 5px;
+                        content: "";
+                        background-image: url(../../icons/form_icon.svg);
+                        width: 30px;
+                        display: inline-block;
+                        height: 30px;
+                        background-position: center;
+                        background-repeat: no-repeat;
+                        margin-bottom: -8px;
+                    }
+                }
+            }
+        }
+        .pay_method {
+            margin-top: 80px;
+            background-color: #f7f7f7;
+            &__content {
+                &__title{
+                    font-size: 29px;
+                    font-weight: 700;
+                }
+                &__body{
+                    font-size: 14px;
+                }
+                &--fix{
+                    padding-bottom: 0px;
+                    padding-top: 40px;
+                }
+                img {
+                    width: 100%;
+                    //margin-top: 30px;
+                }
+            }
+        }
+        .Insuraces {
+            margin-top: -100px;
+            &__content {
+                h2{
+                    font-size: 34px;
+                    line-height: 58px;
+                    margin-top: 39px;
+                }
+                p{
+                    line-height: 26px;
+                    color: $text-color-gray;
+                    font-size: 16px;
+                }
+                &--fix {
+                    p{
+                        margin-top: 20px;
+                    }
+                }
+            }
+        }
+        
+    }
+}
+
+
+
+
+

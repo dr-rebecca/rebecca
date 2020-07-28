@@ -1,0 +1,119 @@
+.homecare-instruction-ph {
+    @include cove("homecare_instruction", "homcare@2x.png");
+    @include description;
+    @include description_mobile;
+    @include breakpoint3 {
+        .description {
+            @include e("title") {
+                h2 {
+                    padding: 0;
+                    line-height: 45px;
+                    font-size: 27.5px;
+                    font-weight: 700;
+                    padding: 0 51px;
+                }
+                @include m("top") {
+                    font-size: 27.5px;
+                }
+            }
+            @include e("body") {
+                margin-top: 20px;
+                padding: 0;
+                p {
+                    text-align: left;
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+    .homecare_des {
+        margin-top: 23px;
+        @include e("left") {
+            padding: 0;
+            img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+        @include e("right") {
+            padding: 0;
+            background-color: #47d3d9;
+            @include e("content"){
+                padding-left: 40px;
+                p {
+                    color: #ffffff;
+                    font-size: 17px;
+                    // padding: 30% 60px;
+                    padding-right: 168px;
+                    padding-top: 158px;
+                    padding-bottom: 158px;
+                    line-height: 26px;
+                    text-align: center;
+                    font-style: oblique;
+                    max-width: 800px;
+                }
+            }
+        }
+    }
+    .homecare_description_main {
+        margin-top: 80px;
+        margin-bottom: 88px;
+        .homecare_description {
+            @include e("content") {
+                @include e("title") {
+                    font-size: 34px;
+                    font-weight: 600;
+                    line-height: 40px;
+                    margin-top: 50px;
+                    margin-bottom: 21px;
+                }
+                @include e("body") {
+                    p {
+                        color: $text-color-gray;
+                        font-size: 17px;
+                        line-height: 30px;
+                        padding-bottom: 8px;
+                    }
+                }
+            }
+        }
+    }
+
+    @include breakpoint3 {
+        @include cove_mobile;
+        .homecare_des {
+            @include e("right") {
+                padding: 0;
+                background-color: #47d3d9;
+                @include e("content"){
+                    padding-left: 40px;
+                    padding-right: 40px;
+                    padding-top: 100px;
+                    padding-bottom: 100px;
+                    p {
+                       padding: 0;
+                    }
+                }
+               
+            }
+        }
+        .homecare_description_main {
+            margin-top: 35px;
+            margin-bottom: 30px;
+            .homecare_description {
+                @include e("content") {
+                    @include e("title") {
+                        margin-top: 20px;
+                        font-size: 29px;
+                    }
+                    @include e("body") {
+                        p {
+                            padding-bottom: 4px;
+                            font-size: 14px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

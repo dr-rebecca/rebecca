@@ -1,0 +1,23 @@
+.fixed-prosthodontics-ph{
+  @include cover_other("fixed","fixed.png");
+  //nav detail custom
+  @include nav_dentail;
+  // navMobile
+  @include nav_dentail_mobile;
+  @include prosthodontics;
+  @include reason_detail;
+  @include detail_gird;
+  .detail_gird {
+    margin-bottom: 80px;
+  }
+  @include detail_description;
+  @include related;
+  // Responsive
+  @include breakpoint3 {
+    @include cover_other_mobile;
+    @include services_dentail_resposive;
+    .detail_gird {
+      margin-bottom: 80px;
+    }
+  }
+}

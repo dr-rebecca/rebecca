@@ -1,0 +1,678 @@
+.membership-cover {
+  background-image: url(../images/cover-membership.png);
+
+  .hero__content {
+    position: unset;
+
+    h2 {
+      bottom: 23%;
+      left: 11%;
+      transform: translate(-11%, -23%);
+    }
+  }
+  p {
+    font-size: 20px;
+    width: 34%;
+    color: $color-white;
+    margin-top: 16px;
+    position: absolute;
+    z-index: 1;
+    bottom: 17%;
+    left: 8.5%;
+  }
+}
+.membership-program {
+  margin-bottom: 76px;
+  .content {
+    width: 80%;
+    margin: 0 auto;
+    p {
+      font-size: 17px;
+    }
+    h2,
+    .satisfy,
+    .text {
+      text-align: center;
+    }
+    h2 {
+      width: 70%;
+      font-size: 42px;
+      line-height: 58px;
+      margin-bottom: 26px;
+    }
+    .satisfy {
+      font-size: 28px;
+      line-height: 40px;
+      margin-bottom: 27px;
+      width: 75%;
+    }
+  }
+}
+
+// MEMBERSHIP VIDEO
+.membership-video {
+  margin-bottom: 98px;
+
+  .video {
+    height: unset;
+    &__iframe {
+      position: relative;
+      &::before {
+        content: "";
+        position: absolute;
+        display: block;
+        width: 94%;
+        height: 104.5%;
+        bottom: -2.5%;
+        left: 1.5%;
+        background-color: #ccf1f6;
+        z-index: -1;
+      }
+      &::after {
+        content: "";
+        position: absolute;
+        display: block;
+        width: 91.5%;
+        height: 100%;
+        top: 0;
+        left: 2.5%;
+        background-color: rgba(0, 0, 0, 0.288);
+        z-index: 1;
+      }
+
+      button {
+        position: absolute;
+        display: block;
+        top: 45%;
+        left: 42%;
+        z-index: 2;
+        border: unset;
+        background: transparent;
+        img {
+          background-color: white;
+          border-radius: 50%;
+        }
+      }
+      .emily {
+        position: absolute;
+        bottom: 4%;
+        left: 6%;
+        z-index: 2;
+        h3,
+        p {
+          color: white;
+          font-family: "Poppins";
+        }
+        h3 {
+          font-size: 31px;
+          font-weight: 700;
+          line-height: 40px;
+        }
+        p {
+          font-size: 16px;
+          font-style: italic;
+          line-height: 30px;
+        }
+      }
+    }
+    &__description {
+      .pause {
+        font-size: 180px;
+        line-height: 40px;
+        font-weight: 400;
+        transform: translate(-5px, 28px);
+        color: $color-blue-d7;
+        margin-top: 30px;
+        -webkit-transform: translate(-5px, 28px);
+        -moz-transform: translate(-5px, 28px);
+        -ms-transform: translate(-5px, 28px);
+        -o-transform: translate(-5px, 28px);
+      }
+
+      .text {
+        width: 80%;
+        font-style: italic;
+      }
+    }
+  }
+}
+
+// MEMBER INSURANCE
+.member-insurance {
+  background-color: #f7f7f7;
+
+  .container {
+    padding: 50px 0;
+  }
+
+  .insurance {
+    &__interrogation {
+      .title-main {
+        font-size: 38px;
+        color: $color-blue-d7;
+        margin-bottom: 31px;
+      }
+
+      .text {
+        width: 90%;
+      }
+    }
+  }
+}
+
+// MEMBERSHIP BENEFITS
+.member-benefit {
+  margin-top: 78px;
+  height: 700px;
+  position: relative;
+
+  h2 {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+
+  .benifit-background {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 40%;
+    background-color: #182955;
+    width: 100%;
+  }
+
+  .container {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .member {
+    &__item {
+      margin: 0 20px !important;
+      width: 80%;
+      border: 1px solid #f2f0ea;
+      border-radius: 10px;
+      background-color: white;
+      padding: 30px;
+
+      h3 {
+        font-size: 28px;
+        font-weight: 600;
+        line-height: 58px;
+      }
+
+      .member--fee {
+        font-size: 22px;
+        color: $color-blue-d3;
+        margin-bottom: 17px;
+      }
+
+      .member--object {
+        font-size: 17px;
+        color: #c4873e;
+        font-style: italic;
+        margin-bottom: 26px;
+        position: relative;
+
+        &::after {
+          content: url(../icons/object-border.png);
+          display: block;
+          width: 100%;
+          height: 100%;
+          position: absolute;
+          top: -15px;
+          left: -65px;
+        }
+      }
+
+      .member-detail {
+        text-align: center;
+        font-weight: 300;
+        margin-bottom: 30px;
+      }
+
+      button {
+        width: 59%;
+        padding-left: 15px;
+        padding-right: 15px;
+      }
+    }
+  }
+}
+
+@include breakpoint3 {
+  .membership-cover {
+    margin-bottom: 60px;
+    background-image: url(../images/membership-cover2.png);
+    height: 860px;
+
+    .hero {
+      &__content {
+        width: 100%;
+
+        h2 {
+          bottom: 20%;
+          left: 50%;
+          transform: translate(-50%, -20%);
+          width: 80%;
+          text-align: center;
+          font-size: 80px;
+          line-height: 98px;
+        }
+      }
+
+      &__icon {
+        display: none;
+      }
+    }
+
+    p {
+      display: none;
+    }
+  }
+  p {
+    font-size: 28px;
+    line-height: 42px;
+  }
+  .membership-program {
+    margin-bottom: 76px;
+
+    .content {
+      width: unset;
+
+      h2,
+      .satisfy {
+        font-size: 55px;
+        width: 100%;
+      }
+
+      h2 {
+        line-height: 78px;
+        margin-bottom: 44px;
+      }
+
+      .satisfy {
+        line-height: 70px;
+        margin-bottom: 62px;
+      }
+
+      .text {
+        text-align: center;
+      }
+    }
+  }
+  .membership-video {
+    margin-bottom: 48px;
+    .video {
+      background-image: unset !important;
+      &__iframe {
+        margin-bottom: 90px;
+        &::before {
+          width: 102%;
+          left: -1%;
+        }
+        img {
+          width: 100%;
+        }
+        &::after {
+          left: 0;
+          width: 100%;
+        }
+        button img {
+          width: 146%;
+        }
+      }
+
+      &__description {
+        .pause {
+          margin-top: unset;
+        }
+
+        .fw-semi {
+          font-weight: 400;
+          font-style: unset;
+          width: 100%;
+        }
+      }
+    }
+  }
+  // MEMBER INSURANCE
+  .member-insurance {
+    .container {
+      padding-bottom: 171px;
+    }
+    .insurance {
+      &__interrogation {
+        .title-main {
+          font-size: 55px;
+          line-height: 70px;
+          text-align: center;
+        }
+
+        p.text {
+          width: unset;
+          margin-bottom: 40px;
+        }
+      }
+
+      &__img {
+        img {
+          width: 100%;
+        }
+      }
+    }
+  }
+  // MEMBERSHIP BENEFITS
+  .member-benefit {
+    h2 {
+      font-style: 28px;
+      line-height: 42px;
+    }
+
+    .container {
+      top: 0;
+      left: 0;
+      transform: unset;
+      -webkit-transform: unset;
+      -moz-transform: unset;
+      -ms-transform: unset;
+      -o-transform: unset;
+    }
+  }
+  .member-benefit {
+    margin-top: 91px;
+    height: 1237px;
+
+    h2 {
+      font-size: 35px;
+      line-height: 78px;
+    }
+
+    .container {
+      height: 100%;
+      top: 0;
+      left: 25px;
+      overflow: hidden;
+    }
+
+    .member {
+      overflow-x: scroll;
+      width: 150%;
+      height: 85%;
+
+      &__item {
+        width: 30%;
+
+        h3 {
+          font-size: 46px;
+          line-height: 78px;
+        }
+
+        .member--fee {
+          font-size: 36px;
+          line-height: 70px;
+        }
+
+        .member--object {
+          font-size: 28px;
+          line-height: 25px;
+        }
+
+        .member-detail {
+          line-height: 30px;
+          white-space: pre-line;
+        }
+
+        button {
+          height: 7%;
+          width: 75%;
+        }
+      }
+
+      white-space: nowrap;
+    }
+  }
+}
+
+@include breakpoint6 {
+  .membership-cover {
+    height: 430px;
+    margin-bottom: 53px;
+    .hero {
+      &__content {
+        h2 {
+          font-size: 45px;
+          line-height: 63px;
+        }
+      }
+    }
+  }
+  .membership-video {
+    margin-bottom: 40px;
+    .video__iframe {
+      margin-bottom: 84px;
+      button {
+        top: 38%;
+        left: 37%;
+        img {
+          width: 120% !important;
+        }
+      }
+    }
+    .video__description {
+      .pause {
+        font-size: 90px;
+      }
+      p.text {
+        font-size: 14px;
+        line-height: 21px;
+      }
+    }
+  }
+  .membership-program {
+    margin-bottom: 40px;
+    .content {
+      .satisfy {
+        font-size: 28px;
+        line-height: 35px;
+        margin-bottom: 31px;
+      }
+      h2 {
+        font-size: 28px;
+        line-height: 39px;
+        margin-bottom: 22px;
+      }
+      p.text {
+        font-size: 14px;
+        line-height: 21px;
+      }
+    }
+  }
+  .member-insurance {
+    .container {
+      padding-left: 15px !important;
+      padding-right: 15px !important;
+      padding-bottom: 90px !important;
+    }
+
+    .insurance {
+      &__interrogation {
+        .title-main {
+          font-size: 28px;
+          line-height: 35px;
+          margin-bottom: 20px;
+        }
+        p {
+          font-size: 14px;
+          line-height: 21px;
+        }
+      }
+    }
+  }
+  .member-benefit {
+    margin-top: 91px;
+    height: 1237px;
+
+    h2 {
+      font-size: 27px;
+      line-height: 48px;
+    }
+
+    .container {
+      height: 100%;
+      top: 0;
+      left: 9px;
+      overflow: hidden;
+    }
+
+    .member {
+      overflow-x: scroll;
+      width: 180%;
+      height: 85%;
+
+      &__item {
+        width: 40%;
+
+        h3 {
+          font-size: 27px;
+          line-height: 48px;
+        }
+
+        .member--fee {
+          font-size: 18px;
+          line-height: 40px;
+        }
+
+        .member--object {
+          font-size: 16px;
+          line-height: 25px;
+        }
+
+        .member-detail {
+          font-size: 17px;
+        }
+
+        button {
+          height: 7%;
+          width: 75%;
+        }
+      }
+
+      white-space: nowrap;
+    }
+  }
+}
+//carousel
+.memberPrice {
+  margin-top: 90px;
+  &__title {
+    margin-bottom: 50px;
+    padding: 0 15px;
+    h2 {
+      font-size: 42px;
+      text-align: center;
+      font-weight: 600;
+    }
+  }
+
+  .item {
+    padding: 0 25px;
+    background-color: white;
+    border: 2px solid #f2f0ea;
+    border-radius: 13px;
+    margin: 0 15px;
+    text-align: center;
+
+    &__title {
+      margin-top: 38px;
+      font-size: 28px;
+      font-weight: 600;
+    }
+
+    &__price {
+      font-size: 22px;
+      font-weight: normal;
+      color: #00bbd3;
+      line-height: 58px;
+    }
+
+    &__description {
+      font-size: 17px;
+      font-weight: normal;
+      font-style: oblique;
+      color: #c4873e;
+    }
+
+    img {
+      width: 100%;
+      height: 9px;
+    }
+
+    &__body {
+      margin-top: 28px;
+      margin-bottom: 30px;
+
+      p {
+        font-size: 18px;
+        color: #444444;
+        font-weight: 300;
+        line-height: 24px;
+      }
+    }
+    button {
+      width: 170px;
+      height: 47px;
+      margin-bottom: 40px;
+    }
+  }
+  &__backgroud {
+    height: 312px;
+    background-color: #0a246a;
+    width: 100%;
+    margin-top: -210px;
+  }
+}
+
+@include breakpoint3 {
+  .memberPrice {
+    margin-top: 35px;
+    &__title {
+      h2 {
+        font-size: 17px;
+      }
+    }
+    .owl-carousel {
+      padding-right: 0 !important;
+    }
+    .item {
+      margin-left: 0;
+      margin-right: 20px;
+      &__title {
+        margin-top: 36px;
+        font-size: 23px;
+        font-weight: 600;
+      }
+      &__price {
+        font-size: 18px;
+        font-weight: normal;
+        color: #00bbd3;
+        line-height: 58px;
+      }
+      &__description {
+        font-size: 14px;
+      }
+      img {
+        height: 7px;
+      }
+      &__body {
+        margin-top: 28px;
+        margin-bottom: 30px;
+        p {
+          font-size: 14px;
+          font-weight: normal;
+        }
+      }
+    }
+  }
+}

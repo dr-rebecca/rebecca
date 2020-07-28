@@ -1,0 +1,95 @@
+//.video-player {
+//    // width: 100%;
+//    // height: 100%;
+//    display: flex;
+//    justify-content: center;
+//    align-items: center;
+//    position: relative;
+//    img{
+//      width: 100%;
+//      height: 100%;
+//    }
+//    video {
+//      object-fit: cover;
+//      border: 5px solid white;
+//    }
+//    &__play {
+//      width: 60px;
+//      height: 60px;
+//      border-radius: 50%;
+//      background-color:$white-color;
+//      position: absolute;
+//      z-index: 2;
+//      display: flex;
+//      justify-content: center;
+//      align-items: center;
+//      cursor: pointer;
+//
+//      &:before {
+//        content: '';
+//        display: inline-block;
+//        position: absolute;
+//        visibility: hidden;
+//        width: 100%;
+//        height: 100%;
+//        border-radius: 50%;
+//        border: 30px solid rgba($primary-color, 0.15);
+//        transition: all 0.35s;
+//        transform: scale(1.3);
+//      }
+//
+//      &:hover {
+//        &:before {
+//          visibility: visible;
+//          transform: scale(1.7);
+//        }
+//      }
+//    }
+//
+//    &__icon {
+//      width: 17px;
+//      height: 23px;
+//      background-color: $primary-color;
+//      clip-path: polygon(0 0, 0 100%, 100% 50%);
+//      -webkit-clip-path:  polygon(0 0, 0 100%, 100% 50%);
+//      margin-left: 5px;
+//    }
+//  }
+//
+//  .video-player--playing {
+//    &:hover {
+//      .video-player__play {
+//        visibility: visible;
+//        opacity: 1;
+//      }
+//    }
+//    .video-player__play {
+//      visibility: hidden;
+//      opacity: 0;
+//      transition: all 0.35s;
+//    }
+//    .video-player__icon {
+//      width: 20px;
+//      clip-path: none;
+//      background-color: transparent;
+//      position: relative;
+//      margin-left: 0;
+//
+//      &:before,
+//      &:after {
+//        content: '';
+//        display: inline-block;
+//        width: 6px;
+//        height: 23px;
+//        background-color:$primary-color;
+//        position: absolute;
+//      }
+//      &:before {
+//        left: 0;
+//      }
+//      &:after {
+//        right: 0;
+//      }
+//    }
+//  }
+//
