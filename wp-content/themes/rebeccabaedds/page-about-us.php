@@ -1,8 +1,5 @@
-<<<<<<< HEAD
- <?php get_header(); ?>
-=======
+
 <?php get_header(); ?>
->>>>>>> 29854f00e72c65835d1a9ea0d7c3bf36ae469b07
 <!-- ABOUT COVER -->
 <section class="cover about-cover">
     <div class="hero__content f-column-center container">
@@ -78,7 +75,7 @@
                     </p>
                 </div>
             </div>
-            <div class="content__list">
+            <div class="content__list right">
                 <div class="content__detail">
                     <img src="<?php echo THEME_URL?>/src/icons/compassion.png" alt="">
                     <p class="content--title">Compassionate</p>
@@ -144,7 +141,7 @@
                         also loves to learn and stays current in the most up-to-date dental technology and research.
                     </p>
                     <button class="button-t btn-blue button-dr-rebecca">
-                        <p class="fw-bold">Meet Dr. Rebecca Bae</p>
+                       <a href="/dr-bae" style="color: #ffffff"> <p class="fw-bold">Meet Dr. Rebecca Bae</p> </a>
                     </button>
                 </div>
             </div>
@@ -180,7 +177,7 @@
                         every
                         visit.
                     </p>
-                    <button class="button-l btn-blue fw-bold">MEET OUR AMAZING TEAM</button>
+                    <button class="button-l btn-blue fw-bold"><a href="/meet-our-team" style="color: #47D3D9"> MEET OUR AMAZING TEAM </a></button>
                 </div>
             </div>
             <div class="col-lg-6  team-moble-2">

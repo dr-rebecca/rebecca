@@ -3,7 +3,7 @@
 <section class="cover team-rebecca">
     <div class="hero__content f-column-center container">
         <h2 class="text-t">Meet Our Team</h2>
-        <p>“From the first phone call to your first visit, you will feel the warmth, sincerity, and empathy. <br>
+        <p class="d-none d-lg-block">“From the first phone call to your first visit, you will feel the warmth, sincerity, and empathy. <br>
             Our team members will ensure you feel comfortable every step of the way! <br>
             A dental visit doesn’t have to be scary or dreary. We’re pretty sure you’ll look forward to every visit.”
         </p>
@@ -12,7 +12,7 @@
 
 <section class="meet-amazing-team">
     <div class="container">
-        <h2 class="title-main fw-semi">MEET <br>OUR AMAZING TEAM</h2>
+        <h2 class="title-main fw-semi">MEET OUR AMAZING TEAM</h2>
         <p class="meet-text">At the core of our dental practice is a friendly team of professionals that are
             dedicated to your utmost comfort and optimal oral health. We view each patient as a unique individual,
             and tailor each treatment

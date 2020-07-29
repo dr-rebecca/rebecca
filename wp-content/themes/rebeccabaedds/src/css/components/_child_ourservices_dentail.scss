@@ -225,9 +225,9 @@
             }
           }
           p {
-            line-height: 30px;
-            font-size: 17px;
-            font-weight: normal;
+            line-height: 40px;
+            font-size: 18px;
+            font-family: "Josefin Sans",sans-serif;
           }
         }
       }
@@ -312,7 +312,6 @@
     padding: 0;
 
     &__left {
-      display: grid;
       min-height: 270px;
       z-index: 1;
       padding-left: 40px;
@@ -326,6 +325,7 @@
         margin-bottom: 29px;
       }
       a {
+        display: inherit;
         color: $primary2-color;
         // border-bottom: 1px solid $primary2-color;
         text-decoration: underline;

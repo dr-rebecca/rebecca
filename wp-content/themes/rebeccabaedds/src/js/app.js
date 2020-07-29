@@ -4,6 +4,7 @@ import ourServices from "./controller/our_services";
 import memberShip from "./controller/membership";
 import gallery from "./controller/gallery"
 import home from "./controller/home";
+
 const controllers = {
   our_technology: OurTech,
   our_services: ourServices,

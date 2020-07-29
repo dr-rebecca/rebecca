@@ -1,4 +1,5 @@
 <?php get_header() ?>
+<section class="whitening">
     <section class="cover_mix cover_mix--whitening">
         <div class="cover_mix__img"></div>
         <div class="cover_mix__content">
@@ -171,20 +172,16 @@
                 <div class="Prosthodontics__content col-xl-7 col-lg-7 col-12">
                     <h2 class="Prosthodontics__content__title">Teeth Whitening</h2>
                     <p class="Prosthodontics__content__body">
-                        Veneers are very thin pieces of durable, tooth-shaped porcelain that are custom made (for shape
-                        and color) by a professional dental laboratory. They are bonded onto the front of teeth to
-                        create a beautiful and attractive smile.
+                        Tooth whitening (or bleaching) is a simple, non-invasive dental treatment used to change the color of natural tooth enamel and is an ideal way to enhance the beauty of your smile.
+                       </p>
+                    <br/>
+                    <p class="Prosthodontics__content__body">
+                        Because having whiter teeth has now become the number one aesthetic concern of most patients, there are a number of ways to whiten teeth. The most popular method is using a home tooth whitening system that will whiten teeth dramatically. Since tooth whitening only works on natural tooth enamel, it is important to evaluate replacement of any old fillings, crowns, etc. Replacement of any restorations will be done after bleaching so they will match the newly bleached teeth.
                     </p>
                     <br/>
                     <p class="Prosthodontics__content__body">
-                        Veneers can completely reshape your teeth and smile. They can often be alternatives to crowns
-                        and the ideal solution in treating many dental conditions.
-                    </p>
-                    <br/>
-                    <p class="Prosthodontics__content__body">
-                        As with most dental restorations, veneers are not permanent and may someday need replacement.
-                        They are very durable and will last many years, giving you a beautiful long lasting smile. </p>
-                </div>
+                        Tooth whitening is not permanent. A touch-up maybe needed every several years, and more often if you smoke, drink coffee, tea, or wine.
+                    </p>    </div>
                 <div class="Prosthodontics__content col-xl-5 col-lg-5 col-12">
                     <img src="<?php echo THEME_URL ?>/src/images/_Whitening2.png" alt="">
                 </div>
@@ -228,19 +225,17 @@
                 </div>
             </div>
             <div class="detail_gird__right col-xl-7 col-lg-7">
-                <div class="detail_gird__right__content"><p>At the first appointment, impressions (molds) will be made
-                        of your teeth to fabricate custom, clear plastic, trays.</p>
+                <div class="detail_gird__right__content"><p>This type of tooth whitening usually requires two visits. At the first appointment, impressions (molds) will be made of your teeth to fabricate custom, clear plastic, trays.
+                    </p>
                 </div>
             </div>
         </div>
         <div class=" row detail_gird_content">
             <div class="detail_gird__left col-xl-3 offset-xl-1 col-lg-3 offset-lg-1">
-                <div class="detail_gird__left__content"><h2>Second Visit</h2></div>
+                <div class="detail_gird__left__content second-content"><h2>Second Visit</h2></div>
             </div>
             <div class="detail_gird__right col-xl-7 col-lg-7">
-                <div class="detail_gird__right__content"><p>At your second appointment, you will try on the trays for
-                        proper fit, and adjustments will be made if necessary. You will wear the trays with a special
-                        whitening solution for a couple of weeks.
+                <div class="detail_gird__right__content"><p>At your second appointment, you will try on the trays for proper fit, and adjustments will be made if necessary. The trays are worn with special whitening solution either twice a day for 30 minutes or overnight for a couple of weeks depending on the degree of staining and desired level of whitening. It is normal to experience tooth sensitivity during the time you are whitening your teeth, but it will subside shortly after you have stopped bleaching.
 
                     </p>
                 </div>
@@ -251,11 +246,10 @@
                 <div class="detail_gird__left__content"><h2>Care Instructions</h2></div>
             </div>
             <div class="detail_gird__right col-xl-7 col-lg-7">
-                <div class="detail_gird__right__content"><p>You will receive care instructions for your teeth and trays,
-                        and be encouraged to visit your dentist regularly to help maintain a beautiful, healthy, white
-                        smile.</p>
+                <div class="detail_gird__right__content"><p>You will receive care instructions for your teeth and trays, and be encouraged to visit your dentist regularly to help maintain a beautiful, healthy, white smile.</p>
                 </div>
             </div>
         </div>
     </section>
+</section>
 <?php get_footer() ?>

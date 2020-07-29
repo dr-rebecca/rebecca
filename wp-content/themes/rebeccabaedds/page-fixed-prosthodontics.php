@@ -1,4 +1,5 @@
 <?php get_header() ?>
+<section class="fixed-prosthodontics">
 <section class="cover_mix cover_mix--fixed">
     <div class="cover_mix__img"></div>
     <div class="cover_mix__content">
@@ -267,5 +268,6 @@
             <img src="<?php echo THEME_URL ?>/src/images/detail_img_5@2x.png" alt="">
         </div>
     </div>
+</section>
 </section>
 <?php get_footer() ?>

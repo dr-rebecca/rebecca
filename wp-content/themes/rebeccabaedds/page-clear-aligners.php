@@ -1,5 +1,6 @@
 
 <?php get_header( ) ?>
+<section class="clear-aligner">
 <section class="cover_mix cover_mix--clear-aligners">
         <div class="cover_mix__img"></div>
         <div class="cover_mix__content">
@@ -167,9 +168,11 @@
                     </p>
                     <br/>
                     <p class="Prosthodontics__content__body">
-                    Invisalign® treatment consists of a series of custom-made aligning trays. The dentist changes the trays every several weeks to fit the new tooth configuration. In addition to the reduced visual impact, Invisalign® aligning trays can be temporarily removed for important occasions – meaning that treatment duration is patient-controlled. A great number of people report complete satisfaction with both the Invisalign® treatment and the stunning results.
+                        Invisalign® corrects the same dental problems as traditional metal braces; the only difference is that Invisalign® trays are almost invisible to the naked eye, and can be removed at will.
                     </p>
-                   
+                    <p class="Prosthodontics__content__body">
+                        Here are some problems that are commonly corrected with Invisalign®:
+                    </p>
                 </div>
                 <div class="Prosthodontics__content col-xl-5 col-lg-5 col-12">
                     <img src="<?php echo THEME_URL ?>/src/images/clear2.png" alt="">
@@ -177,6 +180,7 @@
             </div>
         </div>
     </section>
+
     <section class="reason_detail container container--mix">
         <div class="row reason_detail_color">
             <div class="reason_detail__left col-xl-4 col-lg-4 col-12">
@@ -208,13 +212,55 @@
     </section>
     <section class="detail_descripton container">
         <div class="detail_descripton__title">
-            <h2>Clear Aligners Advantages Over Braces</h2>
+            <h2>What kind of bite problems can Invisalign® correct?</h2>
         </div>
         <div class="detail_descripton__body">
-            <p>Invisalign® differs from traditional braces in that the aligning trays are fully removable. This means that more discipline and commitment is required from the patient. This is not usually a problem since the trays are comfortable and nearly invisible. Almost identical results can be obtained by using either treatment.
+            <p>
+                Invisalign® corrects the same dental problems as traditional metal braces; the only difference is that Invisalign® trays are almost invisible to the naked eye, and can be removed at will.
+            </p>
+            <p>
+                Here are some problems that are commonly corrected with Invisalign®:
             </p>
         </div>
     </section>
+<section class="detail_gird container">
+    <div class=" row detail_gird_content">
+        <div class="detail_gird__left col-xl-3 offset-xl-1 col-lg-3 offset-lg-1">
+            <div class="detail_gird__left__content ">
+                <h2 class="first-content">First Visit</h2>
+            </div>
+        </div>
+        <div class="detail_gird__right col-xl-7 col-lg-7">
+            <div class="detail_gird__right__content"><p>
+                    Getting veneers usually requires two visits to complete the process with little or no local anesthesia required for the procedure. The teeth are prepared by lightly buffing and shaping the surface to allow the shape of the veneer. A mold or impression of the teeth is then taken for the perfect fit. Lastly, the shade (color) will then be chosen by you and the dentist.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class=" row detail_gird_content">
+        <div class="detail_gird__left col-xl-3 offset-xl-1 col-lg-3 offset-lg-1">
+            <div class="detail_gird__left__content "><h2 class="second-content">Second Visit</h2></div>
+        </div>
+        <div class="detail_gird__right col-xl-7 col-lg-7">
+            <div class="detail_gird__right__content">
+                <p>On the second visit, the teeth will be cleansed with special liquids to achieve a durable bond. The bonding cement will be placed between the tooth and veneer by a special light beam to be used for hardening and setting the bond.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class=" row detail_gird_content">
+        <div class="detail_gird__left col-xl-3 offset-xl-1 col-lg-3 offset-lg-1">
+            <div class="detail_gird__left__content"><h2 class="third-content">Care Instructions</h2></div>
+        </div>
+        <div class="detail_gird__right col-xl-7 col-lg-7">
+            <div class="detail_gird__right__content">
+                <p>
+                    Finally, you will receive home care instructions for your new veneers. Please remember to maintain proper oral hygiene such as brushing, flossing, and regular dental visits to aid in the life of your new beautiful smile
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
     <section class="detail_descripton container">
         <div class="detail_descripton__title">
             <h2>What Does an Invisalign® Treatment Involve?
@@ -228,4 +274,5 @@
             </p>
         </div>
     </section>
+</section>
 <?php get_footer(  )?>

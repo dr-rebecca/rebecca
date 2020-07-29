@@ -1,4 +1,5 @@
 <?php get_header() ?>
+<section class="endodontics">
 <section class="cover_mix cover_mix--endodontics">
     <div class="cover_mix__img"></div>
     <div class="cover_mix__content">
@@ -162,7 +163,7 @@
 <section class="Prosthodontics">
     <div class="container">
         <div class="row">
-            <div class="Prosthodontics__content col-xl-7 col-lg-7 col-12">
+            <div class="Prosthodontics__content colR-xl-7 col-lg-7 col-12">
                 <h2 class="Prosthodontics__content__title">Endodontics</h2>
                 <p class="Prosthodontics__content__body">
                     Endodontics is a specialized branch of dentistry that deals with the complex structures found inside
@@ -262,5 +263,6 @@
             <img src="<?php echo THEME_URL ?>/src/images/detail_img_5@2x.png" alt="">
         </div>
     </div>
+</section>
 </section>
 <?php get_footer() ?>

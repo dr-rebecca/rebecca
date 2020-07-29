@@ -20,7 +20,7 @@
                                                                  alt="Logo"></a>
                 </div>
                 <div class="nav_header__right col-xl-6 col-lg-6 col-md-6 col-6">
-                    <a class="display_mobile_none nav_header__right__button  button button--primary">BOOK NOW</a>
+                    <a class="display_mobile_none nav_header__right__button  button button--primary" href="/contact">BOOK NOW</a>
                     <a data-fancybox data-src="#hidden-content" href="javascript:;"><img
                                 src="<?php echo THEME_URL ?>/src/images/Hambugermenu.svg" alt="Logo"></a>
                 </div>

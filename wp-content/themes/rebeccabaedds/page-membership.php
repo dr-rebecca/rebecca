@@ -113,7 +113,7 @@
                     service
                 </p>
             </div>
-            <button class="button button--primary">SIGN UP</button>
+            <a href="/contact"> <button class="button button--primary">SIGN UP</button> </a>
         </div>
         <div class="item">
             <h2 class="item__title">
@@ -148,7 +148,7 @@
                     service
                 </p>
             </div>
-            <button class="button button--primary">SIGN UP</button>
+           <a href="/contact"> <button class="button button--primary">SIGN UP</button> </a>
         </div>
         <div class="item">
             <h2 class="item__title">
@@ -183,7 +183,7 @@
                     service
                 </p>
             </div>
-            <button class="button button--primary">SIGN UP</button>
+            <a href="/contact"> <button class="button button--primary">SIGN UP</button> </a>
         </div>
     </div>
     <div class="memberPrice__backgroud">

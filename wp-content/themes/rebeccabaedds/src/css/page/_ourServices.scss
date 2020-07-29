@@ -1,3 +1,8 @@
+.our-service{
+  a{
+    color: #47D3D9;
+  }
+}
 .our-services-ph {
   @include cove("ourservices", "our_service.png");
   @include breakpoint3 {

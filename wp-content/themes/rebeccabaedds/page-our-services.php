@@ -8,6 +8,7 @@
             </div>
         </div>
     </section>
+<section class="our-service">
     <section class="description container">
         <div class="description__title">
             <h2>Comprehensive, Family And Cosmetic Dentistry</h2>
@@ -67,7 +68,7 @@
 
                     </p>
                     <div class="card_services__bottom">
-                        <a class="button button--primary-outline" href="#!">LEARN MORE</a>
+                        <a class="button button--primary-outline" href="our-services/whitening">LEARN MORE</a>
                         <img alt="icon" src="<?php echo THEME_URL ?>/src/icons/services_card_icon.svg"/>
                     </div>
                 </div>
@@ -79,7 +80,7 @@
                         can completely reshape your teeth and smile.
                     </p>
                     <div class="card_services__bottom">
-                        <a class="button button--primary-outline" href="#!">LEARN MORE</a>
+                        <a class="button button--primary-outline" href="our-services/veneers">LEARN MORE</a>
                         <img alt="icon" src="<?php echo THEME_URL ?>/src/icons/services_card_icon1.svg"/>
                     </div>
                 </div>
@@ -91,7 +92,7 @@
                         straightens teeth fast and contains no metal.
                     </p>
                     <div class="card_services__bottom">
-                        <a class="button button--primary-outline" href="#!">LEARN MORE</a>
+                        <a class="button button--primary-outline" href="our-services/clear-aligners">LEARN MORE</a>
                         <img alt="icon" src="<?php echo THEME_URL ?>/src/icons/services_card_icon2.svg"/>
                     </div>
                 </div>
@@ -105,7 +106,7 @@
                     <p class="card_services__text">A non-invasive dental treatment used to change the color of natural
                         tooth enamel and enhance the beauty of your smile.</p>
                     <div class="card_services__bottom">
-                        <a class="button button--primary-outline" href="#!">LEARN MORE</a>
+                        <a class="button button--primary-outline" href="our-services/whitening">LEARN MORE</a>
                         <img alt="icon" src="<?php echo THEME_URL ?>/src/icons/services_card_icon.svg"/>
                     </div>
                 </div>
@@ -127,7 +128,7 @@
                     <p class="card_services__text">Clear aligners are an almost-invisible orthodontic system that
                         straightens teeth fast and contains no metal.</p>
                     <div class="card_services__bottom">
-                        <a class="button button--primary-outline" href="#!">LEARN MORE</a>
+                        <a class="button button--primary-outline" href="our-services/clear-aligners">LEARN MORE</a>
                         <img alt="icon" src="<?php echo THEME_URL ?>/src/icons/services_card_icon2.svg"/>
                     </div>
                 </div>
@@ -149,7 +150,7 @@
                         treats the underlying causes of crooked teeth.
                     </p>
                     <div class="card_services__bottom">
-                        <a class="button button--primary-outline" href="#!">LEARN MORE</a>
+                        <a class="button button--primary-outline" href="our-services/myobrace">LEARN MORE</a>
                         <img alt="icon" src="<?php echo THEME_URL ?>/src/icons/services_card_icon3.svg"/>
                     </div>
                 </div>
@@ -162,7 +163,7 @@
 
                     </p>
                     <div class="card_services__bottom">
-                        <a class="button button--primary-outline" href="#!">LEARN MORE</a>
+                        <a class="button button--primary-outline" href="our-services/oral-appliance-therapy-oat">LEARN MORE</a>
                         <img alt="icon" src="<?php echo THEME_URL ?>/src/icons/services_card_icon4.svg"/>
                     </div>
                 </div>
@@ -175,7 +176,7 @@
 
                     </p>
                     <div class="card_services__bottom">
-                        <a class="button button--primary-outline" href="#!">LEARN MORE</a>
+                        <a class="button button--primary-outline" href="our-services/tmj-appliance">LEARN MORE</a>
                         <img alt="icon" src="<?php echo THEME_URL ?>/src/icons/services_card_icon5.svg"/>
                     </div>
                 </div>
@@ -190,7 +191,7 @@
                         treats the underlying causes of crooked teeth.
                     </p>
                     <div class="card_services__bottom">
-                        <a class="button button--primary-outline" href="#!">LEARN MORE</a>
+                        <a class="button button--primary-outline" href="our-services/myobrace">LEARN MORE</a>
                         <img alt="icon" src="<?php echo THEME_URL ?>/src/icons/services_card_icon3.svg"/>
                     </div>
                 </div>
@@ -204,7 +205,7 @@
 
                     </p>
                     <div class="card_services__bottom">
-                        <a class="button button--primary-outline" href="#!">LEARN MORE</a>
+                        <a class="button button--primary-outline" href="our-services/oral-appliance-therapy-oat">LEARN MORE</a>
                         <img alt="icon" src="<?php echo THEME_URL ?>/src/icons/services_card_icon4.svg"/>
                     </div>
                 </div>
@@ -216,7 +217,7 @@
                         dysfunction—a syndrome that cause pain in your jaws.
                     </p>
                     <div class="card_services__bottom">
-                        <a class="button button--primary-outline" href="#!">LEARN MORE</a>
+                        <a class="button button--primary-outline" href="our-services/tmj-appliance">LEARN MORE</a>
                         <img alt="icon" src="<?php echo THEME_URL ?>/src/icons/services_card_icon5.svg"/>
                     </div>
                 </div>
@@ -238,7 +239,7 @@
 
                     </p>
                     <div class="card_services__bottom">
-                        <a class="button button--primary-outline" href="#!">LEARN MORE</a>
+                        <a class="button button--primary-outline" href="our-services/preventative">LEARN MORE</a>
                         <img alt="icon" src="<?php echo THEME_URL ?>/src/icons/services_card_icon6.svg"/>
                     </div>
                 </div>
@@ -251,7 +252,7 @@
 
                     </p>
                     <div class="card_services__bottom">
-                        <a class="button button--primary-outline" href="#!">LEARN MORE</a>
+                        <a class="button button--primary-outline" href="our-services/restorative">LEARN MORE</a>
                         <img alt="icon" src="<?php echo THEME_URL ?>/src/icons/services_card_icon7.svg"/>
                     </div>
                 </div>
@@ -264,7 +265,7 @@
 
                     </p>
                     <div class="card_services__bottom">
-                        <a class="button button--primary-outline" href="#!">LEARN MORE</a>
+                        <a class="button button--primary-outline" href="our-services/prosthodontics">LEARN MORE</a>
                         <img alt="icon" src="<?php echo THEME_URL ?>/src/icons/services_card_icon8.svg"/>
                     </div>
                 </div>
@@ -277,8 +278,8 @@
 
                     </p>
                     <div class="card_services__bottom">
-                        <a class="button button--primary-outline" href="#!">LEARN MORE</a>
-                        <img alt="icon" src="<?php echo THEME_URL ?>/src/icons/services_card_icon9.svg"/>
+                        <a class="button button--primary-outline" href="our-services/prosthodontics">LEARN MORE</a>
+                            <img alt="icon" src="<?php echo THEME_URL ?>/src/icons/services_card_icon9.svg"/>
                     </div>
                 </div>
             </div>
@@ -291,8 +292,8 @@
 
                     </p>
                     <div class="card_services__bottom">
-                        <a class="button button--primary-outline" href="#!">LEARN MORE</a>
-                        <img alt="icon" src="<?php echo THEME_URL ?>/src/icons/services_card_icon10.svg"/>
+                        <a class="button button--primary-outline" href="our-services/prosthodontics">LEARN MORE </a>
+                            <img alt="icon" src="<?php echo THEME_URL ?>/src/icons/services_card_icon10.svg"/>
                     </div>
                 </div>
             </div>
@@ -304,8 +305,8 @@
 
                     </p>
                     <div class="card_services__bottom">
-                        <a class="button button--primary-outline" href="#!">LEARN MORE</a>
-                        <img alt="icon" src="<?php echo THEME_URL ?>/src/icons/services_card_icon11.svg"/>
+                        <a class="button button--primary-outline" href="our-services/oral-surgery">LEARN MORE </a>
+                            <img alt="icon" src="<?php echo THEME_URL ?>/src/icons/services_card_icon11.svg"/>
                     </div>
                 </div>
             </div>
@@ -317,8 +318,8 @@
 
                     </p>
                     <div class="card_services__bottom">
-                        <a class="button button--primary-outline" href="#!">LEARN MORE</a>
-                        <img alt="icon" src="<?php echo THEME_URL ?>/src/icons/services_card_icon12.svg"/>
+                        <a class="button button--primary-outline" href="our-services/endodontics">LEARN MORE </a>
+                            <img alt="icon" src="<?php echo THEME_URL ?>/src/icons/services_card_icon12.svg"/>
                     </div>
                 </div>
             </div>
@@ -328,8 +329,8 @@
                     <p class="card_services__text">Involves the prevention, diagnosis and treatment of periodontal
                         disease that affects your gums or jawbone. </p>
                     <div class="card_services__bottom">
-                        <a class="button button--primary-outline" href="#!">LEARN MORE</a>
-                        <img alt="icon" src="<?php echo THEME_URL ?>/src/icons/services_card_icon13.svg"/>
+                        <a class="button button--primary-outline" href="our-services/periodontics"> LEARN MORE </a>
+                            <img alt="icon" src="<?php echo THEME_URL ?>/src/icons/services_card_icon13.svg"/>
                     </div>
                 </div>
             </div>
@@ -344,8 +345,8 @@
 
                     </p>
                     <div class="card_services__bottom">
-                        <a class="button button--primary-outline" href="#!">LEARN MORE</a>
-                        <img alt="icon" src="<?php echo THEME_URL ?>/src/icons/services_card_icon6.svg"/>
+                        <a class="button button--primary-outline" href="our-services/preventative"> LEARN MORE </a>
+                            <img alt="icon" src="<?php echo THEME_URL ?>/src/icons/services_card_icon6.svg"/>
                     </div>
                 </div>
             </div>
@@ -357,8 +358,8 @@
 
                     </p>
                     <div class="card_services__bottom">
-                        <a class="button button--primary-outline" href="#!">LEARN MORE</a>
-                        <img alt="icon" src="<?php echo THEME_URL ?>/src/icons/services_card_icon7.svg"/>
+                        <a class="button button--primary-outline" href="our-services/restorative"> LEARN MORE </a>
+                            <img alt="icon" src="<?php echo THEME_URL ?>/src/icons/services_card_icon7.svg"/>
                     </div>
                 </div>
             </div>
@@ -684,4 +685,5 @@
                    data-slide="next">Next</a>
             </div>
     </section>
+</section>
 <?php get_footer() ?>
