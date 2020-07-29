@@ -1,7 +1,8 @@
 /* HEADER */
+
 header {
+
   .nav_header {
-    z-index: 999;
     position: absolute;
     z-index: 999;
     top: 28px;
@@ -25,12 +26,6 @@ header {
       }
     }
   }
-  .check {
-    background-image: url(./../../images/menu_background@2x.png);
-    background-position: right;
-    background-size: cover;
-    background-repeat: no-repeat;
-  }
 }
 .modal-menu {
   background-image: url(./../../images/menu_background@2x.png) !important;
@@ -40,6 +35,37 @@ header {
   height: 98%;
   width: 98%;
   letter-spacing: 1px;
+  .menu{
+    position: relative;
+    .menu-item{
+      a{
+        text-transform: uppercase;
+        font-size: 16px;
+        line-height: 42px;
+      }
+    }
+    .menu-item-has-children{
+      >a::after{
+        content: "\f105";
+        font-family: FontAwesome;
+      }
+      .sub-menu{
+        display: none;
+      }
+      .open{
+        display: block !important;
+        position: absolute;
+        right: -250px;
+        top:10px;
+      }
+    }
+    .current-menu-item{
+      a {
+        color: $color-blue-d8;
+        text-decoration: underline;
+      }
+    }
+  }
   @include e("left") {
     ul {
       li {
