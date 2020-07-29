@@ -29,14 +29,18 @@
     </nav>
     <div class="modal-menu" style="display: none;" id="hidden-content">
         <div class="row">
-            <div class="col-xl-4 col-lg-4 modal-menu__left">
+            <div class="col-xl-4 col-lg-4">
                 <a class="d-lg-none" href="<?php echo get_home_url() ?>"> <img
                             src="<?php echo THEME_URL ?>/src/images/Logo_mobile.svg" alt="Logo"></a>
                 <a class="display_mobile_none" href="<?php echo get_home_url() ?>"><img
                             src="<?php echo THEME_URL ?>/src/images/Logo_menu_2.svg" alt="Logo menu"></a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xl-4 col-lg-4 modal-menu__left">
                    <nav> <?php
                     wp_nav_menu(array(
-                            'depth'=> 2,
+                            'depth'=> 3,
                         'menu_id'=> "",
                         'menu' => "",
                         'menu_class' => "menu",
@@ -48,7 +52,32 @@
                     ?></nav>
             </div>
             <div class="col-xl-4 col-lg-4 modal-menu__midle">
-
+                <?php
+                wp_nav_menu(array(
+                    'depth'=> 3,
+                    'menu_id'=> "",
+                    'menu' => "",
+                    'menu_class' => "",
+                    'container' => "div",
+                    'container_class'=>'services d-none',
+                    'container_id' => "",
+                    'fallback_cb' => false,
+                    'theme_location' => "second",
+                ));
+                ?>
+                <?php
+                wp_nav_menu(array(
+                    'depth'=> 3,
+                    'menu_id'=> "",
+                    'menu' => "",
+                    'menu_class' => "",
+                    'container' => "div",
+                    'container_class'=>'patient d-none',
+                    'container_id' => "",
+                    'fallback_cb' => false,
+                    'theme_location' => "third",
+                ));
+                ?>
             </div>
             <div class="col-xl-4 col-lg-4 modal-menu__right">
                 <div class="modal-menu__right__info">
