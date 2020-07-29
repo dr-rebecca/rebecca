@@ -132,7 +132,7 @@
 @include breakpoint3 {
   .team-rebecca {
     margin-bottom: 60px;
-    background-image: url(../images/team-cover2.png);
+    //background-image: url(../images/team-cover2.png);
     height: 860px;
     .hero {
       &__content {
@@ -275,7 +275,7 @@
     height: 430px;
     margin-bottom: 44px;
     .hero {
-      &__content {
+      &__content{
         h2 {
           font-size: 40px;
           line-height: 63px;
