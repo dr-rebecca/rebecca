@@ -86,7 +86,6 @@
 </footer>
 <script src="<?php echo THEME_URL?>/dist/vendors.js"></script>
 <script src="<?php echo THEME_URL?>/dist/app.js"></script>
-<script src="https://cdn.jsdelivr.net/jquery.validation/1.15.1/jquery.validate.min.js"></script>
 <?php wp_footer()?>
 </body>
 

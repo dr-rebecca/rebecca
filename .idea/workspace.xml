@@ -2,46 +2,41 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="11d7ff93-5f52-43c2-b4fd-a92589b274f6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/themes/rebeccabaedds/src/css/page/_clear-aligners.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/.htaccess" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-config.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-config.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/cache/object/07c/b5e/07cb5e5f8e024744cae21622ba756a5b.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/cache/object/07c/b5e/07cb5e5f8e024744cae21622ba756a5b.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/cache/object/197/e72/197e728afb2099ed7f81f85b829f2105.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/cache/object/197/e72/197e728afb2099ed7f81f85b829f2105.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/cache/object/1bb/fa4/1bbfa4b2fc5b0d7d35d00fbede998d84.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/cache/object/1bb/fa4/1bbfa4b2fc5b0d7d35d00fbede998d84.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/cache/object/20a/a83/20aa83d1387ddacb036789fe7d9333b6.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/cache/object/20a/a83/20aa83d1387ddacb036789fe7d9333b6.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/cache/object/234/235/2342352ee81286630592b00ff5313aa5.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/cache/object/234/235/2342352ee81286630592b00ff5313aa5.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/cache/object/27a/f3d/27af3d2d7be3624aed7102a9604aa0d0.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/cache/object/27a/f3d/27af3d2d7be3624aed7102a9604aa0d0.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/cache/object/2e0/ada/2e0adaabd17abfd679a0937b476e5b94.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/cache/object/2e0/ada/2e0adaabd17abfd679a0937b476e5b94.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/cache/object/30a/fbf/30afbf024d688335e0ac39d30171bddb.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/cache/object/30a/fbf/30afbf024d688335e0ac39d30171bddb.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/cache/object/30e/d81/30ed818631df3432abd0106afad679f5.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/cache/object/30e/d81/30ed818631df3432abd0106afad679f5.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/cache/object/332/f9c/332f9c5a08bb3de4989d7d91e32a7b63.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/cache/object/332/f9c/332f9c5a08bb3de4989d7d91e32a7b63.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/cache/object/39b/4fe/39b4fe5d527dee6c0f21d8c1248e737d.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/cache/object/39b/4fe/39b4fe5d527dee6c0f21d8c1248e737d.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/cache/object/4f1/57a/4f157aa0229bbec3874fe5e18e04bc5d.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/cache/object/4f1/57a/4f157aa0229bbec3874fe5e18e04bc5d.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/cache/object/50e/712/50e712798449f55d3dad372acb02d865.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/cache/object/50e/712/50e712798449f55d3dad372acb02d865.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/cache/object/657/23c/65723c4588242481b86fb928e7db8114.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/cache/object/657/23c/65723c4588242481b86fb928e7db8114.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/cache/object/681/73d/68173d93b033bb1f6a2780658f45f9cf.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/cache/object/681/73d/68173d93b033bb1f6a2780658f45f9cf.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/cache/object/716/217/71621728e49388e29901ed4c943cc998.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/cache/object/716/217/71621728e49388e29901ed4c943cc998.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/cache/object/72b/ee6/72bee66b5f94e628256b161f107a3748.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/cache/object/72b/ee6/72bee66b5f94e628256b161f107a3748.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/cache/object/743/e97/743e97e496352f48f852a2a54713ea8f.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/cache/object/743/e97/743e97e496352f48f852a2a54713ea8f.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/cache/object/759/e56/759e562786e0a648d5d89ebad4af7ab0.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/cache/object/759/e56/759e562786e0a648d5d89ebad4af7ab0.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/cache/object/7da/2d8/7da2d8baa532114940cd03ac2ff173de.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/cache/object/7da/2d8/7da2d8baa532114940cd03ac2ff173de.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/cache/object/8fb/aa7/8fbaa7ed9338a63cd1f8864b9ba98345.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/cache/object/8fb/aa7/8fbaa7ed9338a63cd1f8864b9ba98345.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/cache/object/8fb/b68/8fbb68e3c00d6a53da85541787d63f6e.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/cache/object/8fb/b68/8fbb68e3c00d6a53da85541787d63f6e.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/cache/object/965/1ec/9651ec89b6ae0645a62f3ed9e2d64e52.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/cache/object/965/1ec/9651ec89b6ae0645a62f3ed9e2d64e52.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/cache/object/a61/26f/a6126f0ea7147b4228e64e3fc2d3655c.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/cache/object/a61/26f/a6126f0ea7147b4228e64e3fc2d3655c.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/cache/object/b3b/958/b3b958a0448ff0cccb39280ab5fb80fa.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/cache/object/b3b/958/b3b958a0448ff0cccb39280ab5fb80fa.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/cache/object/be3/096/be309629490d566e8a8b2c01139f2dde.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/cache/object/be3/096/be309629490d566e8a8b2c01139f2dde.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/cache/object/c37/d01/c37d010a0a2d77a0c9d7b66c818a7ee9.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/cache/object/c37/d01/c37d010a0a2d77a0c9d7b66c818a7ee9.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/cache/object/c99/7bb/c997bb393e9dd22e4cd265ec4a62ead3.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/cache/object/c99/7bb/c997bb393e9dd22e4cd265ec4a62ead3.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/cache/object/cdf/812/cdf8125e82a229a07b273d472c9a2859.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/cache/object/cdf/812/cdf8125e82a229a07b273d472c9a2859.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/cache/object/d21/a51/d21a51aefafd87f92698db53be04b10a.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/cache/object/d21/a51/d21a51aefafd87f92698db53be04b10a.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/cache/object/ece/890/ece89020c10bd8fe0da32c12a84771f2.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/cache/object/ece/890/ece89020c10bd8fe0da32c12a84771f2.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/cache/object/faa/5ad/faa5adc0f95e5e40dc116ff599b4f376.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/cache/object/faa/5ad/faa5adc0f95e5e40dc116ff599b4f376.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/rebeccabaedds/dist/theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/rebeccabaedds/dist/theme.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/rebeccabaedds/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/rebeccabaedds/footer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/rebeccabaedds/front-page.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/rebeccabaedds/front-page.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/rebeccabaedds/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/rebeccabaedds/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/rebeccabaedds/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/rebeccabaedds/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/rebeccabaedds/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/rebeccabaedds/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/rebeccabaedds/page-about-us.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/rebeccabaedds/page-about-us.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/rebeccabaedds/page-clear-aligners.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/rebeccabaedds/page-clear-aligners.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/rebeccabaedds/page-contact.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/rebeccabaedds/page-contact.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/rebeccabaedds/page-dr-bae.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/rebeccabaedds/page-dr-bae.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/rebeccabaedds/page-endodontics.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/rebeccabaedds/page-endodontics.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/rebeccabaedds/page-fixed-prosthodontics.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/rebeccabaedds/page-fixed-prosthodontics.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/rebeccabaedds/page-meet-our-team.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/rebeccabaedds/page-meet-our-team.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/rebeccabaedds/page-membership.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/rebeccabaedds/page-membership.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/rebeccabaedds/page-our-services.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/rebeccabaedds/page-our-services.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/rebeccabaedds/page-our-technology.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/rebeccabaedds/page-our-technology.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/rebeccabaedds/page-preventative.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/rebeccabaedds/page-preventative.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/rebeccabaedds/page-tmj-appliance.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/rebeccabaedds/page-tmj-appliance.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/rebeccabaedds/page-veneers.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/rebeccabaedds/page-veneers.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/rebeccabaedds/page-whitening.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/rebeccabaedds/page-whitening.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/rebeccabaedds/src/css/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/rebeccabaedds/src/css/app.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/rebeccabaedds/src/css/components/_child_ourservices_dentail.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/rebeccabaedds/src/css/components/_child_ourservices_dentail.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/rebeccabaedds/src/css/page/_about-us.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/rebeccabaedds/src/css/page/_about-us.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/rebeccabaedds/src/css/page/_clear.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/rebeccabaedds/src/css/page/_clear.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/rebeccabaedds/src/css/page/_endodontics.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/rebeccabaedds/src/css/page/_endodontics.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/rebeccabaedds/src/css/page/_fixed.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/rebeccabaedds/src/css/page/_fixed.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/rebeccabaedds/src/css/page/_home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/rebeccabaedds/src/css/page/_home.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/rebeccabaedds/src/css/page/_meet-our-team.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/rebeccabaedds/src/css/page/_meet-our-team.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/rebeccabaedds/src/css/page/_ourServices.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/rebeccabaedds/src/css/page/_ourServices.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/rebeccabaedds/src/css/page/_preventative.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/rebeccabaedds/src/css/page/_preventative.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/rebeccabaedds/src/css/page/_tmj.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/rebeccabaedds/src/css/page/_tmj.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/rebeccabaedds/src/css/page/_venerrs.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/rebeccabaedds/src/css/page/_venerrs.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/rebeccabaedds/src/css/page/_whitening.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/rebeccabaedds/src/css/page/_whitening.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/rebeccabaedds/src/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/rebeccabaedds/src/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/rebeccabaedds/src/js/global.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/rebeccabaedds/src/js/global.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -51,6 +46,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/rebeccabaedds/footer.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="268">
+              <caret line="88" selection-start-line="88" selection-end-line="88" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/rebeccabaedds/header.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -97,40 +101,22 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/rebeccabaedds/src/css/helper/_mixin.scss">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/rebeccabaedds/src/css/page/_meet-our-team.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2336">
-              <caret line="146" column="13" selection-start-line="146" selection-start-column="13" selection-end-line="146" selection-end-column="13" />
+            <state relative-caret-position="147">
+              <caret line="283" column="8" selection-start-line="283" selection-start-column="8" selection-end-line="283" selection-end-column="8" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/rebeccabaedds/src/js/global.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-column="16" />
-              <folding>
-                <element signature="e#0#16#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/rebeccabaedds/src/css/page/_faqs.scss">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/rebeccabaedds/src/js/app.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="e#0#30#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/rebeccabaedds/index.php">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/rebeccabaedds/.gitignore">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
@@ -138,7 +124,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>our-service</find>
       <find>Digital</find>
       <find>Digital Scanner</find>
       <find>Di</find>
@@ -168,6 +153,7 @@
       <find>width</find>
       <find>__list</find>
       <find>top</find>
+      <find>24%</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -200,7 +186,6 @@
         <option value="$PROJECT_DIR$/wp-content/themes/rebeccabaedds/src/css/page/_endodontics.scss" />
         <option value="$PROJECT_DIR$/wp-content/themes/rebeccabaedds/page-tmj-appliance.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/rebeccabaedds/src/css/page/_tmj.scss" />
-        <option value="$PROJECT_DIR$/wp-content/themes/rebeccabaedds/footer.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/rebeccabaedds/src/css/page/_preventative.scss" />
         <option value="$PROJECT_DIR$/wp-content/themes/rebeccabaedds/page-preventative.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/rebeccabaedds/page-prosthodontics.php" />
@@ -217,13 +202,14 @@
         <option value="$PROJECT_DIR$/wp-content/themes/rebeccabaedds/page-about-us.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/rebeccabaedds/src/css/page/_about-us.scss" />
         <option value="$PROJECT_DIR$/wp-content/themes/rebeccabaedds/page-meet-our-team.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/rebeccabaedds/src/css/page/_meet-our-team.scss" />
         <option value="$PROJECT_DIR$/wp-content/themes/rebeccabaedds/src/css/helper/_mixin.scss" />
         <option value="$PROJECT_DIR$/wp-content/themes/rebeccabaedds/src/js/global.js" />
+        <option value="$PROJECT_DIR$/wp-content/themes/rebeccabaedds/src/css/page/_meet-our-team.scss" />
+        <option value="$PROJECT_DIR$/wp-content/themes/rebeccabaedds/footer.php" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="305" />
     <option name="y" value="195" />
     <option name="width" value="1170" />
@@ -365,17 +351,18 @@
       <updated>1595907983725</updated>
       <workItem from="1595907984936" duration="19889000" />
       <workItem from="1595941332932" duration="7138000" />
-      <workItem from="1595988788636" duration="13950000" />
+      <workItem from="1595988788636" duration="14930000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40977000" />
+    <option name="totallyTimeSpent" value="41957000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25637585" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25637585" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -388,7 +375,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.3286119" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -421,20 +408,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/rebeccabaedds/page-prosthodontics.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="6" column="70" selection-start-line="6" selection-start-column="70" selection-end-line="6" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/rebeccabaedds/page-veneers.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="725">
-          <caret line="265" column="14" selection-start-line="228" selection-start-column="4" selection-end-line="265" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/rebeccabaedds/src/css/components/_video.scss">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -549,13 +522,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/rebeccabaedds/src/css/page/_meet-our-team.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="15" lean-forward="true" selection-start-column="15" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/rebeccabaedds/src/css/page/_whitening.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -616,9 +582,6 @@
           <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/rebeccabaedds/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/rebeccabaedds/src/js/other.js">
       <provider selected="true" editor-type-id="text-editor" />
@@ -687,6 +650,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/rebeccabaedds/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/rebeccabaedds/src/css/helper/_mixin.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="25" column="3" selection-start-line="25" selection-start-column="3" selection-end-line="25" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/rebeccabaedds/page-meet-our-team.php">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -694,10 +667,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/rebeccabaedds/src/css/helper/_mixin.scss">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/rebeccabaedds/src/css/page/_meet-our-team.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2336">
-          <caret line="146" column="13" selection-start-line="146" selection-start-column="13" selection-end-line="146" selection-end-column="13" />
+        <state relative-caret-position="147">
+          <caret line="283" column="8" selection-start-line="283" selection-start-column="8" selection-end-line="283" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/rebeccabaedds/src/css/page/_faqs.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/rebeccabaedds/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="88" selection-start-line="88" selection-end-line="88" />
         </state>
       </provider>
     </entry>
