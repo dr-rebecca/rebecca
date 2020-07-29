@@ -55,9 +55,9 @@
                 </p>
                 <div class="introduction__button">
                     <button class="button-t btn-blue button-dr-rebecca">
-                        <p class="button-request fw-bold">Meet Dr. Rebecca Bae</p>
+                       <a href="/dr-bae" style="color: #ffffff;"> <p class="button-request fw-bold">Meet Dr. Rebecca Bae</p> </a>
                     </button>
-                    <button class="button-l btn-blue button-about-us fw-bold">ABOUT US</button>
+                     <button class="button-l btn-blue button-about-us fw-bold">  <a href="/about-us" style=" color: #47D3D9;">ABOUT US </a></button>
                 </div>
             </div>
             <div class="col-lg-6 block__right">
@@ -247,19 +247,19 @@
                     <div class="block-feature d-flex justify-content-start">
                         <div class="block-item f-column-center">
                             <div class="block-icon">
-                                <img src="<?php echo THEME_URL ?>/src/icons/whitening.png" alt="">
+                               <a href="/our-services/whitening"> <img src="<?php echo THEME_URL ?>/src/icons/whitening.png" alt=""></a>
                             </div>
                             <p class="icon-text">Whitening</p>
                         </div>
                         <div class="block-item f-column-center">
                             <div class="block-icon">
-                                <img src="<?php echo THEME_URL ?>/src/icons/veneers.png" alt="">
+                                <a href="/our-services/veneers">   <img src="<?php echo THEME_URL ?>/src/icons/veneers.png" alt=""> </a>
                             </div>
                             <p class="icon-text">Veneers</p>
                         </div>
                         <div class="block-item f-column-center">
                             <div class="block-icon">
-                                <img src="<?php echo THEME_URL ?>/src/icons/clear-aligners.png" alt="">
+                                <a href="/our-services/appliance">   <img src="<?php echo THEME_URL ?>/src/icons/clear-aligners.png" alt=""> </a>
                             </div>
                             <p class="icon-text">Clear Aligners</p>
                         </div>
@@ -293,19 +293,19 @@
                     <div class="block-feature d-flex justify-content-start">
                         <div class="block-item f-column-center">
                             <div class="block-icon">
-                                <img src="<?php echo THEME_URL ?>/src/icons/myobrace.png" alt="">
+                              <a href="/our-services/myobrace">  <img src="<?php echo THEME_URL ?>/src/icons/myobrace.png" alt=""> </a>
                             </div>
                             <p class="icon-text">Myobrace</p>
                         </div>
                         <div class="block-item f-column-center">
                             <div class="block-icon">
-                                <img src="<?php echo THEME_URL ?>/src/icons/oral-therapy.png" alt="">
+                                <a href="/our-services/oral-appliance-therapy-oat">  <img src="<?php echo THEME_URL ?>/src/icons/oral-therapy.png" alt=""> </a>
                             </div>
                             <p class="icon-text text-center">Oral Appliance Therapy</p>
                         </div>
                         <div class="block-item f-column-center">
                             <div class="block-icon">
-                                <img src="<?php echo THEME_URL ?>/src/icons/tmj.png" alt="">
+                                <a href="/our-services/tmj-appliance"> <img src="<?php echo THEME_URL ?>/src/icons/tmj.png" alt=""> </a>
                             </div>
                             <p class="icon-text">TMJ Appliance</p>
                         </div>
@@ -331,7 +331,7 @@
         <div class="function_detail">
             <div class="function__item f-column-center">
                 <div class="function-icon block-icon">
-                    <img src="<?php echo THEME_URL ?>/src/icons/preventative.png" alt="">
+                    <a href="/our-services/preventative"> <img src="<?php echo THEME_URL ?>/src/icons/preventative.png" alt=""> </a>
                     <div class="display_mobile_none box_right">
                         <!-- <p class="box__title">External Whitening
                         </p>
@@ -353,7 +353,7 @@
             </div>
             <div class="function__item f-column-center">
                 <div class="function-icon block-icon">
-                    <img src="<?php echo THEME_URL ?>/src/icons/restorative.png" alt="">
+                    <a href="/our-services/restorative">  <img src="<?php echo THEME_URL ?>/src/icons/restorative.png" alt=""> </a>
                     <div class="box_left display_mobile_none metal">
                         <!-- <p class="box__content"> SDF</p>
                         <p class="box__content">(silver diamine fluoride)</p>
@@ -368,7 +368,7 @@
             </div>
             <div class="function__item f-column-center">
                 <div class="function-icon block-icon">
-                    <img src="<?php echo THEME_URL ?>/src/icons/prosthodontics.png" alt="">
+                    <a href="/our-services/prosthodontics">    <img src="<?php echo THEME_URL ?>/src/icons/prosthodontics.png" alt=""> </a>
                     <!-- <div class="box_left display_mobile_none">
                         <p class="box__title">External Whitening
                         </p>
@@ -385,7 +385,7 @@
             </div>
             <div class="function__item f-column-center">
                 <div class="function-icon block-icon">
-                    <img src="<?php echo THEME_URL ?>/src/icons/removable.png" alt="">
+                    <a href="/our-services/prosthodontics">   <img src="<?php echo THEME_URL ?>/src/icons/removable.png" alt=""> </a>
                     <!-- <div class="box_left display_mobile_none">
                         <p class="box__content"> -SDF (silver diamine fluoride)</p>
                         <p class="box__content">-Sealants (BPA Free)</p>
@@ -397,7 +397,7 @@
             </div>
             <div class="function__item f-column-center">
                 <div class="function-icon block-icon">
-                    <img src="<?php echo THEME_URL ?>/src/icons/implants.png" alt="">
+                    <a href="/our-services/implants">    <img src="<?php echo THEME_URL ?>/src/icons/implants.png" alt=""> </a>
                     <!-- <div class="box_right display_mobile_none">
                         <p class="box__title">External Whitening
                         </p>
@@ -414,11 +414,11 @@
             </div>
             <div class="function__item f-column-center">
                 <div class="function-icon block-icon">
-                    <img src="<?php echo THEME_URL ?>/src/icons/oral-surgery.png" alt="">
+                    <a href="/our-services/oral-surgery">   <img src="<?php echo THEME_URL ?>/src/icons/oral-surgery.png" alt=""> </a>
                     <!-- <div class="box_left display_mobile_none">
                         <p class="box__content"> -SDF (silver diamine fluoride)</p>
                         <p class="box__content">-Sealants (BPA Free)</p>
-                        <p class="box__content">-Prophy</p>
+                        <p class="box__contennt">-Prophy</p>
                         <p class="box__content">-Fluoride Varnish</p>
                     </div> -->
                 </div>
@@ -426,7 +426,7 @@
             </div>
             <div class="function__item f-column-center">
                 <div class="function-icon block-icon">
-                    <img src="<?php echo THEME_URL ?>/src/icons/endodontics.png" alt="">
+                    <a href="/our-services/endodontics">   <img src="<?php echo THEME_URL ?>/src/icons/endodontics.png" alt=""> </a>
                     <!-- <div class="box_left display_mobile_none">
                         <p class="box__title">External Whitening
                         </p>
@@ -443,7 +443,7 @@
             </div>
             <div class="function__item f-column-center">
                 <div class="function-icon block-icon">
-                    <img src="<?php echo THEME_URL ?>/src/icons/periodontics.png" alt="">
+                    <a href="/our-services/periodontics">    <img src="<?php echo THEME_URL ?>/src/icons/periodontics.png" alt=""> </a>
                     <!-- <div class="box_left display_mobile_none">
                         <p class="box__title">External Whitening
                         </p>

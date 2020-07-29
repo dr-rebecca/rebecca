@@ -1,4 +1,5 @@
 <?php get_header() ?>
+<section class="TMJ">
     <section class="cover_mix cover_mix--tmj">
         <div class="cover_mix__img"></div>
         <div class="cover_mix__content">
@@ -263,4 +264,5 @@
             </div>
         </div>
     </section>
+</section>
 <?php get_footer() ?>

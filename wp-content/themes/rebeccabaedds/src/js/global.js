@@ -23,7 +23,4 @@ export default () => {
     text =text.substr(1,text.length-1);
     $(this).addClass(text);
   })
-
-
-
 }

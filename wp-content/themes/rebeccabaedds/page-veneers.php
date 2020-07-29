@@ -1,4 +1,5 @@
 <?php get_header() ?>
+<section class="veneers">
     <section class="cover_mix cover_mix--veneers">
         <div class="cover_mix__img"></div>
         <div class="cover_mix__content">
@@ -228,39 +229,40 @@
     <section class="detail_gird container">
         <div class=" row detail_gird_content">
             <div class="detail_gird__left col-xl-3 offset-xl-1 col-lg-3 offset-lg-1">
-                <div class="detail_gird__left__content">
-                    <h2>First Visit</h2>
+                <div class="detail_gird__left__content ">
+                    <h2 class="first-content">First Visit</h2>
                 </div>
             </div>
             <div class="detail_gird__right col-xl-7 col-lg-7">
-                <div class="detail_gird__right__content"><p>The teeth are prepared by lightly buffing and shaping the
-                        surface to allow for the thickness of the veneer. A mold or impression of the teeth is taken and
-                        a shade (color) will then be chosen by you and the dentist.</p>
-                </div>
-            </div>
-        </div>
-        <div class=" row detail_gird_content">
-            <div class="detail_gird__left col-xl-3 offset-xl-1 col-lg-3 offset-lg-1">
-                <div class="detail_gird__left__content"><h2>Second Visit</h2></div>
-            </div>
-            <div class="detail_gird__right col-xl-7 col-lg-7">
-                <div class="detail_gird__right__content"><p>The teeth will be cleansed with special liquids to achieve a
-                        durable bond. Bonding cement is then placed between the tooth and veneer and a special light
-                        beam is used to harden and set the bond.
+                <div class="detail_gird__right__content"><p>
+                        Getting veneers usually requires two visits to complete the process with little or no local anesthesia required for the procedure. The teeth are prepared by lightly buffing and shaping the surface to allow the shape of the veneer. A mold or impression of the teeth is then taken for the perfect fit. Lastly, the shade (color) will then be chosen by you and the dentist.
                     </p>
                 </div>
             </div>
         </div>
         <div class=" row detail_gird_content">
             <div class="detail_gird__left col-xl-3 offset-xl-1 col-lg-3 offset-lg-1">
-                <div class="detail_gird__left__content"><h2>Care Instructions</h2></div>
+                <div class="detail_gird__left__content "><h2 class="second-content">Second Visit</h2></div>
             </div>
             <div class="detail_gird__right col-xl-7 col-lg-7">
-                <div class="detail_gird__right__content"><p>You will receive care instructions for veneers. Proper
-                        brushing, flossing and regular dental visits will aid in the life of your new veneers.
+                <div class="detail_gird__right__content">
+                    <p>On the second visit, the teeth will be cleansed with special liquids to achieve a durable bond. The bonding cement will be placed between the tooth and veneer by a special light beam to be used for hardening and setting the bond.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class=" row detail_gird_content">
+            <div class="detail_gird__left col-xl-3 offset-xl-1 col-lg-3 offset-lg-1">
+                <div class="detail_gird__left__content"><h2 class="third-content">Care Instructions</h2></div>
+            </div>
+            <div class="detail_gird__right col-xl-7 col-lg-7">
+                <div class="detail_gird__right__content">
+                    <p>
+                        Finally, you will receive home care instructions for your new veneers. Please remember to maintain proper oral hygiene such as brushing, flossing, and regular dental visits to aid in the life of your new beautiful smile
                     </p>
                 </div>
             </div>
         </div>
     </section>
+</section>
 <?php get_footer() ?>

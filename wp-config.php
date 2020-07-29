@@ -1,4 +1,7 @@
 <?php
+/** Enable W3 Total Cache */
+define('WP_CACHE', true); // Added by W3 Total Cache
+
 /**
  * Cấu hình cơ bản cho WordPress
  *
@@ -20,7 +23,7 @@
 
 // ** Thiết lập MySQL - Bạn có thể lấy các thông tin này từ host/server ** //
 /** Tên database MySQL */
-define( 'DB_NAME', 'rebecca' );
+define( 'DB_NAME', 'dr-repeca' );
 
 /** Username của database */
 define( 'DB_USER', 'root' );

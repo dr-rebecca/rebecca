@@ -21,6 +21,7 @@ function saigon_add_body_class($classes ){
     return $classes;
    }
    add_filter( 'body_class', 'saigon_add_body_class' );
+
 function setup_theme(){
     add_theme_support('post-thumnail');
     register_nav_menus(array(
@@ -29,4 +30,4 @@ function setup_theme(){
         'third'  => 'Third'
     ));
 }
-add_action('after_setup_theme','setup_theme');
+add_action('after_setup_theme','setup_theme')

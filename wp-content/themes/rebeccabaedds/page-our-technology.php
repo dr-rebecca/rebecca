@@ -32,7 +32,7 @@
                 <p class="card__footer__body">Lowest radiation dose</p>
                 <p class="card__footer__body">Highly Precise Implant Placing</p>
                 <p class="card__footer__body">Patient Comfort</p>
-                <button class="button button--primary-outline">Lean More</button>
+                <a href="#digital"> <button class="button button--primary-outline">Lean More</button> </a>
             </div>
         </div>
         <div class="card">
@@ -46,7 +46,7 @@
                 <h2 class="card__footer__title">Intra-Oral Camera</h2>
                 <p class="card__footer__body">Best image quality</p>
                 <p class="card__footer__body">Perfect for Patient Education</p>
-                <button class="button button--primary-outline">Lean More</button>
+              <a href="#intra">  <button class="button button--primary-outline">Lean More</button> </a>
             </div>
         </div>
         <div class="card">
@@ -61,7 +61,7 @@
                 <p class="card__footer__body">Soft-Tissue Crown Lengthening</p>
                 <p class="card__footer__body">Fibromal Removal</p>
                 <p class="card__footer__body">Frenectomy & Frenotomy</p>
-                <button class="button button--primary-outline">Lean More</button>
+                <a href="#laser">  <button class="button button--primary-outline">Lean More</button> </a>
             </div>
         </div>
         <div class="card">
@@ -76,7 +76,7 @@
                 <p class="card__footer__body">Best Image Quality</p>
                 <p class="card__footer__body">Best Image Quality</p>
                 <p class="card__footer__body">Highly Precise Implant Placing</p>
-                <button class="button button--primary-outline">Lean More</button>
+                <a href="#carivu">  <button class="button button--primary-outline">Lean More</button> </a>
             </div>
         </div>
         <div class="card">
@@ -88,22 +88,21 @@
             </div>
             <div class="card__footer">
                 <h2 class="card__footer__title">Digital Scanner</h2>
-                <p class="card__footer__body">Comming soon</p>
-                <button class="button button--primary-outline">Lean More</button>
+                <p class="card__footer__body">Coming soon</p>
+                <a href="#scanner">  <button class="button button--primary-outline">Lean More</button> </a>
             </div>
         </div>
     </div>
     <div class="technology__background"></div>
 </section>
 
-<!-- desktop -->
-<section class="our-technology display_mobile_none">
+<section class="our-technology display_mobile_none" >
     <div class="container">
         <div class="row">
             <div class="col col-12 col-lg-6">
                 <div class="our-technology__text">
                     <div class="our-technology__title">
-                        <h3>Digital X-Rays</h3>
+                        <h3 id="digital">Digital X-Rays</h3>
                     </div>
                     <p class="our-technology__description">Digital radiography (digital X-ray) is the latest technology
                         used to take dental X-rays. This technique uses an electronic sensor (instead of X-ray film)
@@ -154,7 +153,7 @@
             <div class="col col-12 col-lg-6">
                 <div class="our-technology__text">
                     <div class="our-technology__title">
-                        <h3>Intra-Oral Camera</h3>
+                        <h3 id="intra">Intra-Oral Camera</h3>
                     </div>
                     <p class="our-technology__description">The intra-oral camera broadcasts images for both the patient
                         and doctor to see. Instantaneously the images of your teeth are sent to a computer screen so
@@ -175,7 +174,7 @@
             <div class="col col-12 col-lg-6">
                 <div class="our-technology__text">
                     <div class="our-technology__title">
-                        <h3>Soft Tissue Laser</h3>
+                        <h3 id="laser">Soft Tissue Laser</h3>
                     </div>
                     <p class="our-technology__description ">Lasers now clearly provide benefits for mainstream treatment
                         in medicine and dentistry. Shorter procedures, less discomfort, and quicker healing are just a
@@ -220,7 +219,7 @@
             <div class="col col-12 col-lg-6">
                 <div class="our-technology__text">
                     <div class="our-technology__title">
-                        <h3>CariVu Radiation<br/>Free Imaging</h3>
+                        <h3 id="carivu">CariVu Radiation<br/>Free Imaging</h3>
                     </div>
                     <p class="our-technology__description our-technology__description--fix">At Dr. Rebecca Bae, DDS, we
                         strive to keep technology current and beneficial to all our patients. We are excited to
@@ -240,11 +239,11 @@
             <div class="col col-12 col-lg-6">
                 <div class="our-technology__text">
                     <div class="our-technology__title">
-                        <h3>Digital Scanner</h3>
+                        <h3 id="scanner">Digital Scanner</h3>
                     </div>
-                    <p class="our-technology__description">This exciting new product has been in development for
-                        decades. The manufacturer has greatly improved on the somewhat clunky form of the original unit
-                        and completely redesigned the product into a modern, lightweight handpiece.</p>
+                    <p class="our-technology__description">
+                        Comming Soon !
+                    </p>
                 </div>
             </div>
             <div class="col col-12 col-lg-6">
@@ -406,9 +405,9 @@
                 <div class="our-technology__title">
                     <h3>Digital Scanner</h3>
                 </div>
-                <p class="our-technology__description">This exciting new product has been in development for decades.
-                    The manufacturer has greatly improved on the somewhat clunky form of the original unit and
-                    completely redesigned the product into a modern, lightweight handpiece.</p>
+                <p class="our-technology__description">
+                    Coming Soon !
+                </p>
             </div>
         </div>
         <div class="col col-12 col-lg-6 p-0">

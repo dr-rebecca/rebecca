@@ -199,8 +199,14 @@
       justify-content: space-between;
       .button-about-us {
         width: 34%;
+        &:hover{
+          background-color: #47d3d9;
+          color: #ffffff;
+          transition: 1.5s;
+        }
       }
       .button-dr-rebecca {
+
         width: 54%;
         .button-request {
           margin: 0 auto;

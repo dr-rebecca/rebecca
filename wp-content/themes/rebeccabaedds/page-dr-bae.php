@@ -92,7 +92,8 @@
                         A dental visit doesn’t have to be scary or dreary. We’re pretty sure you’ll look forward to
                         every visit.
                     </p>
-                    <button class="button-l btn-blue">MEET OUR AMAZING TEAM</button>
+                    <button class="button-l btn-blue fw-bold"><a href="/meet-our-team" style="color: #47D3D9"> MEET OUR AMAZING TEAM </a></button>
+
                 </div>
             </div>
         </div>

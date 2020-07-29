@@ -7,9 +7,9 @@
                 <p class="fw-semi">CALL US</p>
                 <hr>
             </span>
-            <p class="number fw-semi">(973) 838-1177</p>
+            <a href="tel:9738381177"> <p class="number fw-semi">(973) 838-1177</p> </a>
             <p class="click fw-semi">OR CLICK</p>
-            <button class="button-t button__appointment btn-blue">Request an Appointment</button>
+            <button class="button-t button__appointment btn-blue"><a href="/contact" style="color: #ffffff"> Request an Appointment  </a></button>
         </div>
     </div>
 </section>
@@ -23,8 +23,8 @@
             </div>
             <div class="contact__social">
                 <span>Follow:</span>
-                <a class="contact-facebook" href="https://facebook.com"><i class="fa fa-facebook-square"></i></a>
-                <a class="contact-instagram" href="https://instagram.com"><i class="fa fa-instagram"></i></a>
+                <a class="contact-facebook" href="https://www.facebook.com/BaeDDS23" target="_blank"><i class="fa fa-facebook-square"></i></a>
+                <a class="contact-instagram" href="https://instagram.com" target="_blank"><i class="fa fa-instagram"></i></a>
             </div>
         </div>
         <div class="row contact__detail">
@@ -37,15 +37,15 @@
             <div class="contact-address">
                 <h4 class="text-t fw-semi">CONTACT US</h4>
                 <hr noshade>
-                <a class="location fw-light" href="https://goo.gl/maps/YNBWCMMqNutXV8iFA">
+                <a class="location fw-light" href="https://goo.gl/maps/YNBWCMMqNutXV8iFA" target="_blank>
                     <i class="fa fa-map-marker"></i>
                     <p class="fw-light">1375 State Route 23, Butler, NJ 07405</p>
                 </a>
-                <a class="phone fw-light" href="tel: (973) 838 - 1177">
+                <a class="phone fw-light" href="tel: (973) 838 - 1177" target="_blank>
                     <i class="fa fa-phone"></i>
                     <p class="fw-light">(973) 838 - 1177</p>
                 </a>
-                <a class="email fw-light" href="https://gmail.com">
+                <a class="email fw-light" href="https://gmail.com" target="_blank>
                     <i class="fa fa-envelope"></i>
                     <p class="fw-light">BaeDDS23@gmail.com</p>
                 </a>
@@ -63,9 +63,9 @@
                     </p>
                     <p class="hours fw-light">
                         9 AM - 1 PM <br>
-                        8 AM - 6 PM <br>
+                        9 AM - 6 PM <br>
                         Appointment Only <br>
-                        8 AM - 8 PM <br>
+                        9 AM - 6 PM <br>
                         Appointment Only
                     </p>
                 </div>
@@ -86,6 +86,7 @@
 </footer>
 <script src="<?php echo THEME_URL?>/dist/vendors.js"></script>
 <script src="<?php echo THEME_URL?>/dist/app.js"></script>
+<script src="https://cdn.jsdelivr.net/jquery.validation/1.15.1/jquery.validate.min.js"></script>
 <?php wp_footer()?>
 </body>
 
