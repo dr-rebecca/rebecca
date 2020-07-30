@@ -1,4 +1,4 @@
-��!_<?php exit; ?>a:1:{s:7:"content";a:4:{s:5:"child";a:1:{s:0:"";a:1:{s:3:"rss";a:1:{i:0;a:6:{s:4:"data";s:3:"
+�&#_<?php exit; ?>a:1:{s:7:"content";a:4:{s:5:"child";a:1:{s:0:"";a:1:{s:3:"rss";a:1:{i:0;a:6:{s:4:"data";s:3:"
 
 
 ";s:7:"attribs";a:1:{s:0:"";a:1:{s:7:"version";s:3:"2.0";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:1:{s:0:"";a:1:{s:7:"channel";a:1:{i:0;a:6:{s:4:"data";s:61:"
@@ -59,6 +59,176 @@
 
 
 ";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:1:{s:0:"";a:5:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:16:"WordPress Planet";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:28:"http://planet.wordpress.org/";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:8:"language";a:1:{i:0;a:5:{s:4:"data";s:2:"en";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:47:"WordPress Planet - http://planet.wordpress.org/";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"item";a:50:{i:0;a:6:{s:4:"data";s:13:"
+	
+	
+	
+	
+	
+	
+";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:2:{s:0:"";a:5:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:60:"WPTavern: Bing Launches URL Submissions Plugin for WordPress";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:30:"https://wptavern.com/?p=102450";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:165:"https://wptavern.com/bing-launches-url-submissions-plugin-for-wordpress?utm_source=rss&utm_medium=rss&utm_campaign=bing-launches-url-submissions-plugin-for-wordpress";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:5150:"<p>Bing has <a href="https://blogs.bing.com/webmaster/july-2020/Get-your-WordPress-content-indexed-immediately-using-Bing-Webmaster-Tools-plugin">launched</a> its first official <a href="https://wordpress.org/plugins/bing-webmaster-tools/">plugin</a> for WordPress aimed at helping site owners get their content indexed immediately. Instead of waiting for a bingbot to crawl the site, the plugin notifies Bing of any new or updated content automatically using its <a href="https://www.bing.com/webmasters/url-submission-api">Submit URL API</a>.</p>
+
+
+
+<p>&ldquo;Bing&nbsp;believes that the future for search engines is less about crawling to discover content and more about sharing new and updated content across the web, a fundamental shift in the way that search engines handle web sites,&rdquo; Bing Product Manager Fabrice Canel said. &ldquo;Instead of monitoring RSS, sitemaps and HTML pages to check for new pages, discover content changes and/or new outbound links, websites will notify search engines directly about relevant URLs changing on their website.&rdquo;</p>
+
+
+
+<p>Search engines can take anywhere from several hours to a few weeks to <a href="https://support.google.com/webmasters/answer/6065812?hl=en">crawl a website</a>. Bing&rsquo;s API allows site owners to get content indexed immediately, while eventually reducing the crawling frequency for sites where there are no changes. Users will need to <a href="https://docs.microsoft.com/en-us/bingwebmaster/getting-access#using-api-key">generate an API key</a> in order to configure the plugin for access to the Bing Webmaster Tools API.</p>
+
+
+
+<img />
+
+
+
+<p><br />The new plugin also introduces a few other options for managing URL submissions:</p>
+
+
+
+<ul><li>Toggle the automatic submission feature</li><li>Manually submit a URL to Bing Index</li><li>View list of recent URL submissions from the plugin</li><li>Retry any failed submissions from the recent submissions list</li><li>Download recent URL submissions for analysis</li></ul>
+
+
+
+<p>Canel said the Bing Webmaster Team recommends using the new URL Submissions plugin as a complement to existing plugins that connect sites to Bing, such as <a href="https://jetpack.com/support/site-verification-tools/">Jetpack&rsquo;s site verification tool</a>, and <a href="https://wordpress.org/plugins/search/SEO/">SEO plugins</a> that add XML sitemaps. Bing&rsquo;s plugin is different in that it focuses on enabling Bing to discover immediate changes on WordPress sites.</p>
+
+
+
+<p>&ldquo;Sitemaps are a great complementary solution to our plugin to discover all URLs on WordPress sites, but we cannot monitor each sitemap all the time,&rdquo; Canel said. &ldquo;Only a small percentage of WordPress sites are publishing content every day. Most are nearly static and this is preferable to be notified instead of pulling content every so often for them. Same for sites publishing often, it helps to get the content quickly indexed instead of having to wait a long time.&rdquo;</p>
+
+
+
+<p>Bing doesn&rsquo;t usually get as much airtime as Google and its supporting tools, since Google continues to dominate the search market. Bing&rsquo;s market share is currently <a href="https://gs.statcounter.com/search-engine-market-share/">hovering at 2.75%</a> of searches globally on all platforms as of June 2020. </p>
+
+
+
+<div id="all-search_engine-ww-monthly-201906-202006" width="600" height="400"></div><!-- You may change the values of width and height above to resize the chart --><p>Source: <a href="https://gs.statcounter.com/search-engine-market-share">StatCounter Global Stats &ndash; Search Engine Market Share</a></p>
+
+
+
+<p>The search engine has seen slow but steady growth in certain regions and platforms. Bing performs higher globally across desktop searches (6.08%).  In the United Sates, Bing&rsquo;s market share is sitting at 6.99% and is even higher on US desktop searches (13.35%):</p>
+
+
+
+<table><tbody><tr><th>Google</th><td>87.71%</td></tr><tr><th>bing</th><td>6.99%</td></tr><tr><th>Yahoo!</th><td>3.44%</td></tr></tbody></table><a href="https://gs.statcounter.com/search-engine-market-share/">Search Engine Market Share in US &ndash; June 2020</a>
+
+
+
+<p>Bing may not boast a big slice of the search market pie, but the search engine served close to <a href="https://www.statista.com/statistics/752270/range-of-bingcom-based-on-unique-visitors/">936.5 million</a> unique global visitors during the month of May 2020. More than half of Bing users have a bachelor&rsquo;s or post graduate degree and <a href="https://www.statista.com/statistics/742834/usa-bing-audience-share-by-income/">38% of Bing users</a> have an income of $100,000 USD or higher. Depending on the demographic you are targeting, being found by Bing users may be one small factor in your site&rsquo;s overall success. </p>
+
+
+
+<p>The search engine recently updated its <a href="https://www.bing.com/webmaster/help/webmaster-guidelines-30fba23a">webmaster guidelines</a> for the first time since 2012. If you&rsquo;re looking to optimize for Bing&rsquo;s audience, this document contains a detailed break down of how the search engine ranks content. </p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Wed, 29 Jul 2020 23:49:13 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:13:"Sarah Gooding";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:1;a:6:{s:4:"data";s:13:"
+	
+	
+	
+	
+	
+	
+";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:2:{s:0:"";a:5:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:89:"WPTavern: Upcoming in WordPress 5.5: Features and Changes Theme Authors Should Know About";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:30:"https://wptavern.com/?p=102535";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:221:"https://wptavern.com/upcoming-in-wordpress-5-5-features-and-changes-theme-authors-should-know-about?utm_source=rss&utm_medium=rss&utm_campaign=upcoming-in-wordpress-5-5-features-and-changes-theme-authors-should-know-about";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:8147:"<p class="has-drop-cap">August 11, the target release date for WordPress 5.5, is just shy of two weeks away. For developers who have not been completely on top of the upcoming release, now is a good time to start looking at how changes might affect their projects. Theme authors in particular can expect several new features and some breaking changes.</p>
+
+
+
+<p>For the most part, WordPress 5.5 will introduce new features that theme developers can begin to add to their themes. However, the two biggest changes that could negatively impact their themes will be automatic updates and direct HTML changes to the custom logo output.</p>
+
+
+
+<p>Outside of the new features and changes, theme authors should catch up on our <a href="https://wptavern.com/tag/gutenberg">coverage of the Gutenberg plugin</a> and test against its updates that are being merged into core WordPress.</p>
+
+
+
+<h2>Auto Updates</h2>
+
+
+
+<p class="has-drop-cap">WordPress 5.5 will finally introduce <a href="https://wptavern.com/automatic-theme-and-plugin-updates-slated-for-wordpress-5-5">automatic updates for plugins and themes.</a> It is a long-awaited feature and should be a good thing in terms of keeping end-users updated and running what is usually the most secure version of their extensions. However, the big downside to automatic updates is that most themes and plugins will not have the same level of quality control as core WordPress receives. Even the best development companies might have only a few people looking over the code.</p>
+
+
+
+<p>On the flip-side, the automatic updates feature means that theme authors can push fixes out to end-users much more quickly.</p>
+
+
+
+<p>The big thing is that theme developers need to be aware that users will be enabling automatic updates. For some, this might not mean changing anything with their release cycles. For others, it might mean tacking on some extra time to ensure that extra quality control is in place. The success of automatic updates lies directly on the shoulders of the plugin and theme authors. It is a huge responsibility that should not be taken lightly. WordPress is placing a lot of trust in its development community to get this right.</p>
+
+
+
+<h2>HTML Change for Custom Logos</h2>
+
+
+
+<p class="has-drop-cap">As part of an <a href="https://core.trac.wordpress.org/ticket/37011">accessibility-related ticket</a> for WordPress 5.5, the core <code>get_custom_logo()</code> and <code>the_custom_logo()</code> functions will no longer <a href="https://make.wordpress.org/core/2020/07/28/themes-changes-related-to-get_custom_logo-in-wordpress-5-5/">output a link around the logo image</a> when viewing the site homepage. This change was made because the link itself points to the homepage by default and is unnecessary in that context.</p>
+
+
+
+<p>Right now, there are 183 themes in the official theme directory that target the link in their CSS. This does not necessarily mean that all 183 themes will be broken upon update. However, it likely means that some of them will need a tweak or two.</p>
+
+
+
+<p>Theme authors are encouraged to target the <code>.custom-logo-link</code> class instead of any particular HTML element. The new change will add a <code>&lt;span&gt;</code> element rather than an <code>&lt;a&gt;</code> element on the homepage. Both will use the same class.</p>
+
+
+
+<h2>Block Patterns Have Arrived</h2>
+
+
+
+<p class="has-drop-cap">It is no secret that I am <a href="https://wptavern.com/block-patterns-will-change-everything">downright giddy</a> about the prospect of theme designers being loosed upon the world, allowing their talents to shine via block patterns.  Patterns have been one of the missing features since the initial launch of the Gutenberg project. For theme authors, they represent that missing link between designing unique &ldquo;templates&rdquo; or &ldquo;sections&rdquo; and providing end-users a means to add them to their sites.</p>
+
+
+
+<p>Block patterns are essentially groups of pre-configured blocks that users can insert into their posts or pages at the click of a button. The beauty of the system is that theme authors can design whatever patterns their hearts desire and make them easily available to their users. No need for complicated theme settings. No lengthy tutorials explaining how to recreate the demo. Design something in the block editor. Register it as a pattern. Let users insert it into a post and rejoice.</p>
+
+
+
+<p>This is an opportunity that theme authors have never had before. It is an opportunity to create beautiful designs without having to worry about overcomplicating it for the average user. It is a pivotal moment in WordPress theme design history. Theme authors have the chance to push the system and see what WordPress and its block editor are truly capable of.</p>
+
+
+
+<p><em>Building a restaurant theme?</em> Provide users with multiple food menu patterns. <em>Creating something for novelists or other book authors?</em> Give users some layout options for showcasing their books.</p>
+
+
+
+<p>The <a href="https://developer.wordpress.org/block-editor/developers/block-api/block-patterns/">block patterns API</a> removes many prior limits to what theme authors could realistically do. Now, it&rsquo;s time for those theme authors to take charge.</p>
+
+
+
+<h2>Line Heights and Custom Units</h2>
+
+
+
+<p class="has-drop-cap">The block editor has two new tools for end-users to take advantage of: <a href="https://make.wordpress.org/core/2020/07/27/new-block-tools-on-wordpress-5-5/">custom line-heights and custom units</a>. Theme authors can opt into allowing users to edit the line-height of paragraphs and headings with the <code>custom-line-heights</code> theme support flag. They can also allow users to switch between various units, such as when defining the Cover block&rsquo;s height, with the <code>custom-units</code> flag. In addition to pixels, themes can define which units are supported.</p>
+
+
+
+<p>Allowing users to customize the line-height value for text can be tricky business. There are some situations where it is warranted. However, for theme authors who prefer to maintain a strict vertical rhythm, this could lead to disaster. This will likely come down to a personal choice for developers based on what type of theme they are building.</p>
+
+
+
+<h2>Accessible Widgets Navigation</h2>
+
+
+
+<p class="has-drop-cap">Starting with WordPress 5.5, theme authors will be able to opt into outputting more <a href="https://make.wordpress.org/core/2020/07/09/accessibility-improvements-to-widgets-outputting-lists-of-links-in-5-5/">accessible widgets</a>. By default, widgets that display unordered lists do so without any context. This can make it difficult for those using assistive technologies to navigate the site.</p>
+
+
+
+<p>Theme authors can now add <code>navigation-widgets</code> to the HTML5 theme supports array to add the new markup. WordPress will then wrap all core widgets with a <code>&lt;nav&gt;</code> element and an <code>aria-label</code> based on the widget title.</p>
+
+
+
+<p>This will not affect widgets from third-party plugins. Plugin authors should reevaluate their widgets to determine if they want to support this feature.</p>
+
+
+
+<h2>Template Functions Updates</h2>
+
+
+
+<p class="has-drop-cap">WordPress is tacking on some nice features for its templating functions in the upcoming release. The first major change is that theme authors can pass data to template files. We have <a href="https://wptavern.com/theme-authors-can-pass-data-to-template-files-in-wordpress-5-5">previously covered</a> this story on the Tavern. This feature, while years late, should still be useful for more complex theming setups and allow developers to bypass odd workarounds or in-house solutions.</p>
+
+
+
+<p>Template-loading functions, such as <code>get_template_part()</code> and others, will also <a href="https://core.trac.wordpress.org/ticket/40969">return a value</a> in WordPress 5.5. If the template is not found, the function will return a <code>false</code> value. Otherwise, it will return <code>void</code>. This will be helpful in situations where theme authors need to run a conditional to check if a template exists.</p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Wed, 29 Jul 2020 22:05:49 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:14:"Justin Tadlock";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:2;a:6:{s:4:"data";s:13:"
 	
 	
 	
@@ -133,7 +303,7 @@
 
 
 
-<p>I am unsure how I feel about this change. In practice, it almost feels like clicking the icon should take me to the front end of the site instead of the post management screen. At least with the WordPress icon, it felt like it was pointing toward an admin-side screen instead. For my workflow, I would rather see this link/icon replaced with a button that toggles between fullscreen and normal mode, popping the admin menu back into place rather than departing the editing screen altogether.</p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Tue, 28 Jul 2020 20:59:49 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:14:"Justin Tadlock";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:1;a:6:{s:4:"data";s:13:"
+<p>I am unsure how I feel about this change. In practice, it almost feels like clicking the icon should take me to the front end of the site instead of the post management screen. At least with the WordPress icon, it felt like it was pointing toward an admin-side screen instead. For my workflow, I would rather see this link/icon replaced with a button that toggles between fullscreen and normal mode, popping the admin menu back into place rather than departing the editing screen altogether.</p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Tue, 28 Jul 2020 20:59:49 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:14:"Justin Tadlock";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:3;a:6:{s:4:"data";s:13:"
 	
 	
 	
@@ -192,7 +362,7 @@
 
 
 
-<p><em><strong>If you think you’ve found a bug</strong>, you can post to the <a href="https://wordpress.org/support/forum/alphabeta">Alpha/Beta area</a> in the support forums. We’d love to hear from you! If you’re comfortable writing a reproducible bug report, <a href="https://make.wordpress.org/core/reports/">fill one on WordPress Trac</a>, where you can also find <a href="https://core.trac.wordpress.org/tickets/major">a list of known bugs</a>.</em></p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Tue, 28 Jul 2020 19:08:20 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:9:"Jb Audras";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:2;a:6:{s:4:"data";s:13:"
+<p><em><strong>If you think you’ve found a bug</strong>, you can post to the <a href="https://wordpress.org/support/forum/alphabeta">Alpha/Beta area</a> in the support forums. We’d love to hear from you! If you’re comfortable writing a reproducible bug report, <a href="https://make.wordpress.org/core/reports/">fill one on WordPress Trac</a>, where you can also find <a href="https://core.trac.wordpress.org/tickets/major">a list of known bugs</a>.</em></p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Tue, 28 Jul 2020 19:08:20 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:9:"Jb Audras";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:4;a:6:{s:4:"data";s:13:"
 	
 	
 	
@@ -267,7 +437,7 @@
 
 
 
-<p>The potential for in-person events for the coming year is still uncertain at this point, in the absence of a vaccine ready for commercial distribution. WordPress&rsquo; global sponsorship program has been temporarily suspended and the Community Team plans to work with global sponsors later this year to make a plan for 2021.</p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Tue, 28 Jul 2020 01:06:56 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:13:"Sarah Gooding";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:3;a:6:{s:4:"data";s:13:"
+<p>The potential for in-person events for the coming year is still uncertain at this point, in the absence of a vaccine ready for commercial distribution. WordPress&rsquo; global sponsorship program has been temporarily suspended and the Community Team plans to work with global sponsors later this year to make a plan for 2021.</p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Tue, 28 Jul 2020 01:06:56 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:13:"Sarah Gooding";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:5;a:6:{s:4:"data";s:13:"
 	
 	
 	
@@ -356,7 +526,7 @@
 
 
 
-<p>More than anything, it is time for a champion.  The project does not get done without someone who will pave the path forward and earn the green light for a new notifications system in WordPress.</p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Mon, 27 Jul 2020 21:40:41 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:14:"Justin Tadlock";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:4;a:6:{s:4:"data";s:13:"
+<p>More than anything, it is time for a champion.  The project does not get done without someone who will pave the path forward and earn the green light for a new notifications system in WordPress.</p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Mon, 27 Jul 2020 21:40:41 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:14:"Justin Tadlock";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:6;a:6:{s:4:"data";s:13:"
 	
 	
 	
@@ -419,7 +589,7 @@
 
 
 
-<p id="block-bd71c1d3-39d9-4b2a-8193-3486497b45fd">If you’re comfortable writing a reproducible bug report, <a href="https://core.trac.wordpress.org/newticket">file one on WordPress Trac</a>, where you can also find a list of <a href="https://core.trac.wordpress.org/tickets/major">known bugs</a>.</p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Mon, 27 Jul 2020 20:56:46 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:14:"David Baumwald";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:5;a:6:{s:4:"data";s:13:"
+<p id="block-bd71c1d3-39d9-4b2a-8193-3486497b45fd">If you’re comfortable writing a reproducible bug report, <a href="https://core.trac.wordpress.org/newticket">file one on WordPress Trac</a>, where you can also find a list of <a href="https://core.trac.wordpress.org/tickets/major">known bugs</a>.</p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Mon, 27 Jul 2020 20:56:46 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:14:"David Baumwald";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:7;a:6:{s:4:"data";s:13:"
 	
 	
 	
@@ -468,7 +638,7 @@
 <p>The first 2,500 responses you collect are included in your free account, and further votes are recorded but free users are encouraged to upgrade if they want to do further analysis of all the data they collect.</p>
 
 <p><strong>Related Posts</strong><ul><li> <a href="https://odd.blog/2004/01/29/htmlarea-the-free-customizable-online-editor/" rel="bookmark" title="Permanent Link: HTMLArea &#8212; the free, customizable online editor">HTMLArea &#8212; the free, customizable online editor</a></li><li> <a href="https://odd.blog/2003/04/02/cross-browser-rich-text-editor/" rel="bookmark" title="Permanent Link: Cross-Browser Rich Text Editor">Cross-Browser Rich Text Editor</a></li><li> <a href="https://odd.blog/2003/05/22/cross-browser-rich-text-editor-work-in-firebird/" rel="bookmark" title="Permanent Link: Cross-Browser Rich Text Editor &#8211; work in Firebird?">Cross-Browser Rich Text Editor &#8211; work in Firebird?</a></li></ul></p>
-<p><a href="https://odd.blog/2020/07/27/crowdsignal-polls-in-your-block-editor/" rel="nofollow">Source</a></p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Mon, 27 Jul 2020 19:17:46 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:7:"Donncha";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:6;a:6:{s:4:"data";s:11:"
+<p><a href="https://odd.blog/2020/07/27/crowdsignal-polls-in-your-block-editor/" rel="nofollow">Source</a></p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Mon, 27 Jul 2020 19:17:46 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:7:"Donncha";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:8;a:6:{s:4:"data";s:11:"
 	
 	
 	
@@ -498,7 +668,7 @@
 
 
 <p>Thanks Sentree, and thanks Michelle.  :)</p>
-<p>The post <a rel="nofollow" href="https://heropress.com/heropress-gets-a-surprise/">HeroPress Gets A Surprise</a> appeared first on <a rel="nofollow" href="https://heropress.com">HeroPress</a>.</p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Mon, 27 Jul 2020 13:31:00 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:7;a:6:{s:4:"data";s:13:"
+<p>The post <a rel="nofollow" href="https://heropress.com/heropress-gets-a-surprise/">HeroPress Gets A Surprise</a> appeared first on <a rel="nofollow" href="https://heropress.com">HeroPress</a>.</p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Mon, 27 Jul 2020 13:31:00 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:9;a:6:{s:4:"data";s:13:"
 	
 	
 	
@@ -549,7 +719,7 @@
 
 
 
-<p>This is something that could be revolutionary for users if the official WordPress project could take it on and create a solid user experience around it.</p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Fri, 24 Jul 2020 19:00:52 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:14:"Justin Tadlock";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:8;a:6:{s:4:"data";s:13:"
+<p>This is something that could be revolutionary for users if the official WordPress project could take it on and create a solid user experience around it.</p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Fri, 24 Jul 2020 19:00:52 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:14:"Justin Tadlock";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:10;a:6:{s:4:"data";s:13:"
 	
 	
 	
@@ -786,7 +956,7 @@
 
 
 
-<p>At the moment, it seems Unsplash is within WordPress.org&rsquo;s plugin directory guidelines, but if its terms and licensing are deemed incompatible, many media integrations in the plugin ecosystem will also be called into question. Users who object to Unsplash&rsquo;s method of delivery can always opt to use a plugin with a different approach. Those who want to support libraries that serve images with GPL-compatible licensing can check out the Theme Team&rsquo;s list of <a href="https://make.wordpress.org/themes/handbook/review/resources/#recommended-websites-for-images">recommended sources</a> and look for plugins that integrate those.</p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Fri, 24 Jul 2020 17:24:29 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:13:"Sarah Gooding";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:9;a:6:{s:4:"data";s:13:"
+<p>At the moment, it seems Unsplash is within WordPress.org&rsquo;s plugin directory guidelines, but if its terms and licensing are deemed incompatible, many media integrations in the plugin ecosystem will also be called into question. Users who object to Unsplash&rsquo;s method of delivery can always opt to use a plugin with a different approach. Those who want to support libraries that serve images with GPL-compatible licensing can check out the Theme Team&rsquo;s list of <a href="https://make.wordpress.org/themes/handbook/review/resources/#recommended-websites-for-images">recommended sources</a> and look for plugins that integrate those.</p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Fri, 24 Jul 2020 17:24:29 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:13:"Sarah Gooding";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:11;a:6:{s:4:"data";s:13:"
 	
 	
 	
@@ -865,7 +1035,7 @@
 
 
 
-<p>This has also held developers back from building libraries, scripts, and tools that could benefit the entire development community as a whole. Everyone builds their own things in-house, and the block directory is making a promise for more of the same.</p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Thu, 23 Jul 2020 20:38:09 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:14:"Justin Tadlock";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:10;a:6:{s:4:"data";s:13:"
+<p>This has also held developers back from building libraries, scripts, and tools that could benefit the entire development community as a whole. Everyone builds their own things in-house, and the block directory is making a promise for more of the same.</p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Thu, 23 Jul 2020 20:38:09 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:14:"Justin Tadlock";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:12;a:6:{s:4:"data";s:13:"
 	
 	
 	
@@ -904,7 +1074,7 @@
 
 
 
-<p>Thanks in advance for your contributions.</p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Thu, 23 Jul 2020 00:45:06 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:12:"Mathieu Viet";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:11;a:6:{s:4:"data";s:13:"
+<p>Thanks in advance for your contributions.</p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Thu, 23 Jul 2020 00:45:07 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:12:"Mathieu Viet";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:13;a:6:{s:4:"data";s:13:"
 	
 	
 	
@@ -941,7 +1111,7 @@
 
 
 
-<p>If your WordPress site is still relying on a plugin to create a separate mobile site, or if you are using a plugin for lazy loading, make sure that the solution you have in place is following  Google&rsquo;s <a href="https://developers.google.com/search/mobile-sites/mobile-first-indexing">mobile-first indexing best practices</a>. There are still 9 months remaining before Google makes mobile-first indexing and ranking the default for the entire web.</p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Wed, 22 Jul 2020 23:20:37 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:13:"Sarah Gooding";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:12;a:6:{s:4:"data";s:13:"
+<p>If your WordPress site is still relying on a plugin to create a separate mobile site, or if you are using a plugin for lazy loading, make sure that the solution you have in place is following  Google&rsquo;s <a href="https://developers.google.com/search/mobile-sites/mobile-first-indexing">mobile-first indexing best practices</a>. There are still 9 months remaining before Google makes mobile-first indexing and ranking the default for the entire web.</p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Wed, 22 Jul 2020 23:20:37 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:13:"Sarah Gooding";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:14;a:6:{s:4:"data";s:13:"
 	
 	
 	
@@ -1016,7 +1186,7 @@
 
 
 
-<p>&ldquo;To my mind, there has never been a more exciting time for plugins like Jetpack CRM, which we envision as the &lsquo;business layer&rsquo; for modern entrepreneurs, much like WooCommerce has democratized eCommerce,&rdquo; he said.</p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Wed, 22 Jul 2020 19:21:47 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:14:"Justin Tadlock";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:13;a:6:{s:4:"data";s:13:"
+<p>&ldquo;To my mind, there has never been a more exciting time for plugins like Jetpack CRM, which we envision as the &lsquo;business layer&rsquo; for modern entrepreneurs, much like WooCommerce has democratized eCommerce,&rdquo; he said.</p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Wed, 22 Jul 2020 19:21:47 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:14:"Justin Tadlock";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:15;a:6:{s:4:"data";s:13:"
 	
 	
 	
@@ -1093,7 +1263,7 @@
 
 
 
-<p>&ldquo;Using the context of the post, we can help suggest images or prefill a search using natural language processing,&rdquo; Chesser said. &ldquo;We can link together&nbsp;Unsplash&nbsp;images with other WordPress tools to help publishers edit and process images directly in their posts. And with a lot of the work from the plugin being focused on making&nbsp;Unsplash&nbsp;images work natively inside of the WordPress Media Library, we can even open-source the core in such a way that developers can extend and reuse the functionality, avoiding duplication across all of our third party WordPress plugins.&rdquo;</p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Tue, 21 Jul 2020 23:33:34 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:13:"Sarah Gooding";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:14;a:6:{s:4:"data";s:13:"
+<p>&ldquo;Using the context of the post, we can help suggest images or prefill a search using natural language processing,&rdquo; Chesser said. &ldquo;We can link together&nbsp;Unsplash&nbsp;images with other WordPress tools to help publishers edit and process images directly in their posts. And with a lot of the work from the plugin being focused on making&nbsp;Unsplash&nbsp;images work natively inside of the WordPress Media Library, we can even open-source the core in such a way that developers can extend and reuse the functionality, avoiding duplication across all of our third party WordPress plugins.&rdquo;</p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Tue, 21 Jul 2020 23:33:34 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:13:"Sarah Gooding";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:16;a:6:{s:4:"data";s:13:"
 	
 	
 	
@@ -1276,7 +1446,7 @@
 
 
 
-<p>&ldquo;The fact that this has taken so long for authors to get this right probably indicates that we need to do better at guiding them to resources to learn how to do it and why it is important,&rdquo; said Patton. &ldquo;Perhaps that is a better avenue to pursue than looking to implement additional asks of them.&rdquo;</p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Tue, 21 Jul 2020 19:48:27 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:14:"Justin Tadlock";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:15;a:6:{s:4:"data";s:13:"
+<p>&ldquo;The fact that this has taken so long for authors to get this right probably indicates that we need to do better at guiding them to resources to learn how to do it and why it is important,&rdquo; said Patton. &ldquo;Perhaps that is a better avenue to pursue than looking to implement additional asks of them.&rdquo;</p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Tue, 21 Jul 2020 19:48:27 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:14:"Justin Tadlock";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:17;a:6:{s:4:"data";s:13:"
 	
 	
 	
@@ -1339,7 +1509,7 @@
 
 
 
-<p id="block-bd71c1d3-39d9-4b2a-8193-3486497b45fd">If you’re comfortable writing a reproducible bug report, <a href="https://core.trac.wordpress.org/newticket">file one on WordPress Trac</a>, where you can also find a list of <a href="https://core.trac.wordpress.org/tickets/major">known bugs</a>.</p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Tue, 21 Jul 2020 17:51:31 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:13:"Jake Spurlock";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:16;a:6:{s:4:"data";s:13:"
+<p id="block-bd71c1d3-39d9-4b2a-8193-3486497b45fd">If you’re comfortable writing a reproducible bug report, <a href="https://core.trac.wordpress.org/newticket">file one on WordPress Trac</a>, where you can also find a list of <a href="https://core.trac.wordpress.org/tickets/major">known bugs</a>.</p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Tue, 21 Jul 2020 17:51:31 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:13:"Jake Spurlock";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:18;a:6:{s:4:"data";s:13:"
 	
 	
 	
@@ -1364,7 +1534,7 @@
 
 
 
-<p>WordPress has included Hulu <a href="https://wordpress.org/support/article/embeds/#okay-so-what-sites-can-i-embed-from">oEmbed support</a> for the past 11 years, since it was first added in <a href="https://wordpress.org/support/wordpress-version/version-2-9/">WordPress 2.9</a> (December 2009). Services are <a href="https://wordpress.org/support/article/embeds/#okay-so-what-sites-can-i-embed-from">logged</a> on WordPress.org as they are added or removed. Hulu was removed as soon as it was discovered that oEmbed support no longer worked, similar to other <a href="https://core.trac.wordpress.org/ticket/45399">previously unsupported providers</a> &ndash; most recently FunnyOrDie and Photobucket. This is a major loss of convenience for users who are trying to embed Hulu links but it lies outside of WordPress&rsquo; control. </p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Mon, 20 Jul 2020 22:48:08 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:13:"Sarah Gooding";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:17;a:6:{s:4:"data";s:13:"
+<p>WordPress has included Hulu <a href="https://wordpress.org/support/article/embeds/#okay-so-what-sites-can-i-embed-from">oEmbed support</a> for the past 11 years, since it was first added in <a href="https://wordpress.org/support/wordpress-version/version-2-9/">WordPress 2.9</a> (December 2009). Services are <a href="https://wordpress.org/support/article/embeds/#okay-so-what-sites-can-i-embed-from">logged</a> on WordPress.org as they are added or removed. Hulu was removed as soon as it was discovered that oEmbed support no longer worked, similar to other <a href="https://core.trac.wordpress.org/ticket/45399">previously unsupported providers</a> &ndash; most recently FunnyOrDie and Photobucket. This is a major loss of convenience for users who are trying to embed Hulu links but it lies outside of WordPress&rsquo; control. </p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Mon, 20 Jul 2020 22:48:08 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:13:"Sarah Gooding";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:19;a:6:{s:4:"data";s:13:"
 	
 	
 	
@@ -1427,7 +1597,7 @@
 
 
 
-<p>Developers still do not have a clear picture of what theming with blocks will look like in the next few years. There may be situations where passing dynamic data is still necessary in the next system. Even if not, it will likely be a long while before there is mass adoption of block-based themes from the existing theme development community. In the meantime, many will be able to drop in-house solutions and use standard functions.</p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Mon, 20 Jul 2020 19:44:34 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:14:"Justin Tadlock";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:18;a:6:{s:4:"data";s:13:"
+<p>Developers still do not have a clear picture of what theming with blocks will look like in the next few years. There may be situations where passing dynamic data is still necessary in the next system. Even if not, it will likely be a long while before there is mass adoption of block-based themes from the existing theme development community. In the meantime, many will be able to drop in-house solutions and use standard functions.</p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Mon, 20 Jul 2020 19:44:34 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:14:"Justin Tadlock";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:20;a:6:{s:4:"data";s:13:"
 	
 	
 	
@@ -1458,7 +1628,7 @@
 
 
 
-<p>If you&#8217;d like to hear the entire conversation <a href="https://www.youtube.com/watch?v=fFg6YcBB2uI&feature=youtu.be">they&#8217;ve posted the original audio and interview</a> that was distilled into the print version.</p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Sun, 19 Jul 2020 21:13:25 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:4:"Matt";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:19;a:6:{s:4:"data";s:13:"
+<p>If you&#8217;d like to hear the entire conversation <a href="https://www.youtube.com/watch?v=fFg6YcBB2uI&feature=youtu.be">they&#8217;ve posted the original audio and interview</a> that was distilled into the print version.</p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Sun, 19 Jul 2020 21:13:25 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:4:"Matt";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:21;a:6:{s:4:"data";s:13:"
 	
 	
 	
@@ -1485,7 +1655,7 @@
 
 
 
-<p>Many users don&rsquo;t log into their WordPress sites often enough to learn about security updates in a timely fashion. Plugin authors often don&rsquo;t advertise the importance of the update on their websites or social media. This is the type of situation that WordPress 5.5 should help to mitigate, as it introduces admin controls in the dashboard that allow users to enable automatic updates for themes and plugins. </p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Fri, 17 Jul 2020 21:48:15 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:13:"Sarah Gooding";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:20;a:6:{s:4:"data";s:13:"
+<p>Many users don&rsquo;t log into their WordPress sites often enough to learn about security updates in a timely fashion. Plugin authors often don&rsquo;t advertise the importance of the update on their websites or social media. This is the type of situation that WordPress 5.5 should help to mitigate, as it introduces admin controls in the dashboard that allow users to enable automatic updates for themes and plugins. </p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Fri, 17 Jul 2020 21:48:15 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:13:"Sarah Gooding";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:22;a:6:{s:4:"data";s:13:"
 	
 	
 	
@@ -1536,7 +1706,7 @@
 
 
 
-<p>&ldquo;We&rsquo;ve become a family,&rdquo; Cherry said. &ldquo;And not just with higher ed and other web professionals, but with the vendors that support us and want to invest in our growth. Because of our events and community, we were able to sponsor the Gutenberg accessibility audit and play a huge role in improving the accessibility of the WordPress platform. I am incredibly proud of the ever-increasing focus, education, and advocacy our community has placed on accessibility.&rdquo;</p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Fri, 17 Jul 2020 20:44:01 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:13:"Sarah Gooding";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:21;a:6:{s:4:"data";s:13:"
+<p>&ldquo;We&rsquo;ve become a family,&rdquo; Cherry said. &ldquo;And not just with higher ed and other web professionals, but with the vendors that support us and want to invest in our growth. Because of our events and community, we were able to sponsor the Gutenberg accessibility audit and play a huge role in improving the accessibility of the WordPress platform. I am incredibly proud of the ever-increasing focus, education, and advocacy our community has placed on accessibility.&rdquo;</p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Fri, 17 Jul 2020 20:44:01 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:13:"Sarah Gooding";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:23;a:6:{s:4:"data";s:13:"
 	
 	
 	
@@ -1643,7 +1813,7 @@
 
 
 
-<p>Or, should we be having a different conversation altogether? If this ultimately boils down to advertising, are there ways we can open this up for theme authors while still creating a user experience that keeps the WordPress admin free of clutter?</p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Fri, 17 Jul 2020 20:03:19 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:14:"Justin Tadlock";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:22;a:6:{s:4:"data";s:13:"
+<p>Or, should we be having a different conversation altogether? If this ultimately boils down to advertising, are there ways we can open this up for theme authors while still creating a user experience that keeps the WordPress admin free of clutter?</p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Fri, 17 Jul 2020 20:03:19 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:14:"Justin Tadlock";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:24;a:6:{s:4:"data";s:13:"
 	
 	
 	
@@ -1718,7 +1888,7 @@
 
 
 
-<p>The theme&rsquo;s users can probably best answer the question of Astra&rsquo;s popularity.  Brainstorm Force is clearly doing something right.</p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Thu, 16 Jul 2020 19:38:41 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:14:"Justin Tadlock";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:23;a:6:{s:4:"data";s:13:"
+<p>The theme&rsquo;s users can probably best answer the question of Astra&rsquo;s popularity.  Brainstorm Force is clearly doing something right.</p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Thu, 16 Jul 2020 19:38:41 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:14:"Justin Tadlock";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:25;a:6:{s:4:"data";s:13:"
 	
 	
 	
@@ -1773,7 +1943,7 @@
 
 
 
-<p>In a second round of updates for the pro version, Blocksy creators plan to include features like custom color palettes, AMP, LearnDash, and EDD integrations, along with extensions for ads, mega menus, and portfolios. In the meantime, Radu says they do not plan to add more features to the free version &ndash; only improvements and new starter sites. </p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Wed, 15 Jul 2020 22:32:24 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:13:"Sarah Gooding";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:24;a:6:{s:4:"data";s:13:"
+<p>In a second round of updates for the pro version, Blocksy creators plan to include features like custom color palettes, AMP, LearnDash, and EDD integrations, along with extensions for ads, mega menus, and portfolios. In the meantime, Radu says they do not plan to add more features to the free version &ndash; only improvements and new starter sites. </p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Wed, 15 Jul 2020 22:32:24 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:13:"Sarah Gooding";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:26;a:6:{s:4:"data";s:13:"
 	
 	
 	
@@ -1852,7 +2022,7 @@
 
 
 
-<p>Sarada Lite is best without all the extras. What the user does with the theme will make or break the experience.</p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Wed, 15 Jul 2020 20:56:03 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:14:"Justin Tadlock";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:25;a:6:{s:4:"data";s:13:"
+<p>Sarada Lite is best without all the extras. What the user does with the theme will make or break the experience.</p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Wed, 15 Jul 2020 20:56:03 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:14:"Justin Tadlock";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:27;a:6:{s:4:"data";s:13:"
 	
 	
 	
@@ -1889,7 +2059,7 @@
 <p><i>Mahatma Gandhi</i></p></blockquote>
 <p>I&#8217;ve met the most incredible group of nurturing, giving, and talented people stretching back to Sara (Rosso) in Napa through Angela (Jin) or David (Bisset) on the WordCamp US team. Every time I needed confidence or a word of encouragement Cami (Kaos), Kathy (Drewien), Brandon (Dove), or someone in the Community was that steadying hand on my shoulder.</p>
 <p>I think about these words often as inspiration, waking each morning to greet the sunrise full of ideas and promise. How can I give back? What can I do with WordPress today?</p>
-<p>The post <a rel="nofollow" href="https://heropress.com/essays/second-chances-how-a-trip-back-into-the-wordpress-community-saved-my-life/">Second Chances: How A Trip Back  Into The WordPress Community Saved My Life</a> appeared first on <a rel="nofollow" href="https://heropress.com">HeroPress</a>.</p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Wed, 15 Jul 2020 11:00:06 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:15:"Joe Simpson Jr.";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:26;a:6:{s:4:"data";s:13:"
+<p>The post <a rel="nofollow" href="https://heropress.com/essays/second-chances-how-a-trip-back-into-the-wordpress-community-saved-my-life/">Second Chances: How A Trip Back  Into The WordPress Community Saved My Life</a> appeared first on <a rel="nofollow" href="https://heropress.com">HeroPress</a>.</p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Wed, 15 Jul 2020 11:00:06 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:15:"Joe Simpson Jr.";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:28;a:6:{s:4:"data";s:13:"
 	
 	
 	
@@ -1980,7 +2150,7 @@
 
 
 
-<p>&ldquo;I really doubt we&rsquo;ll be abandoning online events, after COVID-19 is more under control worldwide,&rdquo; WordPress Community organizer Andrea Middleton <a href="https://make.wordpress.org/community/2020/07/13/reimagining-online-events/#comment-28388">said</a>. &ldquo;I think that we&rsquo;ll need to figure out how in-person events and online events can best coexist, but it seems like we&rsquo;ll have time to figure that out.&rdquo;</p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Tue, 14 Jul 2020 23:55:09 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:13:"Sarah Gooding";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:27;a:6:{s:4:"data";s:13:"
+<p>&ldquo;I really doubt we&rsquo;ll be abandoning online events, after COVID-19 is more under control worldwide,&rdquo; WordPress Community organizer Andrea Middleton <a href="https://make.wordpress.org/community/2020/07/13/reimagining-online-events/#comment-28388">said</a>. &ldquo;I think that we&rsquo;ll need to figure out how in-person events and online events can best coexist, but it seems like we&rsquo;ll have time to figure that out.&rdquo;</p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Tue, 14 Jul 2020 23:55:09 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:13:"Sarah Gooding";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:29;a:6:{s:4:"data";s:13:"
 	
 	
 	
@@ -2051,7 +2221,7 @@
 
 
 
-<p>I am still optimistic that more plugin authors will jump onto the block bandwagon. It will just be a while before we start seeing the wealth of blocks that cover the entire spectrum of what users need.</p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Tue, 14 Jul 2020 20:09:04 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:14:"Justin Tadlock";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:28;a:6:{s:4:"data";s:13:"
+<p>I am still optimistic that more plugin authors will jump onto the block bandwagon. It will just be a while before we start seeing the wealth of blocks that cover the entire spectrum of what users need.</p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Tue, 14 Jul 2020 20:09:04 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:14:"Justin Tadlock";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:30;a:6:{s:4:"data";s:13:"
 	
 	
 	
@@ -2118,7 +2288,7 @@
 
 
 
-<p id="block-bd71c1d3-39d9-4b2a-8193-3486497b45fd">If you’re comfortable writing a reproducible bug report,&nbsp;<a href="https://core.trac.wordpress.org/newticket">file one on WordPress Trac</a>,&nbsp;where you can also find a list of&nbsp;<a href="https://core.trac.wordpress.org/tickets/major">known bugs</a>.</p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Tue, 14 Jul 2020 17:24:13 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:13:"Jake Spurlock";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:29;a:6:{s:4:"data";s:13:"
+<p id="block-bd71c1d3-39d9-4b2a-8193-3486497b45fd">If you’re comfortable writing a reproducible bug report,&nbsp;<a href="https://core.trac.wordpress.org/newticket">file one on WordPress Trac</a>,&nbsp;where you can also find a list of&nbsp;<a href="https://core.trac.wordpress.org/tickets/major">known bugs</a>.</p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Tue, 14 Jul 2020 17:24:13 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:13:"Jake Spurlock";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:31;a:6:{s:4:"data";s:13:"
 	
 	
 	
@@ -2201,7 +2371,7 @@
 
 
 
-<p>&ldquo;Not everyone is the same, and good design looks different to everybody,&rdquo; Ashton said. &ldquo;I am not looking at other designs at the moment &ndash; more offering the ability to customize the design yourself through Admin 2020.&rdquo;</p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Mon, 13 Jul 2020 23:21:54 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:13:"Sarah Gooding";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:30;a:6:{s:4:"data";s:13:"
+<p>&ldquo;Not everyone is the same, and good design looks different to everybody,&rdquo; Ashton said. &ldquo;I am not looking at other designs at the moment &ndash; more offering the ability to customize the design yourself through Admin 2020.&rdquo;</p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Mon, 13 Jul 2020 23:21:54 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:13:"Sarah Gooding";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:32;a:6:{s:4:"data";s:13:"
 	
 	
 	
@@ -2302,7 +2472,7 @@
 
 
 
-<p>Kamal said his most immediate plan is to gather more feedback from users. &ldquo;I ended up creating a <a href="https://www.facebook.com/groups/gutenberghub/">Facebook group</a>,&rdquo; he said. &ldquo;This would be the best and easiest way for anyone to share ideas, suggestions, and feedback about GutenbergHub.&rdquo;</p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Mon, 13 Jul 2020 21:14:14 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:14:"Justin Tadlock";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:31;a:6:{s:4:"data";s:13:"
+<p>Kamal said his most immediate plan is to gather more feedback from users. &ldquo;I ended up creating a <a href="https://www.facebook.com/groups/gutenberghub/">Facebook group</a>,&rdquo; he said. &ldquo;This would be the best and easiest way for anyone to share ideas, suggestions, and feedback about GutenbergHub.&rdquo;</p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Mon, 13 Jul 2020 21:14:14 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:14:"Justin Tadlock";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:33;a:6:{s:4:"data";s:13:"
 	
 	
 	
@@ -2365,7 +2535,7 @@
 
 
 
-<p>&ldquo;The bottom line is: we haven&rsquo;t figured out the best way to deal with commercial blogs or sites in a fair manner and thus our focus is going to be on links that don&rsquo;t drop into that grey zone,&rdquo; Cap said. &ldquo;We do expect to eventually get towards discussing how we can safely include commercial blog links (if this even is possible).&rdquo;</p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Fri, 10 Jul 2020 23:22:15 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:13:"Sarah Gooding";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:32;a:6:{s:4:"data";s:13:"
+<p>&ldquo;The bottom line is: we haven&rsquo;t figured out the best way to deal with commercial blogs or sites in a fair manner and thus our focus is going to be on links that don&rsquo;t drop into that grey zone,&rdquo; Cap said. &ldquo;We do expect to eventually get towards discussing how we can safely include commercial blog links (if this even is possible).&rdquo;</p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Fri, 10 Jul 2020 23:22:15 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:13:"Sarah Gooding";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:34;a:6:{s:4:"data";s:13:"
 	
 	
 	
@@ -2472,7 +2642,7 @@
 
 
 
-<p>If the theme&rsquo;s development team is proactive about addressing the few minor issues, I would recommend it to anyone who wants a good theme that fully supports the latest version of WordPress.</p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Fri, 10 Jul 2020 20:35:41 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:14:"Justin Tadlock";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:33;a:6:{s:4:"data";s:13:"
+<p>If the theme&rsquo;s development team is proactive about addressing the few minor issues, I would recommend it to anyone who wants a good theme that fully supports the latest version of WordPress.</p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Fri, 10 Jul 2020 20:35:41 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:14:"Justin Tadlock";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:35;a:6:{s:4:"data";s:13:"
 	
 	
 	
@@ -2507,7 +2677,7 @@
 
 
 
-<p>As more conferences are forced to move to a virtual format, the wider open source community has the opportunity to be more engaged in an event like State of the Source. It&rsquo;s a good venue for addressing non-technical issues related to the challenges facing open source maintainers and the community. The <a href="https://forms.gle/CriSN1Ddtjb1GPbX8">call for proposals</a> ends July 16, and speakers will be announced August 25.</p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Thu, 09 Jul 2020 22:07:10 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:13:"Sarah Gooding";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:34;a:6:{s:4:"data";s:13:"
+<p>As more conferences are forced to move to a virtual format, the wider open source community has the opportunity to be more engaged in an event like State of the Source. It&rsquo;s a good venue for addressing non-technical issues related to the challenges facing open source maintainers and the community. The <a href="https://forms.gle/CriSN1Ddtjb1GPbX8">call for proposals</a> ends July 16, and speakers will be announced August 25.</p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Thu, 09 Jul 2020 22:07:10 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:13:"Sarah Gooding";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:36;a:6:{s:4:"data";s:13:"
 	
 	
 	
@@ -2606,7 +2776,7 @@
 
 
 
-<p>The next step would be to finally add a reusable blocks menu item that is accessible from anywhere in the WordPress admin. We will likely have to wait for the <a href="https://wptavern.com/version-1-prototype-of-the-wordpress-admin-block-directory-announced">WordPress admin block directory</a> for that to happen.</p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Thu, 09 Jul 2020 21:00:10 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:14:"Justin Tadlock";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:35;a:6:{s:4:"data";s:13:"
+<p>The next step would be to finally add a reusable blocks menu item that is accessible from anywhere in the WordPress admin. We will likely have to wait for the <a href="https://wptavern.com/version-1-prototype-of-the-wordpress-admin-block-directory-announced">WordPress admin block directory</a> for that to happen.</p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Thu, 09 Jul 2020 21:00:10 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:14:"Justin Tadlock";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:37;a:6:{s:4:"data";s:13:"
 	
 	
 	
@@ -2733,7 +2903,7 @@
 
 
 
-<p>WordPress university was always online.</p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Thu, 09 Jul 2020 14:36:44 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:14:"Chris Maiorana";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:36;a:6:{s:4:"data";s:13:"
+<p>WordPress university was always online.</p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Thu, 09 Jul 2020 14:36:44 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:14:"Chris Maiorana";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:38;a:6:{s:4:"data";s:13:"
 	
 	
 	
@@ -2788,7 +2958,7 @@
 
 
 
-<p>Version 8.7 introduces a WhatsApp Button block to allow visitors and customers to get in touch easily. The Jetpack team has also added more customization options to the Calendly, Mailchimp, Eventbrite, and Payment blocks. Check out the <a href="https://jetpack.com/2020/07/07/87-easier-reach-customers/">release post</a> for a full list of improvements in this update.</p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Wed, 08 Jul 2020 20:48:54 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:13:"Sarah Gooding";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:37;a:6:{s:4:"data";s:13:"
+<p>Version 8.7 introduces a WhatsApp Button block to allow visitors and customers to get in touch easily. The Jetpack team has also added more customization options to the Calendly, Mailchimp, Eventbrite, and Payment blocks. Check out the <a href="https://jetpack.com/2020/07/07/87-easier-reach-customers/">release post</a> for a full list of improvements in this update.</p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Wed, 08 Jul 2020 20:48:54 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:13:"Sarah Gooding";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:39;a:6:{s:4:"data";s:13:"
 	
 	
 	
@@ -2843,7 +3013,7 @@
 
 
 
-<p>The comparison feature is a welcome addition, which should curb users accidentally uploading something they already have installed or rolling back when they already have a newer version active on the site. Some of the existing solutions from third-party plugins do not handle this feature, so this should make for a good upgrade.</p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Wed, 08 Jul 2020 20:09:24 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:14:"Justin Tadlock";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:38;a:6:{s:4:"data";s:13:"
+<p>The comparison feature is a welcome addition, which should curb users accidentally uploading something they already have installed or rolling back when they already have a newer version active on the site. Some of the existing solutions from third-party plugins do not handle this feature, so this should make for a good upgrade.</p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Wed, 08 Jul 2020 20:09:24 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:14:"Justin Tadlock";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:40;a:6:{s:4:"data";s:13:"
 	
 	
 	
@@ -2902,7 +3072,7 @@
 
 
 
-<p>If you want to test the beta of the new Gatsby Source WordPress plugin, you can find it (and its dependencies) <a href="https://github.com/gatsbyjs/gatsby-source-wordpress-experimental">on GitHub</a>. The <a href="https://docs.wpgraphql.com/getting-started/install-and-activate/">WPGraphQL</a>&nbsp;and&nbsp;<a href="https://wordpress.org/plugins/wp-gatsby/">WPGatsby</a>&nbsp;plugins are also required. </p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Tue, 07 Jul 2020 22:33:08 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:13:"Sarah Gooding";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:39;a:6:{s:4:"data";s:13:"
+<p>If you want to test the beta of the new Gatsby Source WordPress plugin, you can find it (and its dependencies) <a href="https://github.com/gatsbyjs/gatsby-source-wordpress-experimental">on GitHub</a>. The <a href="https://docs.wpgraphql.com/getting-started/install-and-activate/">WPGraphQL</a>&nbsp;and&nbsp;<a href="https://wordpress.org/plugins/wp-gatsby/">WPGatsby</a>&nbsp;plugins are also required. </p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Tue, 07 Jul 2020 22:33:08 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:13:"Sarah Gooding";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:41;a:6:{s:4:"data";s:13:"
 	
 	
 	
@@ -3021,7 +3191,7 @@
 
 
 
-<p class="has-small-font-size"><em>Props to <a href="https://profiles.wordpress.org/webcommsat/" class="mention"><span class="mentions-prefix">@</span>webcommsat</a>, <a href="https://profiles.wordpress.org/yvettesonneveld/" class="mention"><span class="mentions-prefix">@</span>yvettesonneveld</a>, <a href="https://profiles.wordpress.org/estelaris/" class="mention"><span class="mentions-prefix">@</span>estelaris</a>, and <a href="https://profiles.wordpress.org/marybaum/" class="mention"><span class="mentions-prefix">@</span>marybaum</a> for compiling/writing this post, <a href="https://profiles.wordpress.org/davidbaumwald/" class="mention"><span class="mentions-prefix">@</span>davidbaumwald</a> for editing/proof reading, and <a href="https://profiles.wordpress.org/cbringmann/" class="mention"><span class="mentions-prefix">@</span>cbringmann</a>, <a href="https://profiles.wordpress.org/desrosj/" class="mention"><span class="mentions-prefix">@</span>desrosj</a>, and <a href="https://profiles.wordpress.org/andreamiddleton/" class="mention"><span class="mentions-prefix">@</span>andreamiddleton</a> for final review.</em></p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Tue, 07 Jul 2020 21:49:13 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:13:"Jake Spurlock";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:40;a:6:{s:4:"data";s:13:"
+<p class="has-small-font-size"><em>Props to <a href="https://profiles.wordpress.org/webcommsat/" class="mention"><span class="mentions-prefix">@</span>webcommsat</a>, <a href="https://profiles.wordpress.org/yvettesonneveld/" class="mention"><span class="mentions-prefix">@</span>yvettesonneveld</a>, <a href="https://profiles.wordpress.org/estelaris/" class="mention"><span class="mentions-prefix">@</span>estelaris</a>, and <a href="https://profiles.wordpress.org/marybaum/" class="mention"><span class="mentions-prefix">@</span>marybaum</a> for compiling/writing this post, <a href="https://profiles.wordpress.org/davidbaumwald/" class="mention"><span class="mentions-prefix">@</span>davidbaumwald</a> for editing/proof reading, and <a href="https://profiles.wordpress.org/cbringmann/" class="mention"><span class="mentions-prefix">@</span>cbringmann</a>, <a href="https://profiles.wordpress.org/desrosj/" class="mention"><span class="mentions-prefix">@</span>desrosj</a>, and <a href="https://profiles.wordpress.org/andreamiddleton/" class="mention"><span class="mentions-prefix">@</span>andreamiddleton</a> for final review.</em></p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Tue, 07 Jul 2020 21:49:13 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:13:"Jake Spurlock";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:42;a:6:{s:4:"data";s:13:"
 	
 	
 	
@@ -3080,7 +3250,7 @@
 
 
 
-<p>I welcome the new venture and am glad to see someone filling in what was quickly becoming a missing piece of our community. With luck, WP Content will serve as a great resource for many years to come. The team has some big shoes to fill, but they are off to a great start.</p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Tue, 07 Jul 2020 18:31:22 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:14:"Justin Tadlock";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:41;a:6:{s:4:"data";s:13:"
+<p>I welcome the new venture and am glad to see someone filling in what was quickly becoming a missing piece of our community. With luck, WP Content will serve as a great resource for many years to come. The team has some big shoes to fill, but they are off to a great start.</p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Tue, 07 Jul 2020 18:31:22 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:14:"Justin Tadlock";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:43;a:6:{s:4:"data";s:13:"
 	
 	
 	
@@ -3175,7 +3345,7 @@
 
 
 
-<p>If we maintain the current system of giving badges only for contributions and teams, yeah, WordCamp volunteers should get those. Attendees have done nothing to earn a badge in that system. That seems like an easy call to make and not worth much discussion. But, since we are here, let&rsquo;s rethink this whole thing.</p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Mon, 06 Jul 2020 18:42:55 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:14:"Justin Tadlock";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:42;a:6:{s:4:"data";s:13:"
+<p>If we maintain the current system of giving badges only for contributions and teams, yeah, WordCamp volunteers should get those. Attendees have done nothing to earn a badge in that system. That seems like an easy call to make and not worth much discussion. But, since we are here, let&rsquo;s rethink this whole thing.</p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Mon, 06 Jul 2020 18:42:55 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:14:"Justin Tadlock";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:44;a:6:{s:4:"data";s:13:"
 	
 	
 	
@@ -3202,7 +3372,7 @@
 
 
 
-<p>In the coming weeks, van der Lans said the company plans to announce &ldquo;a significant investment from the WordPress space.&rdquo; WordProof is currently focused on advocacy with/at the European Commission to make timestamping an open source standard that would be independent from the control of any single company.</p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Mon, 06 Jul 2020 15:32:48 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:13:"Sarah Gooding";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:43;a:6:{s:4:"data";s:13:"
+<p>In the coming weeks, van der Lans said the company plans to announce &ldquo;a significant investment from the WordPress space.&rdquo; WordProof is currently focused on advocacy with/at the European Commission to make timestamping an open source standard that would be independent from the control of any single company.</p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Mon, 06 Jul 2020 15:32:48 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:13:"Sarah Gooding";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:45;a:6:{s:4:"data";s:13:"
 	
 	
 	
@@ -3214,7 +3384,7 @@
 <h2>Saving countless hours for you</h2>
 <p>Think about that number: five hundred billion spam comments blocked — and not just on WordPress sites! Akismet has been ensnaring spam on other platforms including Drupal, Joomla, <a href="https://akismet.com/development/api/#use-a-library">and more</a>, saving countless hours of moderation time and frustration for millions of people around the world.</p>
 <h2>To the future!</h2>
-<p>If you need spam protection for your website or forum, Akismet is here to help. Free up time spent tweezing spam comments and allow Akismet to <a href="https://akismet.com/plans/">catch and block it for you</a>. Here’s to the next 500 billion!</p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Mon, 06 Jul 2020 15:12:58 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:17:"Christopher Finke";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:44;a:6:{s:4:"data";s:13:"
+<p>If you need spam protection for your website or forum, Akismet is here to help. Free up time spent tweezing spam comments and allow Akismet to <a href="https://akismet.com/plans/">catch and block it for you</a>. Here’s to the next 500 billion!</p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Mon, 06 Jul 2020 15:12:58 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:17:"Christopher Finke";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:46;a:6:{s:4:"data";s:13:"
 	
 	
 	
@@ -3245,7 +3415,7 @@
 
 
 
-<p>Despite the navigation and widgets screens getting removed from the 5.5 milestone, this release is set to deliver an impressive array of new features for the block editor, including block patterns, block directory search, a new block inserter panel, expanded design tools, and improvements to block movement capabilities.  <a href="https://make.wordpress.org/core/5-5/">Beta 1 is expected July 7</a> and the target date for the official release is August 11.</p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Fri, 03 Jul 2020 20:54:35 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:13:"Sarah Gooding";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:45;a:6:{s:4:"data";s:13:"
+<p>Despite the navigation and widgets screens getting removed from the 5.5 milestone, this release is set to deliver an impressive array of new features for the block editor, including block patterns, block directory search, a new block inserter panel, expanded design tools, and improvements to block movement capabilities.  <a href="https://make.wordpress.org/core/5-5/">Beta 1 is expected July 7</a> and the target date for the official release is August 11.</p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Fri, 03 Jul 2020 20:54:35 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:13:"Sarah Gooding";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:47;a:6:{s:4:"data";s:13:"
 	
 	
 	
@@ -3340,7 +3510,7 @@
 
 
 
-<p>Overall, Web Stories looks like it will land with a splash late this summer. It is a showcase of what is possible when you put together a team of top-notch developers and empower them to build something amazing.</p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Fri, 03 Jul 2020 18:56:25 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:14:"Justin Tadlock";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:46;a:6:{s:4:"data";s:13:"
+<p>Overall, Web Stories looks like it will land with a splash late this summer. It is a showcase of what is possible when you put together a team of top-notch developers and empower them to build something amazing.</p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Fri, 03 Jul 2020 18:56:25 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:14:"Justin Tadlock";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:48;a:6:{s:4:"data";s:13:"
 	
 	
 	
@@ -3443,7 +3613,7 @@
 
 
 
-<p>Bossenger and Cap are currently working on a plan for the docs ahead of announcing their fundraiser. In the meantime, anyone who wants to contribute to improving the block creation documentation can jump in on the GitHub <a href="https://github.com/WordPress/gutenberg/issues/22151">discussion</a>.</p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Thu, 02 Jul 2020 21:07:15 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:13:"Sarah Gooding";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:47;a:6:{s:4:"data";s:13:"
+<p>Bossenger and Cap are currently working on a plan for the docs ahead of announcing their fundraiser. In the meantime, anyone who wants to contribute to improving the block creation documentation can jump in on the GitHub <a href="https://github.com/WordPress/gutenberg/issues/22151">discussion</a>.</p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Thu, 02 Jul 2020 21:07:15 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:13:"Sarah Gooding";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:49;a:6:{s:4:"data";s:13:"
 	
 	
 	
@@ -3522,158 +3692,4 @@
 
 
 
-<p>What patterns would you like to see ship with WordPress 5.5?</p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Thu, 02 Jul 2020 18:33:06 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:14:"Justin Tadlock";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:48;a:6:{s:4:"data";s:13:"
-	
-	
-	
-	
-	
-	
-";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:2:{s:0:"";a:5:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:53:"WordPress.org blog: The Month in WordPress: June 2020";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:34:"https://wordpress.org/news/?p=8614";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:68:"https://wordpress.org/news/2020/07/the-month-in-wordpress-june-2020/";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:7862:"<p>June was an exciting month for WordPress! Major changes are coming to the Gutenberg plugin, and WordCamp Europe brought the WordPress community closer together. Read on to learn more and to get all the latest updates.&nbsp;</p>
-
-
-
-<hr class="wp-block-separator" />
-
-
-
-<h2>WordPress 5.4.2 released</h2>
-
-
-
-<p>We said hello to WordPress 5.4.2 on June 10. This security and maintenance release features 17 fixes and 4 enhancements, so we recommend that you update your sites immediately. To download WordPress 5.4.2, visit your Dashboard, click on <strong>Updates</strong>, then <strong>Update Now</strong>, or download the latest version directly from WordPress.org. For more information, visit <a href="https://wordpress.org/news/2020/06/wordpress-5-4-2-security-and-maintenance-release/">this post</a>, review the <a href="https://core.trac.wordpress.org/query?status=closed&resolution=fixed&milestone=5.4.2&order=priority">full list of changes on Trac</a>, or check out the <a href="https://wordpress.org/support/wordpress-version/version-5-4-2/">HelpHub documentation page</a> for <a href="https://wordpress.org/support/wordpress-version/version-5-4-2/">version 5.4.2</a>. WordPress 5.4.2 is a short-cycle maintenance release. The next major release will be <a href="https://make.wordpress.org/core/5-5/">version 5.5</a>, <a href="https://wordpress.org/about/roadmap/">planned for August 2020</a>. <br /><br />Want to get involved in building WordPress Core? Follow<a href="https://make.wordpress.org/core/"> the Core team blog</a>, and join the #core channel in <a href="https://make.wordpress.org/chat/">the Making WordPress Slack group</a>.</p>
-
-
-
-<h2>Gutenberg 8.3 and 8.4</h2>
-
-
-
-<p>The core team launched Gutenberg <a href="https://make.wordpress.org/core/2020/06/11/whats-new-in-gutenberg-11-june/">8.3</a> and <a href="https://make.wordpress.org/core/2020/06/24/whats-new-in-gutenberg-24-june/">8.4</a> this month, paving the way for some exciting block editor features. Version 8.3 introduced enhancements like a reorganized, more intuitive set of block categories, a parent block selector, an experimental spacing control, and user-controlled link color options. Version 8.4 comes with new image-editing tools and the ability to edit options for multiple blocks.  The block directory search feature that was previously available as an experimental feature, is now enabled for all Gutenberg installations. For full details on the latest versions on these Gutenberg releases, visit these posts about <a href="https://make.wordpress.org/core/2020/06/11/whats-new-in-gutenberg-11-june/">8.3</a> and <a href="https://make.wordpress.org/core/2020/06/24/whats-new-in-gutenberg-24-june/">8.4</a>.</p>
-
-
-
-<p>Want to get involved in building Gutenberg? Follow <a href="https://make.wordpress.org/core/">the Core team blog</a>, contribute to <a href="https://github.com/WordPress/gutenberg/">Gutenberg on GitHub</a>, and join the #core-editor channel in <a href="https://make.wordpress.org/chat/">the Making WordPress Slack group</a>.</p>
-
-
-
-<h2>WordPress Bumps Minimum Recommended PHP Version to 7.2</h2>
-
-
-
-<p>In a major update, WordPress <a href="https://meta.trac.wordpress.org/changeset/9959">has bumped</a> the minimum PHP recommendation to 7.2. The ServeHappy API has been updated to set the minimum acceptable PHP version to 7.2, while the WordPress downloads page recommends 7.3 or newer. Previously, the ServeHappy dashboard widget was showing the upgrade notice to users of PHP 5.6 or lower. This decision comes <a href="https://meta.trac.wordpress.org/ticket/5257">after discussions with the core Site Health team and the Hosting team</a>, both of which recommended that the upgrade notice be shown to users of PHP &lt;=7.1.</p>
-
-
-
-<h2>WordCamp Europe 2020 Moved Online</h2>
-
-
-
-<p>Following the success of a remote WordCamp Spain, <a href="https://2020.europe.wordcamp.org/">WordCamp Europe</a> was held fully online from June 4 to 6. The event drew a record 8,600 signups from people based in 138 countries, along with 2,500 signups for contributor day. WCEU Online also showcased 33 speakers and 40 sponsors, in addition to a Q&amp;A with Matt Mullenweg. You can find the videos of the event in WordPress.tv by <a href="https://wordpress.tv/event/wordcamp-europe-2020/">following this link</a>, or you can catch the<a href="https://www.youtube.com/channel/UCaYQGYDpXpU4A17kxN-AgJQ"> live stream recording of the entire event from the WP Europe YouTube Channel</a>.</p>
-
-
-
-<p>Want to get involved with the Community team? <a href="https://make.wordpress.org/community/">Follow the Community blog here</a>, or join them in the #community-events channel in <a href="https://make.wordpress.org/chat/">the Making WordPress Slack group</a>. To organize a Meetup or WordCamp, <a href="https://make.wordpress.org/community/handbook/virtual-events/welcome/applying-for-a-virtual-event/">visit the handbook page</a>.&nbsp;</p>
-
-
-
-<hr class="wp-block-separator" />
-
-
-
-<h2>Further Reading:</h2>
-
-
-
-<ul><li>Josepha Haden (<a href="https://profiles.wordpress.org/chanthaboune/" class="mention"><span class="mentions-prefix">@</span>chanthaboune</a>), the executive director of the WordPress project, <a href="https://wordpress.org/news/2020/06/equity-and-the-power-of-community/">published a post </a>that highlights resources on how the global WordPress community can focus on equity to help dismantle racial, societal, and systemic injustice.&nbsp;</li><li>PHP, the primary programming language in which WordPress is written, celebrated its <a href="https://wptavern.com/php-marks-25-years">25th anniversary</a> this month!</li><li>The Community team is<a href="https://make.wordpress.org/community/2020/06/18/pending-update-for-the-code-of-conduct/#comment-28294"> updating the WordCamp code of conduct</a> to address discrimination based on age, caste, social class, and other identifying characteristics.</li><li>The WordPress Core team is promoting more inclusive language by <a href="https://make.wordpress.org/core/2020/06/18/proposal-update-all-git-repositories-to-use-main-instead-of-master/">updating all git repositories to use `trunk` instead of `master`</a>. Additionally, the team proposes to <a href="https://make.wordpress.org/core/2020/06/24/proposal-rename-invalid-worksforme-and-wontfix-ticket-resolutions/">rename&nbsp; “invalid,” “worksforme,” and “wontfix” ticket resolutions </a>to “not-applicable,” “not-reproducible” or “cannot-reproduce,” and “not-implemented,” respectively.&nbsp;</li><li>The Documentation team is working on an external linking policy and has <a href="https://make.wordpress.org/docs/2020/06/15/external-linking-policy-trusted-sources/">started a discussion</a> on how to allow linking to trusted sources to benefit users.&nbsp;</li><li>The Core team has put up a proposal to <a href="https://make.wordpress.org/core/2020/06/10/merge-announcement-extensible-core-sitemaps/">merge extensible core sitemaps to WordPress core</a> in the 5.5 release. The feature is currently available as a <a href="https://wordpress.org/plugins/core-sitemaps/">feature plugin</a>.</li><li><a href="https://2020.denver.wordcamp.org/">WordCamp Denver</a> was held online May 26–27. The event sold over 2,400 tickets and featured 27 speakers and 20 sponsors. You can catch the recorded live stream on the <a href="https://2020.denver.wordcamp.org/watch-now/">event site</a>.</li><li>The Core team is working on <a href="https://make.wordpress.org/core/2020/06/29/updating-jquery-version-shipped-with-wordpress/">updating the version of jQuery</a> used in WordPress core.</li></ul>
-
-
-
-<p><em>Have a story that we should include in the next “Month in WordPress” post? Please </em><a href="https://make.wordpress.org/community/month-in-wordpress-submissions/"><em>submit it here</em></a><em>.</em></p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Thu, 02 Jul 2020 05:52:46 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:14:"Hari Shanker R";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:49;a:6:{s:4:"data";s:13:"
-	
-	
-	
-	
-	
-	
-";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:2:{s:0:"";a:5:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:73:"WPTavern: Build Static or Dynamic Blocks With the WP Block Builder Script";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:30:"https://wptavern.com/?p=101391";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:191:"https://wptavern.com/build-static-or-dynamic-blocks-with-the-wp-block-builder-script?utm_source=rss&utm_medium=rss&utm_campaign=build-static-or-dynamic-blocks-with-the-wp-block-builder-script";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:6728:"<p class="has-drop-cap">Today, Jeffrey Carandang released <a href="https://www.npmjs.com/package/wp-block-builder">WP Block Builder</a>, an npm script for developers to begin building WordPress blocks. It is just one of many such scripts in a sea of block scaffolding tools, but Carandang may just have the experience and clout to rise above the rest. Thus far, developers have downloaded his custom setup over 500 times.</p>
-
-
-
-<p>Developers wanting to take a peek under the hood can also check out the <a href="https://github.com/phpbits/wp-block-builder">project on GitHub</a>.</p>
-
-
-
-<p>It is almost impossible to dive into building blocks for WordPress without coming across some of Carandang&rsquo;s work in the WordPress block space. He <a href="https://wptavern.com/creator-of-editorskit-launches-community-block-sharing-site">launched the ShareABlock community</a> late last year. He has paved the way for other developers by experimenting with ideas in <a href="https://wptavern.com/block-options-plugin-rebrands-to-editorskit-expands-beyond-block-visibility-management">EditorsKit</a>. He co-founded CoBlocks, which <a href="https://wptavern.com/godaddy-acquires-themebeans-coblocks-block-gallery-and-block-unit-tests">GoDaddy acquired in 2019</a>. And, that&rsquo;s just the tip of the <a href="https://wptavern.com/new-iceberg-plugin-brings-a-distraction-free-writing-experience-to-wordpress">Iceberg</a> &mdash; <em>yeah, he is involved in that too</em>.</p>
-
-
-
-<p>Now, he has decided to launch a block-building script in a field that is becoming increasingly crowded. Core WordPress <a href="https://www.npmjs.com/package/@wordpress/create-block">has its own script</a>. WebDevStudios recently <a href="https://wptavern.com/webdevstudios-releases-block-scaffolding-tool-for-developers">launched a custom fork</a> of that, and several others are floating around the WordPress ecosystem, each with slightly different takes on jump-starting the block-building process. However, when one of the experts in the world of WordPress blocks releases his own spin on getting developers set up, it is at least worth looking into.</p>
-
-
-
-<p>&ldquo;I initially created this tool for myself because I kept repeating similar processes when creating Gutenberg blocks plugins,&rdquo; said Carandang. &ldquo;Then upon building it out, I thought it would be helpful to others if I release this to the public since, with minimal configuration, it would be easier to just focus on building blocks. Based on my experience, setting up the webpack config takes time and is sometimes frustrating.&rdquo;</p>
-
-
-
-<p>Carandang has a plethora of experience in building blocks, so I am certain he has added all the small extras that help speed the development process along.</p>
-
-
-
-<p>Unlike many similar scripts, WP Block Builder provides two example blocks by default. One is for handling the typical static content that is common with such scripts. However, the second is a dynamic, server-side block. This gives developers a taste of building two different block types with two sets of requirements to run. Other scripts also tend to be hyper-focused on launching a single-block plugin, which would be typical for releasing to the WordPress block directory. WP Block Builder provides a path to launching a plugin with multiple blocks if desired.</p>
-
-
-
-<p>&ldquo;My goal is to make it easy for first-time block developers to create a block, but I&rsquo;ve also created a sample dynamic block for advanced users,&rdquo; said Carandang. &ldquo;This will provide a good playground for experimenting and familiarizing with each section of the block.&rdquo;</p>
-
-
-
-<p>Carandang wants developers to be able to dive directly into building blocks. He wants to bring some of the fun back to experimenting without the technology getting in the way, which often means hours wasted just getting the build tools in place.</p>
-
-
-
-<p>&ldquo;I&rsquo;m gearing towards that feeling I had when I first started creating a WordPress theme,&rdquo; he said. &ldquo;Those times when I was changing codes to know how they work and confident enough that I could just install it freshly again if I ended messing it up.&rdquo;</p>
-
-
-
-<p>Carandang said he has not received any reported issues yet, so launch day is going off without a hitch. He is looking forward to seeing what blocks developers build in the future based on his setup.</p>
-
-
-
-<p>&ldquo;It&rsquo;s aimed to be general enough to help developers to get started on creating block plugins immediately,&rdquo; he said. &ldquo;I&rsquo;m still waiting for some feedback to help improve the process, but so far it seems to be doing good.&rdquo;</p>
-
-
-
-<h2>Setting Up a Block Plugin</h2>
-
-
-
-<img />Dynamic block code from WP Block Builder.
-
-
-
-<p class="has-drop-cap">WP Block Builder is a fork of the core WordPress Create Block script. It includes a few extra npm packages, but it is also heavy on installing several PHP packages via Composer. These are primarily for making sure developers are following coding standards.</p>
-
-
-
-<p>Setup is simple. Developers merely need to run the <code>npx wp-block-builder</code> command to kick start the process. Upon running the command, WP Block Builder takes developers through a series of questions, which sets up the following fields:</p>
-
-
-
-<ul><li>Block slug</li><li>Namespace</li><li>Block title</li><li>Description</li><li>Author name</li><li>Plugin license</li><li>Version number</li></ul>
-
-
-
-<p>After installation, the plugin will have two blocks ready for experimentation. The first block is a basic container with text and background color settings. It also supports wide and full alignment. It works similarly to the core WordPress Group block. I prefer this starting point over the standard paragraph block.</p>
-
-
-
-<p>The second block is a dynamic posts list. It offers enough complexity to see how dynamic blocks work while using a concept familiar enough for most WordPress developers to grasp:  querying and looping through posts. The block has a single custom option for changing the number of posts.</p>
-
-
-
-<p>The goal for making these two blocks available is to get plugin developers jumping head first into the code. Break things. Experiment. Study the code.</p>
-
-
-
-<p>Long term, Carandang is hopeful the process will become even better for developers. &ldquo;I&rsquo;m in touch with Grzegorz Zi&oacute;&#322;kowski and Fabian K&auml;gy from the Gutenberg team,&rdquo; he said,&rdquo; and they are creating a better way to support external npm packages directly with <code>@wordpress/create-block</code>. This would be helpful in both Block Builder and Gutenberg, and would help in improving the Gutenberg plugin development ecosystem.&rdquo;</p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Wed, 01 Jul 2020 20:31:09 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:14:"Justin Tadlock";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}}}}}}}}}}}}s:4:"type";i:128;s:7:"headers";O:42:"Requests_Utility_CaseInsensitiveDictionary":1:{s:7:" * data";a:8:{s:6:"server";s:5:"nginx";s:4:"date";s:29:"Wed, 29 Jul 2020 07:49:57 GMT";s:12:"content-type";s:8:"text/xml";s:4:"vary";s:15:"Accept-Encoding";s:13:"last-modified";s:29:"Wed, 29 Jul 2020 07:30:07 GMT";s:15:"x-frame-options";s:10:"SAMEORIGIN";s:4:"x-nc";s:9:"HIT ord 2";s:16:"content-encoding";s:4:"gzip";}}s:5:"build";s:14:"20200728033801";}}
+<p>What patterns would you like to see ship with WordPress 5.5?</p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Thu, 02 Jul 2020 18:33:06 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:14:"Justin Tadlock";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}}}}}}}}}}}}s:4:"type";i:128;s:7:"headers";O:42:"Requests_Utility_CaseInsensitiveDictionary":1:{s:7:" * data";a:8:{s:6:"server";s:5:"nginx";s:4:"date";s:29:"Thu, 30 Jul 2020 08:00:27 GMT";s:12:"content-type";s:8:"text/xml";s:4:"vary";s:15:"Accept-Encoding";s:13:"last-modified";s:29:"Thu, 30 Jul 2020 07:45:07 GMT";s:15:"x-frame-options";s:10:"SAMEORIGIN";s:4:"x-nc";s:9:"HIT ord 1";s:16:"content-encoding";s:4:"gzip";}}s:5:"build";s:14:"20200728033801";}}

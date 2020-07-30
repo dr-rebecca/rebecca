@@ -64,13 +64,13 @@
             </div>
             <div class="col-xl-4 col-lg-4 modal-menu__right">
                 <div class="modal-menu__right__info">
-                    <h2>(973) 838 - 1177</h2>
-                    <p>1375 State Route 23, Butler, NJ 07405</p>
+                    <h2><a href="tel:973381177"> (973) 838 - 1177</a></h2>
+                    <p><a href="https://goo.gl/maps/9XyAtb21RWx1fE3e8"> 1375 State Route 23, Butler, NJ 07405</a></p>
                 </div>
                 <div class="modal-menu__right__social">
-                    <a href="https://www.facebook.com/BaeDDS23" target="_blank"> <i class="fa fa-facebook-square"></i></a>
-                    <a href="https://www.instagram.com/rebeccabaedds" target="_blank"><i class="fa fa-instagram"></i></a>
-                    <p class="display_mobile_none">@ 2020 Rebecca Bae Dental</p>
+                    <div class="sidebar" id="header">
+                        <?php dynamic_sidebar('sidebar');?>
+                    </div>
                 </div>
             </div>
         </div>

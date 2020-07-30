@@ -32,3 +32,17 @@ function setup_theme(){
     ));
 }
 add_action('after_setup_theme','setup_theme');
+function init_widgets(){
+    register_sidebar(
+        array(
+            'name'          => 'Header',
+            'id'            => 'sidebar',
+            'description'   => 'Add widgets here to appear in your header.',
+            'before_widget' => '<div id="%1$s" class="widget %2$s">',
+            'after_widget'  => '</div>',
+            'before_title'  => '<h2 class="widget-title">',
+            'after_title'   => '</h2>',
+        )
+    );
+}
+add_action('widgets_init','init_widgets');
