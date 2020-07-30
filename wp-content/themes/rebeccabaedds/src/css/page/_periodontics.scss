@@ -52,6 +52,24 @@
     }
   }
   @include related;
+  .related{
+    .related__left{
+      .right_a{
+        padding-right: 448px;
+      }
+      .left{
+        padding-right: 90px;
+      }
+    }
+    .related__right{
+      img{
+        top: 21%;
+        @include breakpoint3{
+          top: 90%;
+        }
+      }
+    }
+  }
   // Responsive
   @include breakpoint3 {
     @include cover_other_mobile;

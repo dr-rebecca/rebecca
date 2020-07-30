@@ -289,22 +289,32 @@
 </section>
 <section class="related container">
     <div class="row">
+
+
+
+
         <div class="related__left col-xl-11 col-lg-11 col-12">
             <h2>Related Pages</h2>
-            <a href="#">Oral Cancer Exam</a>
-            <a href="#">Causes of Periodontal Disease</a>
-            <a href="#">What is Periodontal (Gum) Disease?</a>
-            <a href="#">Signs & Symptoms of Periodontal Disease</a>
-            <a href="#">Types of Periodontal Disease</a>
-            <a href="#">Periodontal Disease and Pregnancy</a>
-            <a href="#">Mouth - Body Connection</a>
-            <a href="#">Periodontal Disease and Diabetes</a>
-            <a href="#">Periodontal Disease and Osteoporosis</a>
-            <a href="#">Periodontal Disease, Heart Disease and Stroke</a>
-            <a href="#">Periodontal Disease and Respiratory Disease</a>
-            <a href="#">Diagnosis</a>
-            <a href="#">Treatment</a>
-            <a href="#">Maintenance</a>
+            <div class="row">
+            <a href="#" class="col-sm-12 col-md-4 col-lg-4 left">Crown Lengthening</a>
+            <a href="#" class="col-sm-12 col-md-8 col-lg-8 right_a">Periodontal Disease and Diabetes</a>
+            <a href="#" class="col-sm-12 col-md-4 col-lg-4 left">Oral Cancer Exam</a>
+            <a href="#" class="col-sm-12 col-md-8 col-lg-8 right_a">Periodontal Disease and Osteoporosis</a>
+            <a href="#" class="col-sm-12 col-md-4 col-lg-4 left">Causes of Periodontal Disease</a>
+            <a href="#" class="col-sm-12 col-md-8 col-lg-8 right_a">Crowns (Caps)</a>
+            <a href="#" class="col-sm-12 col-md-4 col-lg-4 left">What is Periodontal (Gum) Disease?</a>
+            <a href="#" class="col-sm-12 col-md-8 col-lg-8 right_a">Periodontal Disease, Heart Disease and Stroke</a>
+            <a href="#" class="col-sm-12 col-md-4 col-lg-4 left">        Signs & Symptoms of Periodontal Disease</a>
+            <a href="#" class="col-sm-12 col-md-8 col-lg-8 right_a">        Periodontal Disease and Respiratory Disease
+            </a>
+            <a href="#" class="col-sm-12 col-md-4 col-lg-4 left">Types of Periodontal Disease</a>
+            <a href="#" class="col-sm-12 col-md-8 col-lg-8 right_a"> Diagnosis</a>
+            <a href="#" class="col-sm-12 col-md-4 col-lg-4 left">Periodontal Disease and Pregnancy</a>
+            <a href="#" class="col-sm-12 col-md-8 col-lg-8 right_a">Treatment</a>
+            <a href="#" class="col-sm-12 col-md-4 col-lg-4 left">Mouth - Body Connection</a>
+            <a href="#" class="col-sm-12 col-md-8 col-lg-8 right_a">Maintenance</a>
+
+            </div>
         </div>
         <div class="related__right">
             <img src="<?php echo THEME_URL ?>/src/images/detail_img_5@2x.png" alt="">

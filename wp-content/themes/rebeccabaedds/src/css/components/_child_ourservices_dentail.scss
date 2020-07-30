@@ -524,8 +524,12 @@
         margin-left: 30px;
       }
       a {
+
         margin-left: 30px;
         max-width: 300px;
+      }
+      a:hover{
+        color: #ffffff;
       }
     }
     &__right {
