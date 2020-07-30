@@ -7,6 +7,53 @@
   @include prosthodontics;
   @include reason_detail;
   @include detail_description;
+  @include detail_gird;
+  .detail_gird {
+    .second-content{
+      padding-top: 90px;
+      padding-bottom: 90px;
+    }
+    margin-bottom: 60px;
+    .content-first{
+      padding-top: 40px;
+      padding-bottom: 40px;
+    }
+    @include breakpoint3{
+      .content-first{
+      padding-top: 0;
+      padding-bottom: 0;
+      }
+      .second-content{
+        padding-top: 0;
+        padding-bottom: 0;
+      }
+    }
+
+  }
+  .detail_descripton{
+    .detail_descripton__body{
+      padding-left: 95px;
+      padding-right: 95px;
+    }
+    .detail_descripton__title{
+      h2{
+        padding-left: 100px;
+        padding-right: 100px;
+      }
+    }
+    @include breakpoint3{
+      .detail_descripton__body{
+        padding-left: 0px;
+        padding-right: 0px;
+      }
+      .detail_descripton__title{
+        h2{
+          padding-left: 15px;
+          padding-right: 15px;
+        }
+      }
+    }
+  }
   @include related;
   // Responsive
   @include breakpoint3 {
@@ -18,19 +65,12 @@
   .related{
     .related__right{
       img{
-        width: 40%;
+        width: 30%;
+      @include breakpoint3{
+        width:90%;
       }
+      }
+
     }
   }
-}
-@media (max-width: 992px) {
- .endodontics{
-   .related__right{
-     img{
-  width: 90%;
-     }
-   }
- }
-
-
 }

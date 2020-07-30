@@ -156,12 +156,11 @@
 @mixin prosthodontics {
   .Prosthodontics {
     margin-top: 70px;
-
     &__content {
       &__title {
         font-size: 52px;
         font-weight: 700;
-        margin-bottom: 30px;
+        margin-bottom: 10px;
       }
 
       &__body {
@@ -175,8 +174,25 @@
       }
     }
   }
+  @media (max-width: 992px) {
+    .Prosthodontics{
+      &__content {
+        &__title {
+          margin-bottom: 30px;
+        }
+      }
+    }
+  }
 }
-
+@mixin prosthodontics_mobile{
+  @media (max-width:992px) {
+    &__content{
+      &__title{
+        margin-bottom: 0px;
+      }
+    }
+  }
+}
 @mixin reason_detail {
   .reason_detail {
     margin-top: 70px;
@@ -376,7 +392,7 @@
     &__content {
       &__title {
         font-size: 29px;
-        margin-bottom: 20px;
+        //margin-bottom: 20px;
       }
 
       &__body {
@@ -480,7 +496,6 @@
     }
   }
   .detail_descripton {
-    text-align: left;
     &__title {
       h2 {
         font-size: 29px;

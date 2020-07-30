@@ -11,6 +11,26 @@
     margin-bottom: 80px;
   }
   @include detail_description;
+  .fixed-detail_descripton{
+    padding-top: 40px;
+    padding-bottom: 50px;
+  }
+  .detail_descripton{
+    padding-left: 180px;
+    padding-right: 180px;
+    .detail_descripton__body{
+      p{
+        padding-bottom: 0px;
+      }
+    }
+
+  }
+  @include  breakpoint3{
+    .detail_descripton{
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+  }
   @include related;
   // Responsive
   @include breakpoint3 {
@@ -25,7 +45,7 @@
 .fixed-prosthodontics{
   .related__right{
     img{
-      width: 40%;
+      width: 30%;
     }
   }
 }

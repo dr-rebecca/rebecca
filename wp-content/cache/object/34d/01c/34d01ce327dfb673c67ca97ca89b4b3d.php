@@ -1,1 +1,1 @@
-›0!_<?php exit; ?>a:1:{s:7:"content";s:39:"{"good":7,"recommended":9,"critical":0}";}
+¶@!_<?php exit; ?>a:1:{s:7:"content";s:45:"{"good":"7","recommended":"9","critical":"0"}";}

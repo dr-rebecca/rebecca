@@ -177,7 +177,7 @@
                         grinding teeth, and an intermittent ringing in the ears. The vast majority of TMJ sufferers are
                         unaware that the root cause of these problems is something that a dentist can effectively treat.
                     </p>
-                    <br/>
+                    <br class="d-none d-lg-block"/>
                     <p class="Prosthodontics__content__body">
                         The symptoms of TMJ are debilitating and can greatly interfere with everyday life. The comfort
                         and general well being of the patient is at the heart of the dental practice, so pain relief is
@@ -224,32 +224,22 @@
         </div>
     </section>
     <section class="detail_descripton container">
-        <div class="detail_descripton__title">
+        <div class="detail_descripton__title text-center">
             <h2>What Does Treating TMJ Involve?</h2>
         </div>
-        <div class="detail_descripton__body">
+        <div class="detail_descripton__body text-left">
+           <p>
+            TMJ could be a result of several different problems. Bad bite is the most common, but an injury resulting from a blow to the meniscus cartilage is also a possibility. Initially, the dentist will thoroughly examine the jaw area, the patient’s bite, take X-rays, and review the patient’s history in order to make an accurate diagnosis and recommend necessary treatment
+           </p>
+            <p>
+            A better option is to change the shape of the teeth and get rid of the bad bite completely, often called “realignment.” This is especially useful because it alleviates TMJ symptoms and may improve the aesthetic appearance of the teeth as well. Realignment involves adjusting the relationship between how the upper teeth come together with the lower teeth. This may require new restorations and/or adjusting the natural teeth as well. It is not a painful procedure, and it is one the dentist has performed with great success numerous times. As with any procedure, the dentist will be happy to answer questions and discuss symptoms, options, and treatments.
+            </p>
             <p>Once a firm diagnosis is attained, there are several ways in which relief can be provided. A specially
                 molded bite guard can be created to stop teeth grinding during the night. A bite relationship analysis
                 may be recommended by the dentist. The dentist can also provide advice on relaxation techniques which
                 will lessen the effects of stress. As a last alternative, the dentist is also able to prescribe muscle
                 relaxants.
 
-            </p>
-        </div>
-    </section>
-    <section class="detail_descripton container">
-        <div class="detail_descripton__title">
-            <h2>Realignment—An Alternative of TMJ Treatment
-            </h2>
-        </div>
-        <div class="detail_descripton__body">
-            <p>A better option is to change the shape of the teeth and get rid of the bad bite completely, often called
-                “realignment.” This is especially useful because it alleviates TMJ symptoms and may improve the
-                aesthetic appearance of the teeth as well. Realignment involves adjusting the relationship between how
-                the upper teeth come together with the lower teeth. This may require new restorations and/or adjusting
-                the natural teeth as well. It is not a painful procedure, and it is one the dentist has performed with
-                great success numerous times. As with any procedure, the dentist will be happy to answer questions and
-                discuss symptoms, options, and treatments.
             </p>
         </div>
     </section>

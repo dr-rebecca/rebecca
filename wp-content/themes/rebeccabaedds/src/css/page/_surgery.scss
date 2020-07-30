@@ -7,6 +7,14 @@
   @include prosthodontics;
   @include reason_detail;
   @include detail_description;
+  .detail_descripton{
+    padding-left: 80px;
+    padding-right: 80px;
+    @include breakpoint3{
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+  }
   @include related;
   // Responsive
   @include breakpoint3 {

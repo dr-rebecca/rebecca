@@ -1,4 +1,19 @@
 .periodontics-ph {
+  @include breakpoint3{
+    @include cover_other_mobile;
+    @include services_dentail_resposive;
+    .detail_gird {
+      margin-bottom: 80px;
+    }
+  }
+  @include detail_gird;
+  .detail_gird{
+    @include breakpoint3{
+      margin-bottom: 20px;
+    }
+    margin-top: 50px;
+    margin-bottom: 60px;
+  }
   @include cover_other("periodontics","periodontics1.png");
   //nav detail custom
   @include nav_dentail;
@@ -7,6 +22,35 @@
   @include prosthodontics;
   @include reason_detail;
   @include detail_description;
+  .detail_descripton{
+    .detail_descripton__body{
+      padding-bottom: 50px;
+      p{
+        padding-bottom: 15px;
+      }
+      text-align: left;
+      padding-left: 95px;
+      padding-right: 95px;
+    }
+    .detail_descripton__title{
+      h2{
+        padding-left: 100px;
+        padding-right: 100px;
+      }
+    }
+    @include breakpoint3{
+      .detail_descripton__body{
+        padding-left: 0px;
+        padding-right: 0px;
+      }
+      .detail_descripton__title{
+        h2{
+          padding-left: 15px;
+          padding-right: 15px;
+        }
+      }
+    }
+  }
   @include related;
   // Responsive
   @include breakpoint3 {

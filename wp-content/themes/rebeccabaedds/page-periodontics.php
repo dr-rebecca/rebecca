@@ -174,6 +174,13 @@
                     surrounding tissues of the teeth, causing them to become irritated and painful. Eventually, this
                     infection will cause the jawbone to recede and the tooth to become loose.
                 </p>
+                <br>
+                <p class="Prosthodontics__content__body">
+                Periodontal disease generally begins when the bacteria living in plaque cause an infection in the surrounding tissues of the teeth, causing them to become irritated and painful. Eventually, this infection will cause the jawbone to recede and the tooth to become loose.
+                </p>
+
+
+
             </div>
             <div class="Prosthodontics__content col-xl-5 col-lg-5 col-12">
                 <img src="<?php echo THEME_URL ?>/src/images/periodontics.png" alt="">
@@ -212,17 +219,71 @@
         </div>
     </div>
 </section>
+<section class="detail_gird container">
+    <div class=" row detail_gird_content">
+        <div class="detail_gird__left col-xl-3 offset-xl-1 col-lg-3 offset-lg-1">
+            <div class="detail_gird__left__content ">
+                <h2 >Moderate/advanced gum disease</h2>
+            </div>
+        </div>
+        <div class="detail_gird__right col-xl-7 col-lg-7">
+            <div class="detail_gird__right__content">
+                <p>
+                    This occurs when there is too little space for the teeth to align normally in the mouth. Overcrowding can cause tooth decay and increase the likelihood of gum disease.                </p>
+            </div>
+        </div>
+    </div>
+    <div class=" row detail_gird_content">
+        <div class="detail_gird__left col-xl-3 offset-xl-1 col-lg-3 offset-lg-1">
+            <div class="detail_gird__left__content ">
+                <h2 >Localized gum recession</h2>
+            </div>
+        </div>
+        <div class="detail_gird__right col-xl-7 col-lg-7">
+            <div class="detail_gird__right__content"><p>
+                    This can sometimes occur because teeth are missing or because the jaw continues to grow abnormally.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class=" row detail_gird_content">
+        <div class="detail_gird__left col-xl-3 offset-xl-1 col-lg-3 offset-lg-1">
+            <div class="detail_gird__left__content ">
+                <h2>Before crown lengthening</h2>
+            </div>
+        </div>
+        <div class="detail_gird__right col-xl-7 col-lg-7">
+            <div class="detail_gird__right__content"><p>
+                    This common dental problem occurs when one or multiple upper teeth bite inside the lower teeth. As a consequence, uneven wear can lead to bone erosion and gum disease.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class=" row detail_gird_content">
+        <div class="detail_gird__left col-xl-3 offset-xl-1 col-lg-3 offset-lg-1">
+            <div class="detail_gird__left__content "><h2>Ridge augmentation</h2></div>
+        </div>
+        <div class="detail_gird__right col-xl-7 col-lg-7">
+            <div class="detail_gird__right__content">
+                <p>   This problem occurs when the upper teeth project further than, or completely cover, the lower teeth. Eventually, jaw pain and TMJ may occur.                </p>
+            </div>
+        </div>
+    </div>
+</section>
 <section class="detail_descripton container">
     <div class="detail_descripton__title">
         <h2>What Do Periodontal Treatments Involve?</h2>
     </div>
     <div class="detail_descripton__body">
-        <p>In the case of mild/moderate periodontal problems, the focus of the periodontist will be on curing the
-            underlying bacterial infection and then providing advice on the most appropriate home cleaning methods.
+        <p> In the case of mild/moderate periodontal problems, the focus of the periodontist will be on curing the underlying bacterial infection and then providing advice on the most appropriate home cleaning methods.
         </p>
-        <br/>
-        <p>In the case of mild/moderate periodontal problems, the focus of the periodontist will be on curing the
-            underlying bacterial infection and then providing advice on the most appropriate home cleaning methods.
+        <p>Sometimes a deep scaling is needed to remove the bacterial plaque and calculus (tartar) from the teeth and tissues. Where periodontal disease is advanced and the jawbone has regressed significantly, more intensive cleaning may be recommended and loose teeth that cannot be saved will be removed.
+        </p>
+        <p>
+            The periodontist is trained in all aspects of dental implant procedures, which can restore functionality to the mouth when teeth have been affected by periodontitis.
+        </p>
+        <p>
+            Because periodontal disease is progressive, it is essential to remove the bacteria and calculus build up to halt the spread of the infection. Your dentist will be happy to advise you on effective cleaning methods and treatment options.
         </p>
     </div>
 </section>

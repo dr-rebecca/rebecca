@@ -220,39 +220,67 @@
 </section>
 <section class="detail_descripton container">
     <div class="detail_descripton__title">
-        <h2>Why Should You Seek Endodontic Treatments?</h2>
+        <h2>Reasons for endodontic treatment</h2>
     </div>
     <div class="detail_descripton__body">
-        <p>Endodontic treatment (or root canal therapy) is performed to save the natural tooth. Despite many advanced
-            restorations available, most dentists agree that there is no substitute for healthy, natural teeth. Here are
-            some of the main causes of inner tooth damage that requires endodontic treatments:
+        <p>Endodontic treatment (or root canal therapy) is performed to save the natural tooth. In spite of the many advanced restorations available, most dentists agree that there is no substitute for healthy, natural teeth.
+        </p>
+        <p>
+            Here are some of the main causes of inner tooth damage:
         </p>
     </div>
 </section>
-<section class="detail_descripton container">
-    <div class="detail_descripton__title">
-        <h2>What Does an Endodontic Procedure Involve?
-        </h2>
-    </div>
-    <div class="detail_descripton__body">
-        <p>What Does an Endodontic Procedure Involve?
-            An endodontic procedure usually takes between one and three visits to complete. Complete X-rays of the teeth
-            will be taken and examined before the treatment begins.
-        </p>
-        <br/>
-        <p>What Does an Endodontic Procedure Involve?
-            An endodontic procedure usually takes between one and three visits to complete. Complete X-rays of the teeth
-            will be taken and examined before the treatment begins.
-        </p>
-        <br/>
-        <p>The space will then be shaped, cleaned, and filled with gutta-percha. Gutta-percha is a biocompatible
-            material that is somewhat similar to rubber. Cement will be applied on top to ensure that the root canals
-            are completely sealed off. Usually, a temporary filling will be placed to restore functionality to the tooth
-            prior to the permanent restoration procedure. During the final visit, a permanent restoration or crown will
-            be placed.
-        </p>
-    </div>
-</section>
+    <section class="detail_gird container">
+        <div class=" row detail_gird_content">
+            <div class="detail_gird__left col-xl-3 offset-xl-1 col-lg-3 offset-lg-1">
+                <div class="detail_gird__left__content ">
+                    <h2 class="content-first">Bacterial Infections</h2>
+                </div>
+            </div>
+            <div class="detail_gird__right col-xl-7 col-lg-7">
+                <div class="detail_gird__right__content">
+                    <p>Oral bacteria is the most common cause of endodontic problems. Bacteria invade the tooth pulp through tiny fissures in the teeth caused by tooth decay or injury. The resulting inflammation and bacterial infection jeopardize the affected tooth and may cause an abscess to form.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class=" row detail_gird_content">
+            <div class="detail_gird__left col-xl-3 offset-xl-1 col-lg-3 offset-lg-1">
+                <div class="detail_gird__left__content ">
+                    <h2 class="content-first">Fractures and Chips</h2>
+                </div>
+            </div>
+            <div class="detail_gird__right col-xl-7 col-lg-7">
+                <div class="detail_gird__right__content"><p>
+                        When a large part of the surface or crown of the tooth has become completely detached, root canal therapy may be required. The removal of the crown portion leaves the pulp exposed, which can be debilitating painful and problematic.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class=" row detail_gird_content">
+            <div class="detail_gird__left col-xl-3 offset-xl-1 col-lg-3 offset-lg-1">
+                <div class="detail_gird__left__content ">
+                    <h2 class="content-first">Injuries</h2>
+                </div>
+            </div>
+            <div class="detail_gird__right col-xl-7 col-lg-7">
+                <div class="detail_gird__right__content"><p>
+                        Injuries to the teeth can be caused by a direct or indirect blow to the mouth area. Some injuries cause a tooth to become luxated or dislodged from its socket. Root canal therapy is often needed after the endodontist has successfully stabilized the injured tooth.                    </p>
+                </div>
+            </div>
+        </div>
+        <div class=" row detail_gird_content">
+            <div class="detail_gird__left col-xl-3 offset-xl-1 col-lg-3 offset-lg-1">
+                <div class="detail_gird__left__content "><h2 class="second-content">Removals</h2></div>
+            </div>
+            <div class="detail_gird__right col-xl-7 col-lg-7">
+                <div class="detail_gird__right__content">
+                    <p>If a tooth has been knocked clean out of the socket, it is important to rinse it and place it back into the socket as quickly as possible. If this is impossible, place the tooth in special dental solution (available at pharmacies) or in milk. These steps will keep the inner mechanisms of the tooth moist and alive while emergency dental treatment is sought. The tooth will be affixed in its socket using a special splint, and the endodontist will then perform root canal therapy to save the tooth.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
 <section class="related container">
     <div class="row">
         <div class="related__left col-xl-11 col-lg-11 col-12">

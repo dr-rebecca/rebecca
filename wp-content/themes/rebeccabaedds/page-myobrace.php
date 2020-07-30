@@ -162,21 +162,8 @@
                 <div class="Prosthodontics__content col-xl-7 col-lg-7 col-12">
                     <h2 class="Prosthodontics__content__title">Myobrace®</h2>
                     <p class="Prosthodontics__content__body">
-                        One of the primary concerns people often have about dental braces is the aesthetic impact of the
-                        metal on their smiles. Especially for adults, the prospect of wearing unattractive metal braces
-                        for long periods of time can be very discouraging. Dr. Ryan Goslin uses Invisalign® as clear
-                        aligners, offering an almost invisible aligning system that straightens teeth fast and contains
-                        no metal.
+                        The Myobrace® System is a preventive pre-orthodontic method that treats the underlying causes of crooked teeth. What’s revolutionary about Myobrace is that it eliminates the need for braces or teeth extraction and allows for the natural growth of the teeth. Myobrace involves a series of removable intraoral appliances that are worn for a couple hours every day and while sleeping. This treatment is best suited for children of 3 to 15 years olds.
                     </p>
-                    <br/>
-                    <p class="Prosthodontics__content__body">
-                        Invisalign® treatment consists of a series of custom-made aligning trays. The dentist changes
-                        the trays every several weeks to fit the new tooth configuration. In addition to the reduced
-                        visual impact, Invisalign® aligning trays can be temporarily removed for important occasions –
-                        meaning that treatment duration is patient-controlled. A great number of people report complete
-                        satisfaction with both the Invisalign® treatment and the stunning results.
-                    </p>
-
                 </div>
                 <div class="Prosthodontics__content col-xl-5 col-lg-5 col-12">
                     <img src="<?php echo THEME_URL ?>/src/images/obarce.png" alt="">
@@ -226,7 +213,7 @@
         <div class=" row detail_gird_content">
             <div class="detail_gird__left col-xl-3 offset-xl-1 col-lg-3 offset-lg-1">
                 <div class="detail_gird__left__content">
-                    <h2>Habit Correction</h2>
+                    <h2 class="content-first">Habit Correction</h2>
                 </div>
             </div>
             <div class="detail_gird__right col-xl-7 col-lg-7">
@@ -250,7 +237,7 @@
         </div>
         <div class=" row detail_gird_content">
             <div class="detail_gird__left col-xl-3 offset-xl-1 col-lg-3 offset-lg-1">
-                <div class="detail_gird__left__content"><h2>Dental Alignment</h2></div>
+                <div class="detail_gird__left__content"><h2 class="content-first">Dental Alignment</h2></div>
             </div>
             <div class="detail_gird__right col-xl-7 col-lg-7">
                 <div class="detail_gird__right__content"><p>When the last permanent teeth are erupting, the dentist will
@@ -262,7 +249,7 @@
         </div>
         <div class=" row detail_gird_content">
             <div class="detail_gird__left col-xl-3 offset-xl-1 col-lg-3 offset-lg-1">
-                <div class="detail_gird__left__content"><h2>Retention</h2></div>
+                <div class="detail_gird__left__content"><h2 class="content-first">Retention</h2></div>
             </div>
             <div class="detail_gird__right col-xl-7 col-lg-7">
                 <div class="detail_gird__right__content"><p>The final stage is retention to ensure the patient maintains
