@@ -27,7 +27,8 @@ function setup_theme(){
     register_nav_menus(array(
         'primary' =>'Primary',
         'second' => 'Second',
-        'third'  => 'Third'
+        'third'  => 'Third',
+        'all' => 'All'
     ));
 }
 add_action('after_setup_theme','setup_theme');
