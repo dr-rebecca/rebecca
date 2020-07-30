@@ -168,13 +168,13 @@
                     general oral health. The two most common fixed prosthodontic treatments are crowns (caps) and
                     bridges.
                 </p>
-                <br/>
+                <br class="d-none d-lg-block">
                 <p class="Prosthodontics__content__body">
                     A crown (or cap) is a covering that encases the entire tooth surface, restoring it to its original
                     shape and size. A crown protects and strengthens tooth structure that cannot be restored with
                     fillings or other types of restorations.
                 </p>
-                <br/>
+                <br class="d-none d-lg-block">
                 <p class="Prosthodontics__content__body">
                     A dental bridge is a fixed (non-removable) appliance and is an excellent way to replace missing
                     teeth.
@@ -216,6 +216,7 @@
         </div>
     </div>
 </section>
+    <section class="fixed-detail_descripton text-center">
 <section class="detail_descripton container">
     <div class="detail_descripton__title">
         <h2>What Does Getting a Fixed Bridge Involve?
@@ -227,7 +228,6 @@
             which will be sent to a dental laboratory where the bridge will be fabricated. A temporary bridge will be
             made and worn for several weeks until your next appointment.
         </p>
-        <br/>
         <p>At the second visit, your permanent bridge will be carefully checked, adjusted, and cemented to achieve a
             proper fit. Occasionally your dentist may only temporarily cement the bridge, allowing your teeth and tissue
             time to get used to the new bridge. The new bridge will be permanently cemented at a later time.
@@ -245,17 +245,16 @@
             used to create a temporary crown and will stay on your tooth for approximately two weeks until your new
             crown is fabricated by a dental laboratory.
         </p>
-        <br/>
         <p>While the tooth is numb, the dentist will prepare the tooth by removing any decay and shaping the surface to
             properly fit the crown. Once these details are accomplished, your temporary crown will be placed with
             temporary cement and your bite will be checked to ensure you are biting properly.
         </p>
-        <br/>
         <p>At your second appointment, your temporary crown will be removed, the tooth will be cleaned, and your new
             crown will be carefully placed to ensure the spacing and bite are accurate.
         </p>
     </div>
 </section>
+    </section>
 <section class="related container">
     <div class="row">
         <div class="related__left col-xl-11 col-lg-11 col-12">

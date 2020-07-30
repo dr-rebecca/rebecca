@@ -176,12 +176,12 @@
                         and color) by a professional dental laboratory. They are bonded onto the front of teeth to
                         create a beautiful and attractive smile.
                     </p>
-                    <br/>
+                    <br class="d-none d-lg-block"/>
                     <p class="Prosthodontics__content__body">
                         Veneers can completely reshape your teeth and smile. They can often be alternatives to crowns
                         and the ideal solution in treating many dental conditions.
                     </p>
-                    <br/>
+                    <br class="d-none d-lg-block"/>
                     <p class="Prosthodontics__content__body">
                         As with most dental restorations, veneers are not permanent and may someday need replacement.
                         They are very durable and will last many years, giving you a beautiful long lasting smile.
@@ -242,7 +242,7 @@
         </div>
         <div class=" row detail_gird_content">
             <div class="detail_gird__left col-xl-3 offset-xl-1 col-lg-3 offset-lg-1">
-                <div class="detail_gird__left__content "><h2 class="second-content">Second Visit</h2></div>
+                <div class="detail_gird__left__content "><h2 class="content-first">Second Visit</h2></div>
             </div>
             <div class="detail_gird__right col-xl-7 col-lg-7">
                 <div class="detail_gird__right__content">

@@ -302,7 +302,7 @@
         <div class="row">
             <div class="related__left col-xl-11 col-lg-11 col-12">
                 <h2>Related Pages</h2>
-                <a href="#">Bruxism</a>
+                <a href="#">How to Properly Brush & Floss</a>
                 <a href="#">Oral Cancer Exam</a>
                 <a href="#">Oral Hygiene Aids</a>
                 <a href="#">Dental Exams & Cleanings</a>

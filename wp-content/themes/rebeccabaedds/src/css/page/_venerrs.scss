@@ -19,9 +19,35 @@
             margin-bottom: 80px;
         }
     }
+  .detail_gird {
+    .second-content{
+      padding-top: 90px;
+      padding-bottom: 90px;
+    }
+    margin-bottom: 60px;
+    .content-first{
+      padding-top: 40px;
+      padding-bottom: 40px;
+    }
+    @include breakpoint3{
+      .content-first{
+        padding-top: 0;
+        padding-bottom: 0;
+      }
+      .second-content{
+        padding-top: 0;
+        padding-bottom: 0;
+      }
+    }
+
+  }
 
 }
 .first-content{
   padding-top: 60px;
   padding-bottom: 60px;
+  @include breakpoint3{
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
 }

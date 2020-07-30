@@ -161,12 +161,12 @@
             <div class="Prosthodontics__content col-xl-7 col-lg-7 col-12">
                 <h2 class="Prosthodontics__content__title">Restorative Dentistry</h2>
                 <p class="Prosthodontics__content__body">
-                    It’s great news that the incidence of tooth decay has significantly diminished over the years due to
-                    the use of fluorides and an increase in patient awareness. However, your teeth may still be
-                    susceptible to decay, infection, and breakage and sometimes need to be restored back to health.
-                    Through improved techniques and modern technology, Dr. Rebecca and our team are now able to offer
-                    more options for restoring a tooth back to its normal shape, appearance and function.
+                    It’s excellent news that the rate of tooth decay has significantly diminished over the years due to the use of fluorides and an increase in patient awareness. However, teeth are still susceptible to decay, infection, and breakage that sometimes need to be restored to health. Through improved techniques and modern technology, we are now able to offer more options for restoring a tooth to its normal shape, appearance, and function.
                 </p>
+                <p class="Prosthodontics__content__body">
+                    Should your teeth ever require a restorative treatment, you can rest assured knowing we will always discuss with you the available options and recommend what we believe to be the most comfortable with the least invasive treatment. Providing you with excellent care is our number one priority when creating your beautiful smile.
+                </p>
+
             </div>
             <div class="Prosthodontics__content col-xl-5 col-lg-5 col-12">
                 <img src="<?php echo THEME_URL ?>/src/images/restorative1.png" alt="">
@@ -212,12 +212,16 @@
     <div class="detail_descripton__title">
         <h2>Restorative Dentistry Treatments</h2>
     </div>
+    <div class="detail_descripton__body">
+        <p>
+            Here at Dr. Bae's office we offer a vast range of restorative dentistry treatments. From root canal therapy to onlays and inlays restorations, we provide them all. We care greatly for your comfort and will continue to assist you by bringing your bright, confident, life-long smile to the world.        </p>
+    </div>
 </section>
 <section class="detail_gird container">
     <div class=" row detail_gird_content">
         <div class="detail_gird__left col-xl-3 offset-xl-1 col-lg-3 offset-lg-1">
             <div class="detail_gird__left__content">
-                <h2>Root Canal Therapy</h2>
+                <h2 class="content-first">Root Canal Therapy</h2>
             </div>
         </div>
         <div class="detail_gird__right col-xl-7 col-lg-7">
@@ -230,7 +234,7 @@
     </div>
     <div class=" row detail_gird_content">
         <div class="detail_gird__left col-xl-3 offset-xl-1 col-lg-3 offset-lg-1">
-            <div class="detail_gird__left__content"><h2>Empress® Restorations</h2></div>
+            <div class="detail_gird__left__content"><h2 class="content-first">Empress® <br class="d-none d-lg-block"> Restorations</h2></div>
         </div>
         <div class="detail_gird__right col-xl-7 col-lg-7">
             <div class="detail_gird__right__content"><p>Empress® restorations are completely metal-free, and are
@@ -241,7 +245,7 @@
     </div>
     <div class=" row detail_gird_content">
         <div class="detail_gird__left col-xl-3 offset-xl-1 col-lg-3 offset-lg-1">
-            <div class="detail_gird__left__content"><h2>Dental Implants</h2></div>
+            <div class="detail_gird__left__content"><h2 class="content-first">Dental Implants</h2></div>
         </div>
         <div class="detail_gird__right col-xl-7 col-lg-7">
             <div class="detail_gird__right__content"><p>A great way to replace missing teeth and also provide a fixed
@@ -253,7 +257,7 @@
     </div>
     <div class=" row detail_gird_content">
         <div class="detail_gird__left col-xl-3 offset-xl-1 col-lg-3 offset-lg-1">
-            <div class="detail_gird__left__content"><h2>Inlay Restorations</h2></div>
+            <div class="detail_gird__left__content"><h2 class="content-first">Inlay Restorations</h2></div>
         </div>
         <div class="detail_gird__right col-xl-7 col-lg-7">
             <div class="detail_gird__right__content"><p>Utilized to repair teeth that have large defective fillings or
@@ -265,7 +269,7 @@
     </div>
     <div class=" row detail_gird_content">
         <div class="detail_gird__left col-xl-3 offset-xl-1 col-lg-3 offset-lg-1">
-            <div class="detail_gird__left__content"><h2>Onlay Restoration
+            <div class="detail_gird__left__content"><h2 class="content-first">Onlay Restoration
                 </h2></div>
         </div>
         <div class="detail_gird__right col-xl-7 col-lg-7">
@@ -278,7 +282,7 @@
     </div>
     <div class=" row detail_gird_content">
         <div class="detail_gird__left col-xl-3 offset-xl-1 col-lg-3 offset-lg-1">
-            <div class="detail_gird__left__content"><h2>Amalgam Fillings
+            <div class="detail_gird__left__content"><h2 class="content-first">Amalgam Fillings
                 </h2></div>
         </div>
         <div class="detail_gird__right col-xl-7 col-lg-7">
@@ -291,7 +295,7 @@
     </div>
     <div class=" row detail_gird_content">
         <div class="detail_gird__left col-xl-3 offset-xl-1 col-lg-3 offset-lg-1">
-            <div class="detail_gird__left__content"><h2>Composite Fillings
+            <div class="detail_gird__left__content"><h2 class="content-first">Composite Fillings
                 </h2></div>
         </div>
         <div class="detail_gird__right col-xl-7 col-lg-7">
@@ -304,7 +308,7 @@
     </div>
     <div class=" row detail_gird_content">
         <div class="detail_gird__left col-xl-3 offset-xl-1 col-lg-3 offset-lg-1">
-            <div class="detail_gird__left__content"><h2>Crowns (Cap)
+            <div class="detail_gird__left__content"><h2 class="content-first">Crowns (Cap)
                 </h2></div>
         </div>
         <div class="detail_gird__right col-xl-7 col-lg-7">

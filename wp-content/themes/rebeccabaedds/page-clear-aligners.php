@@ -214,7 +214,7 @@
         <div class="detail_descripton__title">
             <h2>What kind of bite problems can Invisalign® correct?</h2>
         </div>
-        <div class="detail_descripton__body">
+        <div class="detail_descripton__body text-center">
             <p>
                 Invisalign® corrects the same dental problems as traditional metal braces; the only difference is that Invisalign® trays are almost invisible to the naked eye, and can be removed at will.
             </p>
@@ -227,50 +227,108 @@
     <div class=" row detail_gird_content">
         <div class="detail_gird__left col-xl-3 offset-xl-1 col-lg-3 offset-lg-1">
             <div class="detail_gird__left__content ">
-                <h2 class="first-content">First Visit</h2>
+                <h2 class="content-first">Overcrowding</h2>
             </div>
-        </div>
-        <div class="detail_gird__right col-xl-7 col-lg-7">
-            <div class="detail_gird__right__content"><p>
-                    Getting veneers usually requires two visits to complete the process with little or no local anesthesia required for the procedure. The teeth are prepared by lightly buffing and shaping the surface to allow the shape of the veneer. A mold or impression of the teeth is then taken for the perfect fit. Lastly, the shade (color) will then be chosen by you and the dentist.
-                </p>
-            </div>
-        </div>
-    </div>
-    <div class=" row detail_gird_content">
-        <div class="detail_gird__left col-xl-3 offset-xl-1 col-lg-3 offset-lg-1">
-            <div class="detail_gird__left__content "><h2 class="second-content">Second Visit</h2></div>
-        </div>
-        <div class="detail_gird__right col-xl-7 col-lg-7">
-            <div class="detail_gird__right__content">
-                <p>On the second visit, the teeth will be cleansed with special liquids to achieve a durable bond. The bonding cement will be placed between the tooth and veneer by a special light beam to be used for hardening and setting the bond.
-                </p>
-            </div>
-        </div>
-    </div>
-    <div class=" row detail_gird_content">
-        <div class="detail_gird__left col-xl-3 offset-xl-1 col-lg-3 offset-lg-1">
-            <div class="detail_gird__left__content"><h2 class="third-content">Care Instructions</h2></div>
         </div>
         <div class="detail_gird__right col-xl-7 col-lg-7">
             <div class="detail_gird__right__content">
                 <p>
-                    Finally, you will receive home care instructions for your new veneers. Please remember to maintain proper oral hygiene such as brushing, flossing, and regular dental visits to aid in the life of your new beautiful smile
+                    This occurs when there is too little space for the teeth to align normally in the mouth. Overcrowding can cause tooth decay and increase the likelihood of gum disease.                </p>
+            </div>
+        </div>
+    </div>
+    <div class=" row detail_gird_content">
+        <div class="detail_gird__left col-xl-3 offset-xl-1 col-lg-3 offset-lg-1">
+            <div class="detail_gird__left__content ">
+                <h2 class="text-center">Large gaps between <br class="d-none d-lg-block"> teeth</h2>
+            </div>
+        </div>
+        <div class="detail_gird__right col-xl-7 col-lg-7">
+            <div class="detail_gird__right__content"><p>
+                    This can sometimes occur because teeth are missing or because the jaw continues to grow abnormally.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class=" row detail_gird_content">
+        <div class="detail_gird__left col-xl-3 offset-xl-1 col-lg-3 offset-lg-1">
+            <div class="detail_gird__left__content ">
+                <h2 class="content-first">Crossbite</h2>
+            </div>
+        </div>
+        <div class="detail_gird__right col-xl-7 col-lg-7">
+            <div class="detail_gird__right__content"><p>
+                    This common dental problem occurs when one or multiple upper teeth bite inside the lower teeth. As a consequence, uneven wear can lead to bone erosion and gum disease.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class=" row detail_gird_content">
+        <div class="detail_gird__left col-xl-3 offset-xl-1 col-lg-3 offset-lg-1">
+            <div class="detail_gird__left__content "><h2 >Overbite</h2></div>
+        </div>
+        <div class="detail_gird__right col-xl-7 col-lg-7">
+            <div class="detail_gird__right__content">
+             <p>   This problem occurs when the upper teeth project further than, or completely cover, the lower teeth. Eventually, jaw pain and TMJ may occur.                </p>
+            </div>
+        </div>
+    </div>
+    <div class=" row detail_gird_content">
+        <div class="detail_gird__left col-xl-3 offset-xl-1 col-lg-3 offset-lg-1">
+            <div class="detail_gird__left__content"><h2 class="third-content">Underbite</h2></div>
+        </div>
+        <div class="detail_gird__right col-xl-7 col-lg-7">
+            <div class="detail_gird__right__content">
+                <p>
+                    This is the inverse of the overbite; the lower teeth project further than, or completely cover, the upper teeth. Eventually, jaw pain and TMJ can occur.
                 </p>
             </div>
         </div>
     </div>
 </section>
+    <section class="banner">
+        <div class="container text-center">
+
+        </div>
+    </section>
+    <section class="detail_descripton container">
+        <div class="detail_descripton__title">
+            <h2>What advantages does Invisalign® offer over traditional braces and veneers?
+        </h2>
+        </div>
+        <div class="detail_descripton__body">
+            <p> Traditional dental braces, Invisalign® aligning trays, and dental veneers are three different ways to perfect the alignment of the teeth. There are many different considerations to make when deciding which treatment will be best, and each of these options works better in certain situations.   </p>
+            <p>
+                Invisalign® differs from traditional braces in that the aligning trays are fully removable. This means that more discipline and commitment is required from the patient. This is not usually a problem since the trays are comfortable and nearly invisible. Almost identical results can be obtained by using either treatment.
+            </p>
+            <p>
+                Invisalign® is preferable to veneers in many cases because unlike veneers, Invisalign® actually straightens the teeth. Veneers are thin covers that the dentist permanently affixes to the teeth. Teeth must be etched beforehand, meaning that to remove dental veneers, an alternative covering must be constructed. In addition to being somewhat expensive, veneers can break and often last for less than 20 years.
+            </p>
+        </div>
+    </section>
     <section class="detail_descripton container">
         <div class="detail_descripton__title">
             <h2>What Does an Invisalign® Treatment Involve?
-</h2>
+            </h2>
         </div>
         <div class="detail_descripton__body">
             <p>First, the dentist needs to devise an initial treatment plan before creating the special aligning trays. Three-dimensional digital images are taken of the entire jaw. These images allow the dentist to move specific teeth on the screen, view the jaw from different angles, and also foresee what the face might look like in years to come. In essence, this technology can show how Invisalign® trays will change the facial aesthetics.
-                <br/>
-                <br/>
+            </p>
+            <p>
                 Once planning is complete, a unique set of aligners is made. The total amount of aligners required varies with each individual case, but 20-29 sets per arch is typical.
+            </p>
+        </div>
+    </section>
+    <section class="detail_descripton container">
+        <div class="detail_descripton__title">
+            <h2>What are some considerations when wearing Invisalign® trays?
+            </h2>
+        </div>
+        <div class="detail_descripton__body">
+            <p>Life with Invisalign® aligning trays may take several weeks to get used to. The trays should be worn constantly, except when eating and drinking. It is important to remove the trays when consuming food or drink because food can become trapped between the tray and the teeth, causing tooth decay.
+            </p>
+            <p>
+                Usually, new trays are necessary every two weeks, and progress between appointments can be seen with the naked eye. There is no doubt that Invisalign® aligning trays have revolutionized orthodontics. Invisalign® is renowned for being both comfortable and effective.
             </p>
         </div>
     </section>

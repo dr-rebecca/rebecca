@@ -174,11 +174,12 @@
                     <p class="Prosthodontics__content__body">
                         Tooth whitening (or bleaching) is a simple, non-invasive dental treatment used to change the color of natural tooth enamel and is an ideal way to enhance the beauty of your smile.
                        </p>
-                    <br/>
+                    <br class="d-none d-lg-block"/>
                     <p class="Prosthodontics__content__body">
                         Because having whiter teeth has now become the number one aesthetic concern of most patients, there are a number of ways to whiten teeth. The most popular method is using a home tooth whitening system that will whiten teeth dramatically. Since tooth whitening only works on natural tooth enamel, it is important to evaluate replacement of any old fillings, crowns, etc. Replacement of any restorations will be done after bleaching so they will match the newly bleached teeth.
                     </p>
-                    <br/>
+                    <br class="d-none d-lg-block"/>
+
                     <p class="Prosthodontics__content__body">
                         Tooth whitening is not permanent. A touch-up maybe needed every several years, and more often if you smoke, drink coffee, tea, or wine.
                     </p>    </div>
