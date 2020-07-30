@@ -54,11 +54,31 @@
   @include related;
   .related{
     .related__left{
+      h2{
+        margin-left: 10px;
+        @include breakpoint3{
+          margin-left: 30px;
+        }
+      }
       .right_a{
+
         padding-right: 448px;
+        padding-bottom: 20px;
+        @include breakpoint3{
+          white-space: nowrap;
+          padding-right: unset;
+          line-height: 28px;
+        }
       }
       .left{
-        padding-right: 90px;
+        padding-right: 83px;
+        padding-bottom: 20px;
+        @include breakpoint3{
+          white-space: nowrap;
+          padding-right: 10px;
+          line-height: 28px;
+
+        }
       }
     }
     .related__right{
