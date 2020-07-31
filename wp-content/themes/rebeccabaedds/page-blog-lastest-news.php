@@ -30,7 +30,7 @@
                         <div class="news__item">
                             <div class="news--content">
                                 <img src="<?php echo THEME_URL?>/src/images/blog-implant.png" alt="">
-                                <a class="text-t" href="#">IMPLANTS, OVERDENTURES AND ALL-ON-4’S (A.K.A TEETH IN A
+                                <a class="text-t" href="/blog-detail">IMPLANTS, OVERDENTURES AND ALL-ON-4’S (A.K.A TEETH IN A
                                     DAY)</a>
                                 <p class="text">
                                     The old days of wearing false teeth that come in and out of your mouth are far gone.
@@ -45,7 +45,7 @@
                         <div class="news__item">
                             <div class="news--content">
                                 <img src="<?php echo THEME_URL?>/src/images/blog-mouthguards.png" alt="">
-                                <a class="text-t" href="#">MOUTHGUARDS</a>
+                                <a class="text-t" href="/blog-detail">MOUTHGUARDS</a>
                                 <p class="text">
                                     It’s back to school time! If you or your children participate in any organized
                                     sports, you
@@ -59,7 +59,7 @@
                         <div class="news__item">
                             <div class="news--content">
                                 <img src="<?php echo THEME_URL?>/src/images/mouth-healthy.png" alt="">
-                                <a class="text-t" href="#">COSMETIC DENTISTRY</a>
+                                <a class="text-t" href="/blog-detail">COSMETIC DENTISTRY</a>
                                 <p class="text">
                                     We often see people on TV flashing their pearly whites with confidence. Did you know
                                     that most
@@ -73,7 +73,7 @@
                         <div class="news__item">
                             <div class="news--content">
                                 <img src="<?php echo THEME_URL?>/src/images/blog-gum.png" alt="">
-                                <a class="text-t" href="#">GUM DISEASE AND HEART DISEASE</a>
+                                <a class="text-t" href="/blog-detail">GUM DISEASE AND HEART DISEASE</a>
                                 <p class="text">
                                     October is National Dental Hygiene Month. This month, we will discuss the link
                                     between gum
@@ -87,7 +87,7 @@
                         <div class="news__item">
                             <div class="news--content">
                                 <img src="<?php echo THEME_URL?>/src/images/blog-brighten.png" alt="">
-                                <a class="text-t" href="#">BRIGHTEN YOUR SMILE WITH ZOOM! QUICKPRO® IN JUST TEN
+                                <a class="text-t" href="/blog-detail">BRIGHTEN YOUR SMILE WITH ZOOM! QUICKPRO® IN JUST TEN
                                     MINUTES!</a>
                                 <p class="text">
                                     Summer is here! Is your smile bright, white and beach-ready? Are your teeth stained?
@@ -102,7 +102,7 @@
                         <div class="news__item">
                             <div class="news--content">
                                 <img src="<?php echo THEME_URL?>/src/images/blog-baby.png" alt="">
-                                <a class="text-t" href="#">BABY TEETH</a>
+                                <a class="text-t" href="/blog-detail">BABY TEETH</a>
                                 <p class="text">
                                     Baby teeth, known as primary teeth, usually starts to erupt through the gums between
                                     6 months to
@@ -118,7 +118,7 @@
                         <div class="news__item">
                             <div class="news--content">
                                 <img src="<?php echo THEME_URL?>/src/images/blog-radiation.png" alt="">
-                                <a class="text-t" href="#">RADIATION FREE CAVITY DETECTION — CARIVU</a>
+                                <a class="text-t" href="/blog-detail">RADIATION FREE CAVITY DETECTION — CARIVU</a>
                                 <p class="text">
                                     At Dr. Rebecca Bae, DDS, we strive to keep technology current and beneficial to all
                                     our
@@ -133,7 +133,7 @@
                         <div class="news__item">
                             <div class="news--content">
                                 <img src="<?php echo THEME_URL?>/src/images/blog-children.png" alt="">
-                                <a class="text-t" href="#">CHILDREN’S DENTAL HEALTH</a>
+                                <a class="text-t" href="/blog-detail">CHILDREN’S DENTAL HEALTH</a>
                                 <p class="text">
                                     February is National Children’s Dental Health Month (NCDHM). 2016 marks the 75th
                                     year observing
@@ -148,7 +148,7 @@
                         <div class="news__item">
                             <div class="news--content">
                                 <img src="<?php echo THEME_URL?>/src/images/blog-about.png" alt="">
-                                <a class="text-t" href="#">ALL ABOUT FLUORIDE</a>
+                                <a class="text-t" href="/blog-detail">ALL ABOUT FLUORIDE</a>
                                 <p class="text">
                                     Tooth decay (dental caries, cavities) is the most common chronic disease of children
                                     and
@@ -164,7 +164,7 @@
                         <div class="news__item">
                             <div class="news--content">
                                 <img src="<?php echo THEME_URL?>/src/images/blog-invisalign.png" alt="">
-                                <a class="text-t" href="#">INVISALIGN®- INVISIBLE BRACES</a>
+                                <a class="text-t" href="/blog-detail">INVISALIGN®- INVISIBLE BRACES</a>
                                 <p class="text">
                                     Everyone seems to want straight, white teeth these days no matter what age or
                                     gender. One of the
@@ -179,7 +179,7 @@
                         <div class="news__item">
                             <div class="news--content">
                                 <img src="<?php echo THEME_URL?>/src/images/blog-breath.png" alt="">
-                                <a class="text-t" href="#">BAD BREATH — HALITOSIS</a>
+                                <a class="text-t" href="/blog-detail">BAD BREATH — HALITOSIS</a>
                                 <p class="text">
                                     Are you constantly chewing gum, popping in breath mints, or using mouth rinse often?
                                     Are you
@@ -195,7 +195,7 @@
                         <div class="news__item">
                             <div class="news--content">
                                 <img src="<?php echo THEME_URL?>/src/images/blog-toothbrush.png" alt="">
-                                <a class="text-t" href="#">DIRTY TOOTHBRUSH</a>
+                                <a class="text-t" href="/blog-detail">DIRTY TOOTHBRUSH</a>
                                 <p class="text">
                                     Few months ago, we discussed the link between gum disease and preterm labor, low
                                     birth weight
@@ -215,7 +215,7 @@
                         <div class="news__item">
                             <div class="news--content">
                                 <img src="<?php echo THEME_URL?>/src/images/blog-safety.png" alt="">
-                                <a href="#" class="text-t">SAFETY OF DENTISTRY DURING PREGNANCY</a>
+                                <a href="/blog-detail" class="text-t">SAFETY OF DENTISTRY DURING PREGNANCY</a>
                                 <p class="text">
                                     Few months ago, we discussed the link between gum disease and preterm labor, low
                                     birth weight and stillbirths. Dental care is safe and essential during…
@@ -228,7 +228,7 @@
                         <div class="news__item">
                             <div class="news--content">
                                 <img src="<?php echo THEME_URL?>/src/images/blog-bleaching.png" alt="">
-                                <a class="text-t" href="#">TEETH WHITENING/BLEACHING</a>
+                                <a class="text-t" href="/blog-detail">TEETH WHITENING/BLEACHING</a>
                                 <p class="text">
                                     Extrinsic stains appear on the surface of your teeth and result from exposure over
                                     time to food, drink, or tobacco products. Intrinsic stains appear within the inner
@@ -257,7 +257,7 @@
                         <div class="news__item">
                             <div class="news--content">
                                 <img src="<?php echo THEME_URL?>/src/images/blog-apnea.png" alt="">
-                                <a class="text-t" href="#">SLEEP APNEA IN ADULTS AND CHILDREN</a>
+                                <a class="text-t" href="/blog-detail">SLEEP APNEA IN ADULTS AND CHILDREN</a>
                                 <p class="text">
                                     Does your spouse complain of your nightly snoring or grinding of your teeth? Do you
                                     feel fatigued and exhausted despite getting hours of sleep? If so, you may be
@@ -271,7 +271,7 @@
                         <div class="news__item">
                             <div class="news--content">
                                 <img src="<?php echo THEME_URL?>/src/images/blog-oral.png" alt="">
-                                <a class="text-t" href="#">ORAL CANCER</a>
+                                <a class="text-t" href="/blog-detail">ORAL CANCER</a>
                                 <p class="text">
                                     April is Oral Cancer Awareness month. Even though one person every hour of the day
                                     will die from it, the public awareness is low when it comes to oral and pharyngeal
@@ -286,7 +286,7 @@
                         <div class="news__item">
                             <div class="news--content">
                                 <img src="<?php echo THEME_URL?>/src/images/blog-insurance.png" alt="">
-                                <a class="text-t" href="#">DENTAL INSURANCE</a>
+                                <a class="text-t" href="/blog-detail">DENTAL INSURANCE</a>
                                 <p class="text">
                                     Time flies! It’s already December and 2015 is coming to an end. Did you know that
                                     your 2015 dental insurance benefits and/or healthcare flexible spending account also
@@ -301,7 +301,7 @@
                         <div class="news__item">
                             <div class="news--content">
                                 <img src="<?php echo THEME_URL?>/src/images/blog-about-us.png" alt="">
-                                <a class="text-t" href="#">ABOUT US</a>
+                                <a class="text-t" href="/blog-detail">ABOUT US</a>
                                 <p class="text">
                                     Many parents are curious as to what age kids get braces. A dentist talks about what
                                     to Thank you for welcoming us to your neighborhood and the opportunity to meet you!

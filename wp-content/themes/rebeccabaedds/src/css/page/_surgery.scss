@@ -21,4 +21,17 @@
     @include cover_other_mobile;
     @include services_dentail_resposive;
   }
+  .related{
+    .related__right{
+      img{
+        width: 30%;
+        @include breakpoint3{
+          width: 90%;
+        }
+      }
+      .related__left{
+        display: unset;
+      }
+    }
+  }
 }

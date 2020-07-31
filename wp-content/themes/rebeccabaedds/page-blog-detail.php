@@ -6,6 +6,9 @@
             <h2 class="text-t">
                 Blog
             </h2>
+            <h2 class="text-second">
+                / Blog Detail
+            </h2>
     </section>
     <!-- Three Reasons To Consider Dental Implants -->
     <section class="three-reason">

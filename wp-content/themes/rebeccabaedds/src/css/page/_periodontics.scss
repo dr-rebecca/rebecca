@@ -54,6 +54,9 @@
   @include related;
   .related{
     .related__left{
+      a{
+        line-height: 35px;
+      }
       h2{
         margin-left: 10px;
         @include breakpoint3{
