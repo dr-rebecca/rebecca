@@ -13,58 +13,43 @@
         <div class="container">
             <ul class="nav__list row">
                 <li class="nav__item dropdown col-xl-4 col-lg-4">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                       data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Smile with Confidence
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Smile with Confidence
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <a class="dropdown-item" href="<?php echo get_permalink(get_page_by_path("whitening")) ?>">Whitening</a>
-                        <a class="dropdown-item"
-                           href="<?php echo get_permalink(get_page_by_path("veneers")) ?>">Veneers</a>
-                        <a class="dropdown-item"
-                           href="<?php echo get_permalink(get_page_by_path("clear-aligners")) ?>">Clear
+                        <a class="dropdown-item" href="<?php echo get_permalink(get_page_by_path("veneers")) ?>">Veneers</a>
+                        <a class="dropdown-item" href="<?php echo get_permalink(get_page_by_path("clear-aligners")) ?>">Clear
                             Aligners</a>
                     </div>
                 </li>
                 <li class="nav__item dropdown col-xl-4 col-lg-4">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                       data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Breathe Easy, Sleep Better
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <a class="dropdown-item" href="<?php echo get_permalink(get_page_by_path("myobrace")) ?>">Myobrace</a>
-                        <a class="dropdown-item"
-                           href="<?php echo get_permalink(get_page_by_path("oral-appliance-therapy-oat")) ?>">Oral
+                        <a class="dropdown-item" href="<?php echo get_permalink(get_page_by_path("oral-appliance-therapy-oat")) ?>">Oral
                             Appliance Therapy (OAT)</a>
-                        <a class="dropdown-item"
-                           href="<?php echo get_permalink(get_page_by_path("tmj-appliance")) ?>">TMJ
+                        <a class="dropdown-item" href="<?php echo get_permalink(get_page_by_path("tmj-appliance")) ?>">TMJ
                             Appliance</a>
                     </div>
                 </li>
                 <li class="nav__item dropdown col-xl-4 col-lg-4">
-                    <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button"
-                       data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Healthy Function and Prevention
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item"
-                           href="<?php echo get_permalink(get_page_by_path("preventative")) ?>">Preventative</a>
-                        <a class="dropdown-item"
-                           href="<?php echo get_permalink(get_page_by_path("restorative")) ?>">Restorative</a>
-                        <a class="dropdown-item"
-                           href="<?php echo get_permalink(get_page_by_path("fixed-prosthodontics")) ?>">Fixed
+                        <a class="dropdown-item" href="<?php echo get_permalink(get_page_by_path("preventative")) ?>">Preventative</a>
+                        <a class="dropdown-item" href="<?php echo get_permalink(get_page_by_path("restorative")) ?>">Restorative</a>
+                        <a class="dropdown-item" href="<?php echo get_permalink(get_page_by_path("fixed-prosthodontics")) ?>">Fixed
                             Prosthodontics</a>
-                        <a class="dropdown-item"
-                           href="<?php echo get_permalink(get_page_by_path("implants-instead-of-prosthodontics")) ?>">Implants-instead
+                        <a class="dropdown-item" href="<?php echo get_permalink(get_page_by_path("implants-instead-of-prosthodontics")) ?>">Implants-instead
                             of Prosthodontics</a>
-                        <a class="dropdown-item"
-                           href="<?php echo get_permalink(get_page_by_path("prosthodontics")) ?>">Prosthodontics</a>
-                        <a class="dropdown-item"
-                           href="<?php echo get_permalink(get_page_by_path("oral-surgery")) ?>">Oral
+                        <a class="dropdown-item" href="<?php echo get_permalink(get_page_by_path("prosthodontics")) ?>">Prosthodontics</a>
+                        <a class="dropdown-item" href="<?php echo get_permalink(get_page_by_path("oral-surgery")) ?>">Oral
                             Surgery</a>
-                        <a class="dropdown-item"
-                           href="<?php echo get_permalink(get_page_by_path("endodontics")) ?>">Endodontics</a>
-                        <a class="dropdown-item"
-                           href="<?php echo get_permalink(get_page_by_path("periodontics")) ?>">Periodontics</a>
+                        <a class="dropdown-item" href="<?php echo get_permalink(get_page_by_path("endodontics")) ?>">Endodontics</a>
+                        <a class="dropdown-item" href="<?php echo get_permalink(get_page_by_path("periodontics")) ?>">Periodontics</a>
                     </div>
                 </li>
             </ul>
@@ -79,8 +64,7 @@
                     </a>
                     <div style="display: none;" id="SmileWithConfidence">
                         <div class="menu_popup">
-                            <a href="<?php echo get_home_url() ?>"> <img
-                                        src="<?php echo THEME_URL ?>/src/images/Logo_mobile.svg" alt="Logo"> </a>
+                            <a href="<?php echo get_home_url() ?>"> <img src="<?php echo THEME_URL ?>/src/images/Logo_mobile.svg" alt="Logo"> </a>
                             <h2>Smile with Confidence</h2>
                             <ul class="menu_with_list">
                                 <li>
@@ -103,8 +87,7 @@
                     </a>
                     <div style="display: none;" id="SleepBetter">
                         <div class="menu_popup">
-                            <a href="<?php echo get_home_url() ?>"> <img
-                                        src="<?php echo THEME_URL ?>/src/images/Logo_mobile.svg" alt="Logo"> </a>
+                            <a href="<?php echo get_home_url() ?>"> <img src="<?php echo THEME_URL ?>/src/images/Logo_mobile.svg" alt="Logo"> </a>
                             <h2 class="nav__item__content__title">Breathe Easily, Sleep Better</h2>
                             <ul class="menu_with_list">
                                 <li>
@@ -128,8 +111,7 @@
                     </a>
                     <div style="display: none;" id="heathly">
                         <div class="menu_popup">
-                            <a href="<?php echo get_home_url() ?>"> <img
-                                        src="<?php echo THEME_URL ?>/src/images/Logo_mobile.svg" alt="Logo"> </a>
+                            <a href="<?php echo get_home_url() ?>"> <img src="<?php echo THEME_URL ?>/src/images/Logo_mobile.svg" alt="Logo"> </a>
                             <h2 class="nav__item__content__title">Healthy Function and Prevention</h2>
                             <ul class="menu_with_list">
                                 <li><a href="<?php echo get_permalink(get_page_by_path("preventative")) ?>">Preventative</a>
@@ -168,7 +150,7 @@
                     Periodontal disease (often called gum disease) is typically signified by red, swollen, painful, or
                     bleeding gums, but in some cases has no noticeable symptoms.
                 </p>
-                <br/>
+                <br />
                 <p class="Prosthodontics__content__body">
                     Periodontal disease generally begins when the bacteria living in plaque cause an infection in the
                     surrounding tissues of the teeth, causing them to become irritated and painful. Eventually, this
@@ -176,7 +158,7 @@
                 </p>
                 <br>
                 <p class="Prosthodontics__content__body">
-                Periodontal disease generally begins when the bacteria living in plaque cause an infection in the surrounding tissues of the teeth, causing them to become irritated and painful. Eventually, this infection will cause the jawbone to recede and the tooth to become loose.
+                    Periodontal disease generally begins when the bacteria living in plaque cause an infection in the surrounding tissues of the teeth, causing them to become irritated and painful. Eventually, this infection will cause the jawbone to recede and the tooth to become loose.
                 </p>
 
 
@@ -223,24 +205,25 @@
     <div class=" row detail_gird_content">
         <div class="detail_gird__left col-xl-3 offset-xl-1 col-lg-3 offset-lg-1">
             <div class="detail_gird__left__content ">
-                <h2 >Moderate/advanced gum disease</h2>
+                <h2>Moderate/advanced gum disease</h2>
             </div>
         </div>
         <div class="detail_gird__right col-xl-7 col-lg-7">
             <div class="detail_gird__right__content">
                 <p>
-                    This occurs when there is too little space for the teeth to align normally in the mouth. Overcrowding can cause tooth decay and increase the likelihood of gum disease.                </p>
+                    This occurs when there is too little space for the teeth to align normally in the mouth. Overcrowding can cause tooth decay and increase the likelihood of gum disease. </p>
             </div>
         </div>
     </div>
     <div class=" row detail_gird_content">
         <div class="detail_gird__left col-xl-3 offset-xl-1 col-lg-3 offset-lg-1">
             <div class="detail_gird__left__content ">
-                <h2 >Localized gum recession</h2>
+                <h2>Localized gum recession</h2>
             </div>
         </div>
         <div class="detail_gird__right col-xl-7 col-lg-7">
-            <div class="detail_gird__right__content"><p>
+            <div class="detail_gird__right__content">
+                <p>
                     This can sometimes occur because teeth are missing or because the jaw continues to grow abnormally.
                 </p>
             </div>
@@ -253,7 +236,8 @@
             </div>
         </div>
         <div class="detail_gird__right col-xl-7 col-lg-7">
-            <div class="detail_gird__right__content"><p>
+            <div class="detail_gird__right__content">
+                <p>
                     This common dental problem occurs when one or multiple upper teeth bite inside the lower teeth. As a consequence, uneven wear can lead to bone erosion and gum disease.
                 </p>
             </div>
@@ -261,11 +245,13 @@
     </div>
     <div class=" row detail_gird_content">
         <div class="detail_gird__left col-xl-3 offset-xl-1 col-lg-3 offset-lg-1">
-            <div class="detail_gird__left__content "><h2>Ridge augmentation</h2></div>
+            <div class="detail_gird__left__content ">
+                <h2>Ridge augmentation</h2>
+            </div>
         </div>
         <div class="detail_gird__right col-xl-7 col-lg-7">
             <div class="detail_gird__right__content">
-                <p>   This problem occurs when the upper teeth project further than, or completely cover, the lower teeth. Eventually, jaw pain and TMJ may occur.                </p>
+                <p> This problem occurs when the upper teeth project further than, or completely cover, the lower teeth. Eventually, jaw pain and TMJ may occur. </p>
             </div>
         </div>
     </div>
@@ -296,24 +282,27 @@
         <div class="related__left col-xl-11 col-lg-11 col-12">
             <h2>Related Pages</h2>
             <div class="row">
-            <a href="#" class="col-sm-12 col-md-4 col-lg-4 left">Crown Lengthening</a>
-            <a href="#" class="col-sm-12 col-md-8 col-lg-8 right_a">Periodontal Disease and Diabetes</a>
-            <a href="#" class="col-sm-12 col-md-4 col-lg-4 left">Oral Cancer Exam</a>
-            <a href="#" class="col-sm-12 col-md-8 col-lg-8 right_a">Periodontal Disease and Osteoporosis</a>
-            <a href="#" class="col-sm-12 col-md-4 col-lg-4 left">Causes of Periodontal Disease</a>
-            <a href="#" class="col-sm-12 col-md-8 col-lg-8 right_a">Crowns (Caps)</a>
-            <a href="#" class="col-sm-12 col-md-4 col-lg-4 left">What is Periodontal (Gum) Disease?</a>
-            <a href="#" class="col-sm-12 col-md-8 col-lg-8 right_a">Periodontal Disease, Heart Disease and Stroke</a>
-            <a href="#" class="col-sm-12 col-md-4 col-lg-4 left">        Signs & Symptoms of Periodontal Disease</a>
-            <a href="#" class="col-sm-12 col-md-8 col-lg-8 right_a">        Periodontal Disease and Respiratory Disease
-            </a>
-            <a href="#" class="col-sm-12 col-md-4 col-lg-4 left">Types of Periodontal Disease</a>
-            <a href="#" class="col-sm-12 col-md-8 col-lg-8 right_a"> Diagnosis</a>
-            <a href="#" class="col-sm-12 col-md-4 col-lg-4 left">Periodontal Disease and Pregnancy</a>
-            <a href="#" class="col-sm-12 col-md-8 col-lg-8 right_a">Treatment</a>
-            <a href="#" class="col-sm-12 col-md-4 col-lg-4 left">Mouth - Body Connection</a>
-            <a href="#" class="col-sm-12 col-md-8 col-lg-8 right_a">Maintenance</a>
-
+                <div class="col-12 col-md-4 col-lg-4">
+                    <a href="#" class="  left">Crown Lengthening</a>
+                    <a href="#" class="  left">Oral Cancer Exam</a>
+                    <a href="#" class="  left">Causes of Periodontal Disease</a>
+                    <a href="#" class="  left">What is Periodontal (Gum) Disease?</a>
+                    <a href="#" class="  left"> Signs & Symptoms of Periodontal Disease</a>
+                    <a href="#" class="  left">Types of Periodontal Disease</a>
+                    <a href="#" class="  left">Periodontal Disease and Pregnancy</a>
+                    <a href="#" class="  left">Mouth - Body Connection</a>
+                </div>
+                <div class="col-12 col-md-8 col-lg-8">
+                    <a href="#" class="  right_a">Periodontal Disease and Diabetes</a>
+                    <a href="#" class="  right_a">Periodontal Disease and Osteoporosis</a>
+                    <a href="#" class="  right_a">Crowns (Caps)</a>
+                    <a href="#" class="  right_a" style="white-space: normal">Periodontal Disease, Heart Disease and Stroke</a>
+                    <a href="#" class="  right_a"> Periodontal Disease and Respiratory Disease
+                    </a>
+                    <a href="#" class="  right_a"> Diagnosis</a>
+                    <a href="#" class="  right_a">Treatment</a>
+                    <a href="#" class="  right_a">Maintenance</a>
+                </div>
             </div>
         </div>
         <div class="related__right">
