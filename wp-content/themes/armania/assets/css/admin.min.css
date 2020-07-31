@@ -1,0 +1,54 @@
+.ovic-field-text input {
+    width: 100%;
+}
+
+body table.wp-list-table td.column-thumb img {
+    max-width: 60px;
+    max-height: 60px;
+}
+
+.button-carparts {
+    position: relative !important;
+    display: inline-block !important;
+    vertical-align: top !important;
+    font-size: 14px !important;
+    line-height: 24px !important;
+    font-weight: 700 !important;
+    padding: 13px 50px !important;
+    border: none !important;
+    background-color: transparent !important;
+    text-align: center !important;
+    cursor: pointer !important;
+    text-transform: uppercase !important;
+    border-radius: 0 !important;
+    z-index: 1 !important;
+    filter: none !important;
+    font-family: inherit !important;
+}
+
+.button-carparts:not(:hover)::before {
+    -webkit-transform: skew(-30deg);
+    -moz-transform: skew(-30deg);
+    -ms-transform: skew(-30deg);
+    -o-transform: skew(-30deg);
+    transform: skew(-30deg);
+}
+
+.button-carparts::before {
+    position: absolute;
+    content: '';
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+
+.ovic-plugins_page_ovic-import .ovic-importer-wrapper > .header,
+.ovic-plugins_page_ovic-import .nav-tab-wrapper {
+    display: none;
+}

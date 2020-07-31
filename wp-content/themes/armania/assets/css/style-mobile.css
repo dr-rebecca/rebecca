@@ -1,0 +1,588 @@
+/*==========================================================================
+HEADER MOBILE
+===========================================================================*/
+div.dgwt-wcas-overlay-mobile div.dgwt-wcas-search-wrapp .dgwt-wcas-sf-wrapp .search-input{
+    border-radius: 0;
+}
+.header-mobile{
+    font-size: 13px;
+    line-height: 20px;
+}
+.header-mobile .header-top{
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    margin: 0 15px;
+    text-align: center;
+}
+.header-mobile .header-bottom{
+    border-top: 1px solid rgba(0,0,0,0.1);
+    margin: 0 15px;
+    text-align: center;
+}
+.header-mobile .inner{
+    display: flex;
+    align-items: center;
+}
+.header-mobile .inner::before,
+.header-mobile .inner::after{
+    display: none;
+}
+.header-mobile .main{
+    padding: 0 15px;
+}
+.header-mobile .main .inner{
+    padding: 10px 0;
+}
+.header-mobile .logo{
+    flex: 1 1 auto;
+    width: 1%;
+    padding: 0;
+}
+.header-mobile .logo .logo-text{
+    font-size: 30px;
+    line-height: 30px;
+}
+.header-mobile .logo figure{
+    max-width: 210px;
+}
+.header-mobile .control{
+    padding-left: 10px;
+    margin-right: -4px;
+}
+.header-mobile .control a{
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    margin-left: 3px;
+    text-decoration: none;
+}
+.header-mobile .control a .icon{
+    display: inline-block;
+    vertical-align: top;
+    font-size: 20px;
+    line-height: 30px;
+    position: relative;
+    padding: 0 5px;
+}
+.header-mobile .control a .count,
+.header-mobile .fixed a .count{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    font-size: 10px;
+    line-height: 15px;
+    font-weight: 700;
+    border-radius: 90px;
+    min-width: 15px;
+    text-align: center;
+}
+.header-mobile .control a > *:not(.icon){
+    display: none;
+}
+.header-mobile .block-search{
+    padding-bottom: 12px;
+}
+.header-mobile div.dgwt-wcas-search-wrapp .dgwt-wcas-sf-wrapp .search-input::before{
+    display: none;
+}
+.header-mobile div.dgwt-wcas-search-wrapp .dgwt-wcas-sf-wrapp input[type=search].input-text{
+    font-size: 13px;
+    height: 36px;
+    padding: 6px 18px;
+}
+.header-mobile div.dgwt-wcas-search-wrapp .dgwt-wcas-sf-wrapp .input-focus{
+    border-color: #e6e6e6;
+    border-width: 1px 0 1px 1px;
+}
+.header-mobile div.dgwt-wcas-search-wrapp button.dgwt-wcas-search-submit{
+    font-size: 0;
+    line-height: 0;
+    letter-spacing: 0;
+    font-weight: 400;
+    padding: 6px 0;
+    width: 42px;
+    text-decoration: none;
+}
+.header-mobile div.dgwt-wcas-search-wrapp button.dgwt-wcas-search-submit::before{
+    display: block;
+    font-family: main-icon, sans-serif;
+    content: '\e905';
+    font-size: 14px;
+    line-height: 24px;
+}
+.header-mobile .fixed{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #fff;
+    box-shadow: 0 1px #e6e6e6 inset;
+    text-align: center;
+    z-index: 12;
+}
+.header-mobile .fixed .inner{
+    display: flex;
+    align-items: center;
+}
+.header-mobile .fixed a{
+    text-decoration: none;
+    flex: 1 1 auto;
+    padding: 10px 15px;
+}
+.header-mobile .fixed a .icon{
+    display: block;
+    font-size: 19px;
+}
+.header-mobile .fixed a .content > *:not(.text),
+.header-mobile .fixed a br,
+.header-mobile .fixed a .count{
+    display: none;
+}
+.skin-organic .header-mobile div.dgwt-wcas-search-wrapp button.dgwt-wcas-search-submit,
+.skin-market .header-mobile div.dgwt-wcas-search-wrapp button.dgwt-wcas-search-submit{
+    padding-right: 3px;
+}
+.header-mobile .fixed .action-to-top .icon{
+    font-size: 18px;
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+/* style-02 */
+.header-mobile.style-05 div.dgwt-wcas-search-wrapp button.dgwt-wcas-search-submit,
+.header-mobile.style-02 div.dgwt-wcas-search-wrapp button.dgwt-wcas-search-submit{
+    background-color: #fff !important;
+}
+.header-mobile.style-20 div.dgwt-wcas-search-wrapp .dgwt-wcas-sf-wrapp .input-focus,
+.header-mobile.style-16_1 div.dgwt-wcas-search-wrapp .dgwt-wcas-sf-wrapp .input-focus,
+.header-mobile.style-15 div.dgwt-wcas-search-wrapp .dgwt-wcas-sf-wrapp .input-focus,
+.header-mobile.style-12_2 div.dgwt-wcas-search-wrapp .dgwt-wcas-sf-wrapp .input-focus,
+.header-mobile.style-05 div.dgwt-wcas-search-wrapp .dgwt-wcas-sf-wrapp .input-focus,
+.header-mobile.style-02 div.dgwt-wcas-search-wrapp .dgwt-wcas-sf-wrapp .input-focus{
+    border-width: 0;
+}
+.header-mobile.style-12_2 .header-bottom,
+.header-mobile.style-12_2 .header-top{
+    border-color: rgba(255,255,255,0.3);
+}
+.header-mobile.style-20 .header-bottom,
+.header-mobile.style-20 .header-top,
+.header-mobile.style-16_1.header-bottom,
+.header-mobile.style-16_1 .header-top,
+.header-mobile.style-15 .header-bottom,
+.header-mobile.style-15 .header-top,
+.header-mobile.style-02 .header-bottom,
+.header-mobile.style-02 .header-top{
+    border-color: rgba(255,255,255,0.15);
+}
+/* style-05 */
+.header-mobile.style-05_2 .logo .logo-text,
+.header-mobile.style-05 .logo .logo-text{
+    font-size: 38px;
+    line-height: 30px;
+}
+/* style-07_2 */
+.header-mobile.style-07_2 .logo .logo-text{
+    font-size: 33px;
+}
+/* style-12 */
+.header-mobile.style-12 .logo .logo-text{
+    font-size: 38px;
+    line-height: 36px;
+}
+/* style-12_2 */
+.header-mobile.style-12_2{
+    background-color: #ffce17;
+}
+.header-mobile.style-20 .control a:not(:hover),
+.header-mobile.style-16_1 .control a:not(:hover),
+.header-mobile.style-15 .control a:not(:hover),
+.header-mobile.style-12_2 .control a:not(:hover){
+    color: #fff;
+}
+.header-mobile.style-20 .header-submenu > li > a,
+.header-mobile.style-16_1 .header-submenu > li > a,
+.header-mobile.style-15 .header-submenu > li > a,
+.header-mobile.style-12_2 .header-submenu > li > a{
+    color: #fff !important;
+}
+/* style-12_3 */
+.header-mobile.style-12_3 .logo .logo-text{
+    font-size: 30px;
+    line-height: 30px;
+}
+.header-mobile.style-12_2 .logo .logo-text::before{
+    width: 30px;
+    height: 30px;
+    margin-right: 6px;
+}
+/* style-14 */
+.header-mobile.style-19 .logo .logo-text,
+.header-mobile.style-14 .logo .logo-text{
+    font-size: 40px;
+    line-height: 30px;
+}
+/* style-15 */
+.header-mobile.style-15{
+    background-color: #0d0d0d;
+}
+/* style-16 */
+.header-mobile.style-16 .logo .logo-text{
+    font-size: 34px;
+}
+.header-mobile.style-16 .logo .logo-text::before{
+    width: 42px;
+    height: 40px;
+}
+/* style-16_1 */
+.header-mobile.style-16_1{
+    background-color: #333;
+}
+.header-mobile.style-16_1 .logo .logo-text::before{
+    width: 48px;
+    height: 46px;
+}
+/* style-20 */
+.header-mobile.style-20{
+    background-color: #222;
+}
+.header-mobile.style-20 .logo .logo-text{
+    font-size: 29px;
+    padding: 5px 10px;
+}
+/* style- */
+.header-mobile.style-{}
+/* style- */
+.header-mobile.style-{}
+/* style- */
+.header-mobile.style-{}
+/* style- */
+.header-mobile.style-{}
+/* style- */
+.header-mobile.style-{}
+/* style- */
+.header-mobile.style-{}
+/* style- */
+.header-mobile.style-{}
+/* style- */
+.header-mobile.style-{}
+/* style- */
+.header-mobile.style-{}
+/*==========================================================================
+SIDEBAR
+===========================================================================*/
+#secondary{
+    padding: 0;
+}
+body:not(.open-mobile-sidebar) .widget-area{
+    -webkit-transform: translateX(-100%);
+    -moz-transform: translateX(-100%);
+    -ms-transform: translateX(-100%);
+    -o-transform: translateX(-100%);
+    transform: translateX(-100%);
+}
+.widget-area{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: auto;
+    width: 320px;
+    height: 100vh;
+    background-color: #fff;
+    max-width: 100%;
+    box-shadow: none;
+    padding: 0;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+    z-index: 100000;
+    display: flex;
+    flex-direction: column;
+}
+.widget-area .sidebar-head{
+    position: relative;
+    padding: 13px 65px 13px 15px;
+    border-bottom: 1px solid #e6e6e6;
+}
+.widget-area .sidebar-head .title{
+    font-size: 17px;
+    line-height: 24px;
+    font-weight: 600;
+    color: #000;
+}
+.widget-area .close-sidebar{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 50px;
+    border-left: 1px solid #e6e6e6;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.widget-area .close-sidebar::before{
+    font-family: main-icon,sans-serif;
+    content: "\e901";
+    font-size: 12px;
+    line-height: 50px;
+}
+.widget-area .sidebar-inner{
+    flex: 1 1 auto;
+    overflow-x: hidden;
+    padding: 30px 15px;
+}
+.widget-area .widget .widget-title{
+    font-size: 16px;
+}
+.widget-area > .sidebar-inner > .widget:not(:last-child){
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+}
+.widget-area > .sidebar-inner > .widget_media_image:not(:last-child),
+.widget-area > .sidebar-inner > .widget.ovic-iconbox:not(:last-child){
+    padding-bottom: 0;
+}
+/*==========================================================================
+LAYOUT
+===========================================================================*/
+.armania-enable-mobile.single-product .entry-summary .added_to_cart,
+.armania-enable-mobile.single-product .entry-summary .single_add_to_cart_button{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 50%;
+    border-radius: 0 !important;
+    margin: 0;
+    font-size: 13px;
+    padding: 10px 15px;
+    color: #fff;
+    background-color: #000;
+    z-index: 11;
+}
+.armania-enable-mobile.single-product .entry-summary .product-buy-now{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 50%;
+    border-radius: 0 !important;
+    margin: 0;
+    font-size: 13px;
+    padding: 10px 15px;
+    z-index: 11;
+}
+/*----- STYLE 01 -----*/
+.armania-mobile-style-01 .site{
+    padding-bottom: 60px;
+}
+.armania-mobile-style-01.single-product .entry-summary .added_to_cart,
+.armania-mobile-style-01.single-product .entry-summary .single_add_to_cart_button,
+.armania-mobile-style-01.single-product .entry-summary .product-buy-now{
+    -webkit-transition: transform 0.3s ease;
+    -moz-transition: transform 0.3s ease;
+    -o-transition: transform 0.3s ease;
+    transition: transform 0.3s ease;
+}
+.armania-mobile-style-01.single-product.show-add-cart .entry-summary .added_to_cart,
+.armania-mobile-style-01.single-product.show-add-cart .entry-summary .single_add_to_cart_button,
+.armania-mobile-style-01.single-product.show-add-cart .entry-summary .product-buy-now{
+    -webkit-transform: translateY(-60px);
+    -moz-transform: translateY(-60px);
+    -ms-transform: translateY(-60px);
+    -o-transform: translateY(-60px);
+    transform: translateY(-60px);
+}
+/*----- STYLE 02 -----*/
+.armania-mobile-style-02.single-product .site{
+    padding-bottom: 44px;
+}
+.armania-mobile-style-02.single-product .header-mobile.mobile-style-02 .fixed{
+    bottom: 44px;
+}
+.header-mobile.mobile-style-02 .fixed{
+    left: auto;
+    background-color: transparent;
+    box-shadow: none;
+    padding: 10px;
+}
+.header-mobile.mobile-style-02 .fixed::before{
+    position: absolute;
+    content: '';
+    bottom: 0;
+    right: 0;
+    width: 0;
+    height: 0;
+    background-color: rgba(0,0,0,0.3);
+    border-radius: 100% 0 0 0;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+.header-mobile.mobile-style-02 .fixed.open::before{
+    width: 200px;
+    height: 200px;
+}
+.header-mobile.mobile-style-02 .fixed a{
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    box-shadow: 0 0 5px rgba(255,255,255,0.3);
+}
+.header-mobile.mobile-style-02 .fixed a > *:not(.icon){
+    display: none;
+}
+.header-mobile.mobile-style-02 .fixed .action-to-top .icon{
+    font-size: 24px;
+    padding-top: 3px;
+}
+.header-mobile.mobile-style-02 .fixed .inner{
+    padding: 0;
+}
+.header-mobile.mobile-style-02 .fixed .inner a{
+    position: absolute;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+.header-mobile.mobile-style-02 .fixed .inner a:nth-child(1){
+    bottom: 10px;
+    right: 133px;
+}
+.header-mobile.mobile-style-02 .fixed .inner a:nth-child(2){
+    bottom: 66px;
+    right: 109px;
+}
+.header-mobile.mobile-style-02 .fixed .inner a:nth-child(3){
+    bottom: 109px;
+    right: 66px;
+}
+.header-mobile.mobile-style-02 .fixed .inner a:nth-child(4){
+    bottom: 133px;
+    right: 10px;
+}
+.header-mobile.mobile-style-02 .fixed:not(.open) .inner a{
+    opacity: 0;
+    visibility: hidden;
+    bottom: 0;
+    right: 0;
+}
+.header-mobile.mobile-style-02 .fixed .mobile-toggle .icon{
+    font-size: 16px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+.header-mobile.mobile-style-02 .fixed:not(.open) .mobile-toggle .icon{
+    -webkit-transform: rotate(135deg);
+    -moz-transform: rotate(135deg);
+    -ms-transform: rotate(135deg);
+    -o-transform: rotate(135deg);
+    transform: rotate(135deg);
+}
+/*==========================================================================
+RTL
+===========================================================================*/
+.rtl .header-mobile .control{
+    padding-left: 0;
+    padding-right: 10px;
+    margin-right: 0;
+    margin-left: -4px;
+}
+.rtl .header-mobile .control a{
+    margin-left: 0;
+    margin-right: 3px;
+}
+.rtl .header-mobile .control a .count,
+.rtl .header-mobile .fixed a .count{
+    right: auto;
+    left: 0;
+}
+.rtl .header-mobile div.dgwt-wcas-search-wrapp .dgwt-wcas-sf-wrapp .input-focus{
+    border-width: 1px 1px 1px 0;
+}
+.rtl.skin-organic .header-mobile div.dgwt-wcas-search-wrapp button.dgwt-wcas-search-submit,
+.rtl.skin-market .header-mobile div.dgwt-wcas-search-wrapp button.dgwt-wcas-search-submit{
+    padding-right: 0;
+    padding-left: 3px;
+}
+.rtl .header-mobile.style-12_2 .logo .logo-text::before{
+    margin-right: 0;
+    margin-left: 6px;
+}
+body.rtl:not(.open-mobile-sidebar) .widget-area{
+    -webkit-transform: translateX(100%);
+    -moz-transform: translateX(100%);
+    -ms-transform: translateX(100%);
+    -o-transform: translateX(100%);
+    transform: translateX(100%);
+}
+.rtl .widget-area{
+    right: 0;
+    left: auto;
+}
+.rtl .widget-area .sidebar-head{
+    padding-left: 65px;
+    padding-right: 15px;
+}
+.rtl .widget-area .close-sidebar{
+    right: auto;
+    left: 0;
+    border-left: none;
+    border-right: 1px solid #e6e6e6;
+}
+.rtl.armania-enable-mobile.single-product .entry-summary .added_to_cart,
+.rtl.armania-enable-mobile.single-product .entry-summary .single_add_to_cart_button{
+    left: auto;
+    right: 0;
+}
+.rtl.armania-enable-mobile.single-product .entry-summary .product-buy-now{
+    right: auto;
+    left: 0;
+}
+.rtl .header-mobile.mobile-style-02 .fixed{
+    left: 0;
+    right: auto;
+}
+.rtl .header-mobile.mobile-style-02 .fixed::before{
+    right: auto;
+    left: 0;
+    border-radius: 0 100% 0 0;
+}
+.rtl .header-mobile.mobile-style-02 .fixed .inner a:nth-child(1){
+    right: auto;
+    left: 133px;
+}
+.rtl .header-mobile.mobile-style-02 .fixed .inner a:nth-child(2){
+    right: auto;
+    left: 109px;
+}
+.rtl .header-mobile.mobile-style-02 .fixed .inner a:nth-child(3){
+    right: auto;
+    left: 66px;
+}
+.rtl .header-mobile.mobile-style-02 .fixed .inner a:nth-child(4){
+    right: auto;
+    left: 10px;
+}
+.rtl .header-mobile.mobile-style-02 .fixed:not(.open) .inner a{
+    right: auto;
+    left: 0;
+}
+.rtl .header-mobile.mobile-style-02 .fixed:not(.open) .mobile-toggle .icon{
+    -webkit-transform: rotate(-135deg);
+    -moz-transform: rotate(-135deg);
+    -ms-transform: rotate(-135deg);
+    -o-transform: rotate(-135deg);
+    transform: rotate(-135deg);
+}
