@@ -67,7 +67,7 @@ header {
       .open{
         display: block !important;
       }
-      .patient,.services{
+      .patient,.services,.blog{
           position: absolute;
           top: 0px;
           right: -200px;
@@ -83,10 +83,15 @@ header {
           }
       }
       .patient{
-        right: -87%;
+        top:150px;
+        right: -40%;
+      }
+      .blog{
+        top:150px;
+        right: -90%;
       }
       .services{
-        right: -160%;
+        right: -90%;
       }
     }
     .current-menu-item,.current-menu-ancestor,.current-menu-parent{
@@ -98,6 +103,12 @@ header {
   }
   @include e("left") {
     .menu-item-has-children {
+      li{
+        a{
+          font-size: 17px;
+          font-weight: 500;
+        }
+      }
       .menu-item-has-children {
         ul{
           li::before{
@@ -108,6 +119,10 @@ header {
             width: 25px;
             font-size: 20px;
             margin-left: -15px;
+          }
+          a{
+            font-size: 16px;
+            font-weight: 400;
           }
         }
       }

@@ -16,9 +16,9 @@ export default () => {
       $(this).addClass("active")
       $(".menu-item-has-children.active .sub-menu").addClass("open")
     }
-  })
-  $(document).ready(function () {
-    $(window).bind("resize",menu())
+    if(window.matchMedia('(max-width: 520px)').matches){
+      $(".menu-item-has-children.active .sub-menu").removeClass("open");
+    }
   })
   function menu(){
     $(".menu-item-has-children").each(function () {
@@ -27,7 +27,6 @@ export default () => {
       $(this).children(".sub-menu").addClass(text);
       $(this).children(".sub-menu").attr('id',text);
       if(window.matchMedia('(max-width: 520px)').matches){
-        console.log("được rồi nè")
         $(this).children("a").attr("data-fancybox", '');
         var id = "#";
         $(this).children("a").attr("data-src", id.concat(text));
@@ -38,6 +37,7 @@ export default () => {
       }
     })
   }
-
+  menu();
+  $(window).resize(function(){menu()})
 
 }

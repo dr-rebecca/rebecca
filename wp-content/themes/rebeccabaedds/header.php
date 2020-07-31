@@ -34,7 +34,7 @@
                             src="<?php echo THEME_URL ?>/src/images/Logo_mobile.svg" alt="Logo"></a>
                 <a class="display_mobile_none" href="<?php echo get_home_url() ?>"><img
                             src="<?php echo THEME_URL ?>/src/images/Logo_menu_2.svg" alt="Logo menu"></a>
-                   <nav class="d-none d-md-flex"> <?php
+                   <nav class="d-none d-lg-block"> <?php
                     wp_nav_menu(array(
                             'depth'=> 3,
                         'menu_id'=> "",
