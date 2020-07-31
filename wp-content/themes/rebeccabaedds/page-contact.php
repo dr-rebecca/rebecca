@@ -32,7 +32,6 @@
                             <h4 class="text-t">Follow us</h4>
                             <p class="text icons">
                                 <a class="contact-facebook" target="_blank" href="https://www.facebook.com/BaeDDS23">
-">
                                     <i
                                         class="fa fa-facebook-square"></i></a>
                                 <a class="contact-instagram" target="_blank" href="https://instagram.com"><i

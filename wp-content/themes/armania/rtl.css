@@ -1,0 +1,531 @@
+/*==========================================================================
+BOOTSTRAP
+===========================================================================*/
+
+/*==========================================================================
+VC_COMPOSER
+===========================================================================*/
+.wpb_column[class^="vc_col-xs-"],
+.wpb_column[class*=" vc_col-xs-"]{
+    float: right;
+}
+.wpb_column.vc_col-xs-offset-1{
+    margin-left: auto;
+    margin-right: 8.33333333%;
+}
+.wpb_column.vc_col-xs-offset-2{
+    margin-left: auto;
+    margin-right: 16.66666667%;
+}
+.wpb_column.vc_col-xs-offset-3{
+    margin-left: auto;
+    margin-right: 25%;
+}
+.wpb_column.vc_col-xs-offset-4{
+    margin-left: auto;
+    margin-right: 33.33333333%;
+}
+.wpb_column.vc_col-xs-offset-5{
+    margin-left: auto;
+    margin-right: 41.66666667%;
+}
+.wpb_column.vc_col-xs-offset-6{
+    margin-left: auto;
+    margin-right: 50%;
+}
+.wpb_column.vc_col-xs-offset-7{
+    margin-left: auto;
+    margin-right: 58.33333333%;
+}
+.wpb_column.vc_col-xs-offset-8{
+    margin-left: auto;
+    margin-right: 66.66666667%;
+}
+.wpb_column.vc_col-xs-offset-9{
+    margin-left: auto;
+    margin-right: 75%;
+}
+.wpb_column.vc_col-xs-offset-10{
+    margin-left: auto;
+    margin-right: 83.33333333%;
+}
+.wpb_column.vc_col-xs-offset-11{
+    margin-left: auto;
+    margin-right: 91.66666667%;
+}
+.wpb_column.vc_col-xs-offset-12{
+    margin-left: auto;
+    margin-right: 100%;
+}
+.wpb_column.vc_col-xs-offset-1\/5{
+    margin-left: auto;
+    margin-right: 20%;
+}
+.wpb_column.vc_col-xs-offset-2\/5{
+    margin-left: auto;
+    margin-right: 40%;
+}
+.wpb_column.vc_col-xs-offset-3\/5{
+    margin-left: auto;
+    margin-right: 60%;
+}
+.wpb_column.vc_col-xs-offset-4\/5{
+    margin-left: auto;
+    margin-right: 80%;
+}
+.wpb_column.vc_col-xs-offset-5\/5{
+    margin-left: auto;
+    margin-right: 100%;
+}
+@media (min-width: 768px) {
+    .wpb_column[class^="vc_col-sm-"],
+    .wpb_column[class*=" vc_col-sm-"]{
+        float: right;
+    }
+    .wpb_column.vc_col-sm-offset-1{
+        margin-left: auto;
+        margin-right: 8.33333333%;
+    }
+    .wpb_column.vc_col-sm-offset-2{
+        margin-left: auto;
+        margin-right: 16.66666667%;
+    }
+    .wpb_column.vc_col-sm-offset-3{
+        margin-left: auto;
+        margin-right: 25%;
+    }
+    .wpb_column.vc_col-sm-offset-4{
+        margin-left: auto;
+        margin-right: 33.33333333%;
+    }
+    .wpb_column.vc_col-sm-offset-5{
+        margin-left: auto;
+        margin-right: 41.66666667%;
+    }
+    .wpb_column.vc_col-sm-offset-6{
+        margin-left: auto;
+        margin-right: 50%;
+    }
+    .wpb_column.vc_col-sm-offset-7{
+        margin-left: auto;
+        margin-right: 58.33333333%;
+    }
+    .wpb_column.vc_col-sm-offset-8{
+        margin-left: auto;
+        margin-right: 66.66666667%;
+    }
+    .wpb_column.vc_col-sm-offset-9{
+        margin-left: auto;
+        margin-right: 75%;
+    }
+    .wpb_column.vc_col-sm-offset-10{
+        margin-left: auto;
+        margin-right: 83.33333333%;
+    }
+    .wpb_column.vc_col-sm-offset-11{
+        margin-left: auto;
+        margin-right: 91.66666667%;
+    }
+    .wpb_column.vc_col-sm-offset-12{
+        margin-left: auto;
+        margin-right: 100%;
+    }
+    .wpb_column.vc_col-sm-offset-1\/5{
+        margin-left: auto;
+        margin-right: 20%;
+    }
+    .wpb_column.vc_col-sm-offset-2\/5{
+        margin-left: auto;
+        margin-right: 40%;
+    }
+    .wpb_column.vc_col-sm-offset-3\/5{
+        margin-left: auto;
+        margin-right: 60%;
+    }
+    .wpb_column.vc_col-sm-offset-4\/5{
+        margin-left: auto;
+        margin-right: 80%;
+    }
+    .wpb_column.vc_col-sm-offset-5\/5{
+        margin-left: auto;
+        margin-right: 100%;
+    }
+}
+@media (min-width: 992px) {
+    .wpb_column[class^="vc_col-md-"],
+    .wpb_column[class*=" vc_col-md-"]{
+        float: right;
+    }
+    .wpb_column.vc_col-md-offset-1{
+        margin-left: auto;
+        margin-right: 8.33333333%;
+    }
+    .wpb_column.vc_col-md-offset-2{
+        margin-left: auto;
+        margin-right: 16.66666667%;
+    }
+    .wpb_column.vc_col-md-offset-3{
+        margin-left: auto;
+        margin-right: 25%;
+    }
+    .wpb_column.vc_col-md-offset-4{
+        margin-left: auto;
+        margin-right: 33.33333333%;
+    }
+    .wpb_column.vc_col-md-offset-5{
+        margin-left: auto;
+        margin-right: 41.66666667%;
+    }
+    .wpb_column.vc_col-md-offset-6{
+        margin-left: auto;
+        margin-right: 50%;
+    }
+    .wpb_column.vc_col-md-offset-7{
+        margin-left: auto;
+        margin-right: 58.33333333%;
+    }
+    .wpb_column.vc_col-md-offset-8{
+        margin-left: auto;
+        margin-right: 66.66666667%;
+    }
+    .wpb_column.vc_col-md-offset-9{
+        margin-left: auto;
+        margin-right: 75%;
+    }
+    .wpb_column.vc_col-md-offset-10{
+        margin-left: auto;
+        margin-right: 83.33333333%;
+    }
+    .wpb_column.vc_col-md-offset-11{
+        margin-left: auto;
+        margin-right: 91.66666667%;
+    }
+    .wpb_column.vc_col-md-offset-12{
+        margin-left: auto;
+        margin-right: 100%;
+    }
+    .wpb_column.vc_col-md-offset-1\/5{
+        margin-left: auto;
+        margin-right: 20%;
+    }
+    .wpb_column.vc_col-md-offset-2\/5{
+        margin-left: auto;
+        margin-right: 40%;
+    }
+    .wpb_column.vc_col-md-offset-3\/5{
+        margin-left: auto;
+        margin-right: 60%;
+    }
+    .wpb_column.vc_col-md-offset-4\/5{
+        margin-left: auto;
+        margin-right: 80%;
+    }
+    .wpb_column.vc_col-md-offset-5\/5{
+        margin-left: auto;
+        margin-right: 100%;
+    }
+}
+@media (min-width: 1200px) {
+    .wpb_column[class^="vc_col-lg-"],
+    .wpb_column[class*=" vc_col-lg-"]{
+        float: right;
+    }
+    .wpb_column.vc_col-lg-offset-1{
+        margin-left: auto;
+        margin-right: 8.33333333%;
+    }
+    .wpb_column.vc_col-lg-offset-2{
+        margin-left: auto;
+        margin-right: 16.66666667%;
+    }
+    .wpb_column.vc_col-lg-offset-3{
+        margin-left: auto;
+        margin-right: 25%;
+    }
+    .wpb_column.vc_col-lg-offset-4{
+        margin-left: auto;
+        margin-right: 33.33333333%;
+    }
+    .wpb_column.vc_col-lg-offset-5{
+        margin-left: auto;
+        margin-right: 41.66666667%;
+    }
+    .wpb_column.vc_col-lg-offset-6{
+        margin-left: auto;
+        margin-right: 50%;
+    }
+    .wpb_column.vc_col-lg-offset-7{
+        margin-left: auto;
+        margin-right: 58.33333333%;
+    }
+    .wpb_column.vc_col-lg-offset-8{
+        margin-left: auto;
+        margin-right: 66.66666667%;
+    }
+    .wpb_column.vc_col-lg-offset-9{
+        margin-left: auto;
+        margin-right: 75%;
+    }
+    .wpb_column.vc_col-lg-offset-10{
+        margin-left: auto;
+        margin-right: 83.33333333%;
+    }
+    .wpb_column.vc_col-lg-offset-11{
+        margin-left: auto;
+        margin-right: 91.66666667%;
+    }
+    .wpb_column.vc_col-lg-offset-12{
+        margin-left: auto;
+        margin-right: 100%;
+    }
+    .wpb_column.vc_col-lg-offset-1\/5{
+        margin-left: auto;
+        margin-right: 20%;
+    }
+    .wpb_column.vc_col-lg-offset-2\/5{
+        margin-left: auto;
+        margin-right: 40%;
+    }
+    .wpb_column.vc_col-lg-offset-3\/5{
+        margin-left: auto;
+        margin-right: 60%;
+    }
+    .wpb_column.vc_col-lg-offset-4\/5{
+        margin-left: auto;
+        margin-right: 80%;
+    }
+    .wpb_column.vc_col-lg-offset-5\/5{
+        margin-left: auto;
+        margin-right: 100%;
+    }
+}
+.vc_progress_bar .vc_single_bar .vc_bar{
+    left: auto;
+    right: 0;
+}
+/*==========================================================================
+ELEMENTOR
+===========================================================================*/
+
+/*==========================================================================
+WOOCOMMERCE
+===========================================================================*/
+/*----- WISHLIST -----*/
+.wishlist_table tr td.product-thumbnail,
+.wishlist_table tr td.product-name,
+.wishlist_table tr td.wishlist-name,
+.wishlist_table tr td.wishlist-privacy,
+.woocommerce table.wishlist_table tfoot td{
+    text-align: right;
+}
+.wishlist_table.mobile li .item-wrapper .product-thumbnail{
+    margin: 0 0 0 10px;
+}
+.wishlist_table.images_grid li .item-details table.item-details-table td.label,
+.wishlist_table.mobile li .item-details table.item-details-table td.label,
+.wishlist_table.mobile li table.additional-info td.label,
+.wishlist_table.modern_grid li .item-details table.item-details-table td.label{
+    text-align: right;
+}
+.wishlist_table.images_grid li .item-details table.item-details-table td.value,
+.wishlist_table.mobile li .item-details table.item-details-table td.value,
+.wishlist_table.mobile li table.additional-info td.value,
+.wishlist_table.modern_grid li .item-details table.item-details-table td.value{
+    text-align: left;
+}
+/*==========================================================================
+SCROLLBAR
+===========================================================================*/
+/*************** SCROLLBAR BASE CSS ***************/
+body.rtl .scroll-wrapper > .scroll-content{
+    left: auto;
+    right: 0;
+}
+/*************** SIMPLE OUTER SCROLLBAR ***************/
+body.rtl .scroll-wrapper > .scroll-element div {
+    left: auto;
+    right: 0;
+}
+body.rtl .scroll-wrapper > .scroll-element.scroll-x {
+    left: auto;
+    right: 0;
+}
+body.rtl .scroll-wrapper > .scroll-element.scroll-y {
+    right: auto;
+    left: 0;
+}
+body.rtl .scroll-wrapper > .scroll-element.scroll-y .scroll-element_outer {
+    left: 0;
+    right: auto;
+}
+/* scrollbar height/width & offset from container borders */
+body.rtl .scroll-wrapper > .scroll-content.scroll-scrolly_visible { right: -12px; margin-right: 12px; }
+/* update scrollbar offset if both scrolls are visible */
+body.rtl .scroll-wrapper > .scroll-element.scroll-x.scroll-scrolly_visible .scroll-element_track { right: -14px; }
+body.rtl .scroll-wrapper > .scroll-element.scroll-x.scroll-scrolly_visible .scroll-element_size { right: -14px; }
+/*==========================================================================
+CONTACT FORM 7
+===========================================================================*/
+div.wpcf7 .ajax-loader{
+    margin: 0 4px 0 0;
+}
+/*==========================================================================
+OVIC MENU
+===========================================================================*/
+.ovic-menu-panels-actions-wrap .ovic-menu-close-btn,
+.ovic-menu-panels-actions-wrap .ovic-menu-prev-panel{
+    left: 0;
+    right: auto;
+    border-right: 1px solid #e6e6e6;
+}
+.ovic-menu-panels-actions-wrap .ovic-menu-prev-panel{
+    right: 0;
+    left: auto;
+    border-left: 1px solid #e6e6e6;
+}
+.ovic-menu-panels-actions-wrap .ovic-menu-prev-panel:before{
+    content: '\f105';
+}
+.ovic-menu-next-panel{
+    right: auto;
+    left: 0;
+}
+.ovic-menu-next-panel:before{
+    content: '\f104';
+}
+.ovic-menu-clone-wrap .ovic-menu-panel.ovic-menu-sub-panel:not(.ovic-menu-panel-opened){
+    -webkit-transform: translateX(-100%);
+    -moz-transform: translateX(-100%);
+    -ms-transform: translateX(-100%);
+    -o-transform: translateX(-100%);
+    transform: translateX(-100%);
+}
+/*==========================================================================
+OVIC GROWLS
+===========================================================================*/
+#growls-default{
+    top: 10px;
+    left: 10px;
+    right: auto;
+}
+.growl .growl-close{
+    float: left;
+}
+.growl .growl-thumb + .growl-content {
+    padding-right: 15px;
+}
+.growl ul.error li {
+    padding-right: 10px;
+}
+/*==========================================================================
+FONT ICON
+===========================================================================*/
+i.fa-angle-right:before,
+span.fa-angle-right:before {
+    content: "\f104";
+}
+i.fa-angle-left:before,
+span.fa-angle-left:before {
+    content: "\f105";
+}
+i.fa-angle-double-right:before,
+span.fa-angle-double-right:before {
+    content: "\f100";
+}
+i.fa-angle-double-left:before,
+span.fa-angle-double-left:before {
+    content: "\f101";
+}
+i.fa-caret-right:before,
+span.fa-caret-right:before {
+    content: "\f0d9";
+}
+i.fa-caret-left:before,
+span.fa-caret-left:before {
+    content: "\f0da";
+}
+i.fa-arrow-circle-right:before,
+span.fa-arrow-circle-right:before {
+    content: "\f0a8";
+}
+i.fa-arrow-circle-left:before,
+span.fa-arrow-circle-left:before {
+    content: "\f0a9";
+}
+.ti-arrow-left:before{
+    content: "\e628";
+}
+.ti-arrow-right:before{
+    content: "\e629";
+}
+.pe-7s-cart:before{
+    -webkit-transform: scale(-1,1);
+    -moz-transform: scale(-1,1);
+    -ms-transform: scale(-1,1);
+    -o-transform: scale(-1,1);
+    transform: scale(-1,1);
+}
+.pe-7s-left-arrow::before{
+    content: "\e699";
+}
+.pe-7s-right-arrow::before{
+    content: "\e6a2";
+}
+/*==========================================================================
+VARIATION
+===========================================================================*/
+.woo-variation-swatches-stylesheet-enabled.rtl table.variations td.label{
+    text-align: right;
+}
+/*==========================================================================
+PINMAP
+===========================================================================*/
+body .ovic-mapper .ovic-pin .ovic-popup-header h2{
+    text-align: right;
+}
+/*==========================================================================
+THEMES
+===========================================================================*/
+[class^="col-xs-"],
+[class*=" col-xs-"]{
+    float: right;
+}
+@media (min-width: 768px){
+    [class^="col-sm-"],
+    [class*=" col-sm-"]{
+        float: right;
+    }
+}
+@media (min-width: 992px){
+    [class^="col-md-"],
+    [class*=" col-md-"]{
+        float: right;
+    }
+}
+@media (min-width: 1200px){
+    [class^="col-lg-"],
+    [class*=" col-lg-"]{
+        float: right;
+    }
+}
+@media (min-width: 1500px){
+    [class^="col-bg-"],
+    [class*=" col-bg-"]{
+        float: right;
+    }
+}
+@media (max-width: 479px){
+    [class^="col-ts-"],
+    [class*=" col-ts-"]{
+        float: right;
+    }
+}
+/* change-font-size */
+.change-font-size{
+    direction: ltr;
+}
+/* mega menu */
+.box-header-nav .main-menu > .menu-item > .megamenu{
+    left: 0;
+    right: auto;
+}

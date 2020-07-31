@@ -1,0 +1,84 @@
+---------------------------------------------------------------------
+Version: 1.0.6 - 21/07/2020
+---------------------------------------------------------------------
+
+UPDATE:
+- update live import demo
+- improve code, css, load speed
+
+---------------------------------------------------------------------
+Version: 1.0.5 - 17/07/2020
+---------------------------------------------------------------------
+ADD:
+- Header Mobile version
+- setting Enable/Disable for Ajax Add To Cart ( Ovic Panel / Settings / Ajax Add To Cart )
+- setting Layouts for Single Product Page ( Theme Options / WooCommerce / Single Products / Single Product Thumbnail ):
+  + Grid Gallery
+  + Slide Gallery
+  + Sticky Summary
+- setting Enable/Disable Countdown for Product Page ( Theme Options / WooCommerce / Single Products / Enable Countdown )
+- setting Product Summary to show Excerpt or show Custom Attribute for Product Page ( Theme Options / WooCommerce / Single Products / Product Summary )
+
+UPDATE:
+- css Header Style ( Furniture 02, Barber, Tools, Plant 03, Kids, Sport, Organic 02 ... ) has position absolute in Elementor Editor not overlay other section
+- css Vertical Menu Always Open in Elementor Editor not overlay other section
+- css limit width of Logo is 220px ( you can change with one line css )
+- improve code, css, load speed
+
+FIXED:
+- some css of RTL Version
+
+---------------------------------------------------------------------
+Version: 1.0.4 - 03/07/2020
+---------------------------------------------------------------------
+
+ADD:
+- Demo Tools 03
+
+UPDATE:
+- RTL Version for all Demos
+- Update Quantity product
+
+FIXED:
+- Fixed ajax search error
+
+REMOVE:
+- file "assets/css/elementor.css" and "assets/css/elementor.min.css" ( css in this files added to style.css and style.min.css )
+
+---------------------------------------------------------------------
+Version: 1.0.3 - 30/06/2020
+---------------------------------------------------------------------
+
+UPDATE:
+- Update import demo
+- Update some css
+
+---------------------------------------------------------------------
+Version: 1.0.2 - 26/06/2020
+---------------------------------------------------------------------
+
+ADD:
+- Demo Plant 02, Plant 03
+
+FIXED:
+- Fixed bug in Elementor Pro
+
+---------------------------------------------------------------------
+Version: 1.0.1 - 24/06/2020
+---------------------------------------------------------------------
+
+ADD:
+- Demo Furniture 02
+- Settings Button on Header version mobile
+
+FIXED:
+- Fixed footer hidden in mobile
+
+REMOVE:
+- Theme Options / Mobile / Logo
+
+---------------------------------------------------------------------
+Version: 1.0.0
+---------------------------------------------------------------------
+
+Initial release
